@@ -1,0 +1,52 @@
+=====================================
+Administración de frases de protocolo
+=====================================
+
+Ubicación
+=========
+
+:Módulo:
+ QuintalQ
+
+:Grupo:
+ Soluciones
+
+:Descripción:
+  Admministración de recomendaciones para seguridad
+
+
+Introducción
+============
+
+	Las *frases de protocolo* son características de los Reactivos que implican algún riesgo y deben ser tomadas en cuenta para su manejo y las medidas a tomar en cuenta en caso de que el riesgo se convierta en accidente. En esta interfaz puede crearlas, modificarlas o eliminarlas.
+
+	Las frases de protocolo (Riesgo y seguridad) son agregadas a un Reactivo en `ref`_
+
+Crear una frase de protocolo
+----------------------------
+
+	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
+	- En la ventana emergente elija si es un "Riesgo" o una "Seguridad" y luego digite un nombre
+	- Haga click en |save.bmp| *Guardar*
+
+Modificar una frase de protocolo
+--------------------------------
+
+	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- Haga click en un Frase de la grilla
+	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
+	- Modifique el nombre de la frase
+	- Haga click en |save.bmp| *Guardar*
+
+Eliminar una frase de protocolo
+-------------------------------
+	
+	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- Haga click en una frase de la grilla
+	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
+	- En la ventana de confirmación pulse 'Sí'	
+
+	.. NOTE:
+
+		No podrá eliminar una frase asociada ya a un reactivo
