@@ -37,11 +37,15 @@ Crear un Protocolo de Solución
 			- AGITAR HASTA DISOLUCIÓN TOTAL
 			- ADICIONAR 400 ML DE ALCOHOL ETILICO.
 			- AFORAR A 1000 ML CON AGUA
-		- Estandarización: Se refiere a los procedimientos que siempre son fijos. Posee una casilla de verificación para indicar que este procedimiento SÍ cuenta con una estandarización comprobada. Si no marca la casilla, el procedimiento estandarizado escrito NO es válido.
+		- `Estandarización`_
 		- Formula: Escriba la formula química para la creación de la solución.
 		- Disposición final: 
 	- Haga click en |save.bmp| *Guardar*
 
+Estandarización
+---------------
+
+La estandarización se refiere a los procedimientos que siempre son fijos. La pestaña posee una casilla de verificación **Estandarización []** para habilitar la escritura de un procedimiento; Habilite la casilla para escribir. Si hay escrito al menos un caracter en este cuadro de texto, se considera que la solución está estandarizada.
 
 Modificar un Protocolo de Solución
 ----------------------------------

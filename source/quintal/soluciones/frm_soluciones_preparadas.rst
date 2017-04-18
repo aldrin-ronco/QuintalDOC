@@ -18,7 +18,7 @@ Ubicación
 Introducción
 ------------
 
-	En esta interfaz podrá registrar los resultados de las soluciones preparadas para luego consultarlos. 
+	En esta interfaz podrá registrar los resultados obtenidos durante la preparación de las soluciones. Consulte los resultados usando los filtros necesarios.
 
 	Realice la consulta tomando en cuenta:
 		- Almacén
@@ -46,11 +46,20 @@ Registrar una Solución
 	- Haga click en el botón |wznew.bmp| *Nuevo*
 	- En la nueva interfaz seleccione el 'Almacén' del que provienen las muestras
 	- Ingrese la fecha del muestreo
-	- En el campo 'Muestras' digite el número de muestras en mano
-	- Ingrese el volumen
-	- En la grilla 'Concentración' ingrese la concentración para cada una de las muestras
+	- Si la solución está Estandarizada
+		- Ingrese el volumen
+		- En el campo 'Muestras' digite el número de muestras en mano
+		- En la grilla 'Concentración' ingrese la concentración para cada una de las muestras
+	- Si la solución NO está estandarizada
+		- Ingrese el volumen
 	- Haga click en |save.bmp| *Guardar*
 	
+	.. NOTE:
+
+		Una solución es estandarizada cuando existe un proceso de escrito desde la definición de su protocolo en la pestaña de 'estandarización', vea: `Estandarización <../soluciones/frm_protocolo_solucion_list.html#estandarizacion>`_
+
+
+
 Imprimir/Modificar/Anular una solución
 --------------------------------------
 

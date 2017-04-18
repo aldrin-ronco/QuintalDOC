@@ -18,10 +18,13 @@ Ubicación
 Introducción
 ------------
 
-	Los Pictogramas son características de los Reactivos que deben ser tomadas en cuenta para su manejo. En esta interfaz puede crearlos, modificarlos o eliminarlos.
+
+	Un pictograma es un símbolo no lingüistico que representa un objeto o concepto. 
+
+	En este caso, los Pictogramas son características de los Reactivos que deben ser tomadas en cuenta para su manejo. En esta interfaz puede crearlos, modificarlos o eliminarlos.
 
 	Los pictogramas son agregados a un Reactivo en `Crear un Reactivo <../soluciones/frm_reactivos_list.html#crear-un-reactivo-de-solucion>`_
-	
+
 Crear un Pictograma
 -------------------
 
