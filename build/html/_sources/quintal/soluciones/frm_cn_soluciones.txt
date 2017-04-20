@@ -6,8 +6,7 @@ Ubicación
 ---------
 
 :Módulo:
- QuintalQ
-
+ Real Q
 :Grupo:
  Soluciones
 

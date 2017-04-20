@@ -1,0 +1,225 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Administración de clientes &#8212; documentación de QuintalDOC - 1</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="top" title="documentación de QuintalDOC - 1" href="../../index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="administracion-de-clientes">
+<h1>Administración de clientes<a class="headerlink" href="#administracion-de-clientes" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ubicacion">
+<h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Módulo:</th><td class="field-body">Real Q</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Parámetros</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Adminsitración de clientes</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En <em>Administración de clientes</em> podrá crear nuevos clientes, visualizarlos en forma de grilla, eliminarlos o modificar sus datos personales. Cada cliente tiene un código interno asignado y puede buscarlo desde la grilla usando el nombre o documento.</p>
+</div>
+<div class="section" id="crear-un-cliente">
+<h2>Crear un cliente<a class="headerlink" href="#crear-un-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para crear un cliente realice los siguientes pasos:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Ejecute la opción <a href="#id1"><span class="problematic" id="id2">*</span></a>Administración de clientes</p>
+</li>
+<li><p class="first">En el pie de la ventana pulse sobre el botón <img alt="wznew.bmp" src="../../_images/wznew1.bmp" /> <em>nuevo</em></p>
+</li>
+<li><dl class="first docutils">
+<dt>Se desplegará una ventana emergente donde podrá dar cavida a los datos del cliente:</dt>
+<dd><ul class="first">
+<li><dl class="first docutils">
+<dt>Régimen (tributario):</dt>
+<dd><ul class="first last simple">
+<li>Simplificado</li>
+<li>Común</li>
+<li>Gran contribuyente</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>Documento de identificación</strong>: Si este número de identificación ha sido usado en algún otro apartado (vendedores, proveedores, etc) entonces el sistema desplegará la información registrada de esta persona.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">En la cabecera conseguirá dos opciones llamadas &#8220;Múltiples textos&#8221; y &#8220;Único texto&#8221; que modificarán la manera en cómo el sistema pide los datos (En uno, o en varios campos de texto)</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Datos básicos</strong>: Nombres (si es Régimen Común) o Razón social, teléfonos, dirección</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Nota</p>
+<p class="last">Datos obligatorios: Primer nombre, primer apellido, departamento, municipio y número de documento.</p>
+</div>
+<ul class="last">
+<li><p class="first"><strong>Otros datos</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Nombre comercial: Nombre del establecimiento (no razón social)</li>
+<li>lista de precios: Las listas de precios pueden ser asociadas a un cliente específico con el fin de ofrecer precios especiales al mismo. Vea <a href="#id3"><span class="problematic" id="id4">`Configurar lista de precios &lt;&gt;`_</span></a> Esta lista será cargada automáticamente al elegir este cliente.</li>
+<li>vendedor destinado: Un vendedor puede ser asociado  a un cliente. Será cargado automáticamente en el momento de hacer una venta a este cliente.</li>
+<li>Email</li>
+<li>Plazo de crédito: El número aquí indicado será mostrado automáticamente en el momento de la facturación al elegir este cliente.</li>
+<li>Bloquear ventas a este cliente: Un usuario puede bloquear un cliente para que no pueda efectuar compras, dejando una aclaratoria en un campo de texto emergente. Cuando se vaya a facturar al cliente, la razón establecida por el usuario será mostrada en pantalla.</li>
+<li>Este cliente es exento de IVA: Márquela para que en el momento de la facturación, el IVA no se atribuya al monto.</li>
+<li>Fecha de nacimiento</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>Sucursales</strong>: Un cliente puede tener en cuanto a su negocio, varias sucursales. En esta pestaña se pueden crear sucursales para saber a cual se atiende en el momento de la venta. Para crear una nueva sucursal, haga click en la pestaña &#8216;Sucursales&#8217; y luego en el botón &#8216;Crear sucursales&#8217;. La referencia de la sucursal se refiere a cualquier nombre que la pueda identificar.</p>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Retenciones:</strong> Aparece un listado de retenciones creadas en sistema, puede marcar las que quiere que se apliquen <strong>automáticamente</strong> sobre la facturación para este cliente.</dt>
+<dd><ul class="first last simple">
+<li>Puede marcar la casilla <em>Retiene sobre cualquier base</em> para aplicar las retenciones marcadas en cualquier monto imponible.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>Leyenda Certificado:</strong> Digite aquí un texto de personalización para la certificación de sólidos. Este texto es opcional. El resto del certificado permanece igual.</p>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="elmiminar-un-cliente">
+<h2>Elmiminar un cliente<a class="headerlink" href="#elmiminar-un-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Administración de clientes</em></li>
+<li>Seleccione, haciendo click, a un cliente en la grilla</li>
+<li>Presione el botón <img alt="delete.bmp" src="../../_images/delete1.bmp" /> <em>eliminar</em> al pie de la ventana</li>
+<li>En el cuadro de confirmación presiones &#8216;Sí&#8217;</li>
+</ul>
+<p>No podrá eliminar un cliente que tenga cualquier tipo de transacción adjudicada.</p>
+</div></blockquote>
+</div>
+<div class="section" id="modificar-un-cliente">
+<h2>Modificar un cliente<a class="headerlink" href="#modificar-un-cliente" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Administración de clientes</em></li>
+<li>Seleccione, haciendo click, a un cliente en la grilla</li>
+<li>Presione el botón <img alt="wzedit.bmp" src="../../_images/wzedit1.bmp" /> <em>modificar</em> al pie de la ventana</li>
+<li>Aparecerá una ventana donde podrá cambiar los datos del cliente que necesite, y dejar los que considere ya están bien.</li>
+</ul>
+</div></blockquote>
+<hr class="docutils" />
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Administración de clientes</a><ul>
+<li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
+<li><a class="reference internal" href="#introduccion">Introducción</a></li>
+<li><a class="reference internal" href="#crear-un-cliente">Crear un cliente</a></li>
+<li><a class="reference internal" href="#elmiminar-un-cliente">Elmiminar un cliente</a></li>
+<li><a class="reference internal" href="#modificar-un-cliente">Modificar un cliente</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/quintal/parametros/act_clientes_pos.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Quality Systems.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="../../_sources/quintal/parametros/act_clientes_pos.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

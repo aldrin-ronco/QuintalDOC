@@ -1,0 +1,42 @@
+=======================================
+Administración de Perfiles por Análisis
+=======================================
+
+Ubicación
+---------
+
+:Módulo:
+ Real Q
+
+:Grupo:
+ Parámetros
+
+:Descripción:
+  Administración de Perfiles por Análisis
+
+Introducción
+------------
+
+	Un perfil es un conjunto de análisis que pueden ser aplicados a una solución para obtener un resultado útil. Cree nuevos perfiles y agregue análisis, desde esta interfaz.
+
+	Ejemplo: El perfil 'Analisis de Azufre' requiere de análisis como: % de acidez, constantes, % de azufre, % de humedad, etc.
+
+	Los perfiles están agrupados según el momento o proceso en el cual se aplican. Puede crear nuevas agrupaciones desde esta interfaz.
+
+	Ejemplo: La agrupación 'Materia Prima' requiere de los perfiles: Azufre, carbón vegetal, ácido sulfúrico, etc.
+
+	Cada Analisis es distinto y usted puede agregar las variables que necesite para su desarrollo (Estándar, Especiales y constantes), desde esta interfaz puede agregar nuevas variables al análisis.
+
+	Árbol:
+
+		- Agrupación de perfiles
+			- Perfil
+				-Analisis
+					-Variables/constantes
+
+
+Crear una agrupación de perfiles
+--------------------------------
+	
+	- Ejecute la opción "Administración de Perfiles por Análisis"
+	- 

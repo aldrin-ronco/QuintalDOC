@@ -1,0 +1,19 @@
+==========
+Parámetros
+==========
+
+
+.. toctree::
+  :maxdepth: 2
+
+  /quintal/parametros/act_terceros
+  /quintal/parametros/act_proveedores_pos
+  /quintal/parametros/act_clientes_pos
+  /quintal/parametros/act_analistas
+  /quintal/parametros/act_operarios
+  /quintal/parametros/act_transportadoras
+  /quintal/parametros/act_lab_variables
+  
+
+
+  
