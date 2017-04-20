@@ -8,6 +8,10 @@ Introducción
 
 Módulos:
 --------
+  
+  `Parámetros: <../quintal/parametros/parametros.html>`_ 
+
+  Establezca aquí los nombres, las configuraciones inciales y los paramateros necesarios para el funcionamiento de los módulos transaccionales del sistema. 
 
   `Soluciones: <../quintal/soluciones/soluciones.html>`_ 
 

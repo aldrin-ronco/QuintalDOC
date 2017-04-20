@@ -6,7 +6,7 @@ Ubicación
 ---------
 
 :Módulo:
- QuintalQ
+ Real Q
 
 :Grupo:
  Soluciones
@@ -56,7 +56,7 @@ Registrar una Solución
 	
 	.. NOTE:
 
-		Una solución es estandarizada cuando existe un proceso de escrito desde la definición de su protocolo en la pestaña de 'estandarización', vea: `Crear un Protocolo de Solución <../soluciones/frm_protocolo_solucion_list.html#crear-un-protocolo-de-solucion>`_
+		Una solución es estandarizada cuando existe un proceso de escrito desde la definición de su protocolo en la pestaña de 'estandarización', vea: `Estandarización <../soluciones/frm_protocolo_solucion_list.html#estandarizacion>`_
 
 
 
