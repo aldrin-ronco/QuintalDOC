@@ -25,14 +25,14 @@ Introducción
 Crear una Transportadora
 ------------------------
 
-	- Ejecute la opción "Administración de Transportadoras"
+	- Ejecute la opción *Administración de Transportadoras*
 	- Haga click en |wznew.bmp| *Nuevo* 
 	- En la ventana emergente ingrese el nombre de la transportadora y haga click en |save.bmp| *Guardar*
 
 Modificar un Transportadora
 ---------------------------
 
-	- Ejecute la opción "Administración de Transportadoras"
+	- Ejecute la opción *Administración de Transportadoras*
 	- Seleccione en la grilla la transportadora a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
 	- En la ventana emergente ingrese el nuevo nombre de la transportadora y haga click en |save.bmp| *Guardar*
@@ -40,7 +40,7 @@ Modificar un Transportadora
 Eliminar un Transportadora
 --------------------------
 
-	- Ejecute la opción "Administración de Transportadoras"
+	- Ejecute la opción *Administración de Transportadoras*
 	- Seleccione en la grilla la transportadora a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'

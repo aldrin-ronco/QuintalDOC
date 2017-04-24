@@ -34,7 +34,7 @@ Crear un nuevo Tercero
 
 Para crear un nuevo tercero, realice los siguientes pasos:
 
-	- Ejecute la opción 'Administrador de Terceros'
+	- Ejecute la opción *Administrador de Terceros*
 	- Haga click en el botón |wznew.bmp| *Nuevo*
 	- Verá una ventana emergente con los campos necesarios para la especificación del tercero.
     - En la cabecera conseguirá dos opciones llamadas "Múltiples textos" y "Único texto" que modificarán la manera en cómo el sistema pide los datos (En uno, o en varios campos de texto)
@@ -90,7 +90,7 @@ Elmiminar un tercero
 Exportar lista de terceros
 ==========================
 
- 	- Ejecute la opción *Administración de terceros*	
+ 	- Ejecute la opción *Administración de terceros*
  	- Haga click en el botón |export1.gif| y elija el formato deseado.
 
  	

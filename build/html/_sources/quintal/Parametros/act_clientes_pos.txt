@@ -24,7 +24,7 @@ Crear un cliente
 
 Para crear un cliente realice los siguientes pasos:
  	
- 	- Ejecute la opción *Administración de clientes
+ 	- Ejecute la opción *Administración de clientes*
  	- En el pie de la ventana pulse sobre el botón |wznew.bmp| *nuevo*
  	- Se desplegará una ventana emergente donde podrá dar cavida a los datos del cliente:
  		- Régimen (tributario): 

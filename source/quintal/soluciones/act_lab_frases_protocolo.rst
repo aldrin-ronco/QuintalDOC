@@ -25,7 +25,7 @@ Introducción
 Crear una frase de protocolo
 ----------------------------
 
-	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
 	- En la ventana emergente elija si es un "Riesgo" o una "Seguridad" y luego digite la descripción.
 	- Haga click en |save.bmp| *Guardar*
@@ -33,7 +33,7 @@ Crear una frase de protocolo
 Modificar una frase de protocolo
 --------------------------------
 
-	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- Haga click en un Frase de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
 	- Modifique la descripción de la frase
@@ -42,7 +42,7 @@ Modificar una frase de protocolo
 Eliminar una frase de protocolo
 -------------------------------
 	
-	- Ejecute la opción "Admministración de recomendaciones para seguridad"
+	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- Haga click en una frase de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'	

@@ -23,7 +23,7 @@ En *Administración de proveedores* podrá crear nuevos proveedores, visualizarl
 Crear un proveedor
 ================
 
-Para crear un proveedore realice los siguientes pasos:
+Para crear un proveedor realice los siguientes pasos:
  	
  	- Ejecute la opción *Administración de proveedores*
  	- En el pie de la ventana pulse sobre el botón |wznew.bmp| *Nuevo*

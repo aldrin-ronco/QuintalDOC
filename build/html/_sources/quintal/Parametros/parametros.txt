@@ -13,6 +13,8 @@ Parámetros
   /quintal/parametros/act_operarios
   /quintal/parametros/act_transportadoras
   /quintal/parametros/act_lab_variables
+  /quintal/parametros/act_analisis
+  /quintal/parametros/act_perfil_x_analisis
   
 
 

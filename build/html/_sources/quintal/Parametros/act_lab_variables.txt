@@ -31,7 +31,7 @@ Introducción
 Crear una Variable/Constante
 ----------------------------
 
-	- Ejecute la opción "Administración de variables y constantes"
+	- Ejecute la opción *Administración de variables y constantes*
 	- En la parte inferior de la ventana, presione |wznew.bmp| *Nuevo*
 	- En el 'tipo' escoja entre:
 		
@@ -44,10 +44,14 @@ Crear una Variable/Constante
 
 			 El nombre de la variable (Llave del parámetro) se crea automáticamente tomando como referencia el nombre que usted introduce. Si desea puede cambiarlo en el campo 'Llave de parámetro'.
 
+			 En la Administración de Análisis por tipos y perfiles, encontrará configuraciones más avanzadas para las variables.
+
+			 Es recomendable que los nombres de sus variables/constantes tengan nombres que faciliten su búsqueda, por ejemplo: 'Constante 0.1516' es un buen nombre para una constante cuyo valor es 0.1516.
+
 Modificar un Variable/Constante
 -------------------------------
 
-	- Ejecute la opción "Administración de Variables y Constantes"
+	- Ejecute la opción *Administración de Variables y Constantes*
 	- Seleccione en la grilla la Variable a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
 	- En la ventana emergente modifique el nombre de la variable, su llave o su valor (en caso de ser constante) y haga click en |save.bmp| *Guardar*
@@ -55,7 +59,7 @@ Modificar un Variable/Constante
 Eliminar una Variable/Constante
 -------------------------------
 
-	- Ejecute la opción "Administración de Variables y Constantes"
+	- Ejecute la opción *Administración de Variables y Constantes*
 	- Seleccione en la grilla la VAriable a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'
