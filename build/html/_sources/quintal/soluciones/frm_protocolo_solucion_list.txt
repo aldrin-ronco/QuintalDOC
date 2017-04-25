@@ -25,7 +25,7 @@ Introducción
 Crear un Protocolo de Solución
 ------------------------------
 
-	- Ejecute la opción "Administración de Protocolos para la preparación de soluciones"
+	- Ejecute la opción *Administración de Protocolos para la preparación de soluciones*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
 	- En la parte superior de la nueva ventana digite el nombre de la solución, ejemplo: NEGRO DE ERIOCROMO T 0.5 % P/V
 	- El código de gestión de calidad es un código generado por otro sistema de gestión. Introduzcalo como referencia útil.

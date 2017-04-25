@@ -31,7 +31,7 @@ Introducción
 Consultar una Solución
 ----------------------
 	
-	- Ejecute la opción "Registro de resultados en soluciones preparadas"
+	- Ejecute la opción *Registro de resultados en soluciones preparadas*
 	- Seleccione en la lista 'Consulta por almacén' el lugar del cual provienen los datos suministrados
 	- Escoja en la lista 'Consulta por analista' al analista encargado de preparar la solución
 	- Escoja en la lista 'Seleccione Solución' la Solución muestreada.

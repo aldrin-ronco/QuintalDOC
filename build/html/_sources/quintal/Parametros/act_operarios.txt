@@ -34,7 +34,7 @@ Crear un Operario
 Eliminar un Operario
 --------------------
 	
-	- Ejecute la opción *Administración de Operario*
+	- Ejecute la opción *Administración de Operarios*
 	- En la grilla, haga click sobre el número de identificación del operario
 	- Presione la tecla 'Supr'
 	- En la ventana de confirmación, pulse 'Sí'

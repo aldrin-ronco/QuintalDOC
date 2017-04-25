@@ -1,31 +1,51 @@
-======================
-Consulta de Soluciones
-======================
+===========================
+Administración de Calidades
+===========================
 
 Ubicación
 ---------
 
 :Módulo:
  Real Q
+
 :Grupo:
- Soluciones
+ Parámetros
 
 :Descripción:
-  Consulta de protocolo para preparación de soluciones
-
+  Administración de Calidades
 
 Introducción
 ------------
 
-	En esta interfaz podrá realizar una búsqueda rápida de una solución e imprimir el protocolo, la estandarización, su formula y la disposición final del residuo.
 
-Consultar una solución
-----------------------
-	- Ejecute la opción *Consulta de protocolo para preparación de soluciones*
-	- Para consultar una solución puede usar el listado de soluciones en la parte superior de la ventana o usar la búsqueda rápida |buscar.bmp|. *En la búsqueda rápida puede escribir el nombre de la solución para encontrarlo*
-	- Una vez elegida la solución, haga click en el botón |btn_ok.bmp| para realizar la consulta de protocolos
-	- Se desplegarán las filas con los resultados. Puede consultar el protocolo haciendo click al final de la fila en el botón |export1.gif| y luego dando click en 'Imprimir protocolo de...'
+Crear una ocpión de Calidad
+---------------------------
 
+	- Ejecute la opción *Administración de Calidades*
+	- Haga click en |wznew.bmp| *Nuevo* 
+	- En la ventana emergente ingrese el nombre de la nueva opción de calidad y haga click en |save.bmp| *Guardar*
+
+Modificar un opción de Calidad
+------------------------------
+
+	- Ejecute la opción *Administración de Calidades*
+	- Seleccione en la grilla la Calidad a Modificar, haciendo click sobre ella
+	- Presione el botón |wzedit.bmp| *Modificar*
+	- En la ventana emergente ingrese el nuevo nombre de la opción de Calidad y haga click en |save.bmp| *Guardar*
+
+Eliminar un opción de Calidad
+-----------------------------
+
+	- Ejecute la opción *Administración de Calidades*
+	- Seleccione en la grilla la Calidad a eliminar, haciendo click sobre ella
+	- Presione el botón |delete.bmp| *Eliminar*
+	- En la ventana de confirmación pulse 'Sí'
+
+	.. NOTE: 
+
+		No podrá eliminar una opción de Calidad que haya sido adjudicada a algún documento.
+
+	
 
 
 

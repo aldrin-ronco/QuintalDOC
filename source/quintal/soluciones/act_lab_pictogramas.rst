@@ -28,7 +28,7 @@ Introducción
 Crear un Pictograma
 -------------------
 
-	- Ejecute la opción "Administración de Pictogramas"
+	- Ejecute la opción *Administración de Pictogramas*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
 	- En la ventana emergente digite un nombre
 	- Haga click en |save.bmp| *Guardar*
@@ -36,7 +36,7 @@ Crear un Pictograma
 Modificar un Pictograma
 -----------------------
 
-	- Ejecute la opción "Administración de Pictogramas"
+	- Ejecute la opción *Administración de Pictogramas*
 	- Haga click en un Pictograma de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
 	- Modifique el nombre del Pictograma
@@ -45,7 +45,7 @@ Modificar un Pictograma
 Eliminar un Pictograma
 ----------------------
 	
-	- Ejecute la opción "Administración de Pictogramas"
+	- Ejecute la opción *Administración de Pictogramas*
 	- Haga click en un Pictograma de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'	

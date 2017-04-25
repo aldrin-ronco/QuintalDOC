@@ -25,7 +25,7 @@ Introducción
 Crear un Reactivo de Solución
 ------------------------------
 
-	- Ejecute la opción "Administración de Reactivos para la preparación de soluciones"
+	- Ejecute la opción *Administración de Reactivos para la preparación de soluciones*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
 	- En la parte superior de la nueva ventana digite el nombre del Reactivo, ejemplo: ACETATO DE PLOMO TRIHIDRATADO         
 	- En la pestaña 'Pictogramas' seleccione aquellos que representen una cualidad del Reactivo.
