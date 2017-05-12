@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Administración Despacho Productos Sólidos &#8212; documentación de QuintalDOC - 1</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="top" title="documentación de QuintalDOC - 1" href="../../index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="administracion-despacho-productos-solidos">
+<h1>Administración Despacho Productos Sólidos<a class="headerlink" href="#administracion-despacho-productos-solidos" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ubicacion">
+<h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Módulo:</th><td class="field-body">Real Q</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Despachos</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Administración Despacho Productos Sólidos</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><p>Una vez hecha la selección de Lotes para el despacho, debe ingresar la información referente a la salida del camión. Este despacho se logra adquiriendo el peso del camión antes y después de montar la mercancía.</p>
+<p>Existen dos formas de obtener el peso del camión de transporte: automática y manual. La forma automática se logra conectando la báscula a la red local; el sistema está escuchando un ingreso constantemente. En la forma manual, es el usuario quien introduce el peso de entrada del camión y el de salida.</p>
+<p>Para poder introducir datos manualmente necesita los permisos adecuados. Diríjase al administrador del sistema.</p>
+</div></blockquote>
+</div>
+<div class="section" id="pre-requisitos">
+<h2>Pre - requisitos<a class="headerlink" href="#pre-requisitos" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Haber creado la <a class="reference external" href="../despachos/despachos.html">selección de lotes (Paso 2)</a></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="crear-un-nuevo-despacho-entrada">
+<h2>Crear un nuevo despacho - Entrada<a class="headerlink" href="#crear-un-nuevo-despacho-entrada" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción &#8220;Administración Despacho Productos Sólidos&#8221;</li>
+<li>Haga aclick en el botón <img alt="wznew.bmp" src="../../_images/wznew2.bmp" /></li>
+<li>Selección en la lista &#8216;Seleccione Almacén&#8217; el Almacén de donde sale el despacho</li>
+<li>Seleccione un conductor de la lista haciendo click en el botón <a href="#id1"><span class="problematic" id="id2">|buscar.bmp|</span></a>. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.</li>
+<li>Escriba la placa del vehículo de transporte (tres letras - tres números)</li>
+<li>Seleccione una transportadora en la lista o agréguela haciendo click en el botón <img alt="plus.bmp" src="../../_images/plus2.bmp" />. Siga las instrucciones de <a class="reference external" href="../parametros/act_transportadoras.html#crear-una-transportadora">Crear transportadora</a></li>
+<li>Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en &#8220;Peso Entrada&#8221; es coherente. Si desea marcarlo manualmente, haga click en &#8220;Capturar peso manual&#8221; (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso</li>
+<li>En el cuadro de texto inferior puede hacer alguna observación pertinente</li>
+<li>Presione <img alt="save.bmp" src="../../_images/save2.bmp" /> <em>Guardar</em> o F2</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="buscar-un-despacho">
+<h2>Buscar un despacho<a class="headerlink" href="#buscar-un-despacho" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción &#8220;Administración Despacho Productos Sólidos&#8221;</li>
+<li>Selección en la lista &#8216;Seleccione Almacén&#8217; el Almacén de donde sale el despacho.</li>
+<li>Seleccione un cliente de la lista - Opcional</li>
+<li>Seleccione un producto - Opcional</li>
+<li>Elija un periodo marcando la opción &#8216;Por periodos&#8217; o marque &#8216;Actuales&#8217; Para ver los despachos que aún no han sido terminados</li>
+<li>Haga click en <img alt="btn_ok.bmp" src="../../_images/btn_ok2.bmp" /> para ejecutar la búsqueda</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="registrar-una-salida-en-el-despacho">
+<h2>Registrar una salida en el despacho<a class="headerlink" href="#registrar-una-salida-en-el-despacho" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción &#8220;Administración Despacho Productos Sólidos&#8221;</li>
+<li>Realice una búsqueda del despacho al que ya realizó una entrada en peso. <a class="reference internal" href="#buscar-un-despacho">Buscar un despacho</a></li>
+<li>Localice el despacho en la grilla, y al final de la fila presione <img alt="export1.gif" src="../../_images/export12.gif" />. Seleccione la opción &#8220;Registro de Salida&#8221;</li>
+<li>Introduzca la referencia del Predespacho en la casila &#8220;Predespacho No</li>
+</ul>
+<p>&#8221;
+- En la lista &#8220;Seleccione el producto a despachar&#8221; escoja el producto.
+- En la lista &#8220;Seleccione Contenedor&#8221; escoja el número de contenedor al que le hará registro de salida.
+- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en &#8220;Peso Salida&#8221; es coherente. Si desea marcarlo manualmente, haga click en &#8220;Capturar peso manual&#8221; (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
+- Revise que el tercer digito: Peso Materia Prima, coincida con el peso requerido por el cliente
+- En el cuadro de texto inferior puede hacer alguna observación pertinente
+- Presione <img alt="save.bmp" src="../../_images/save2.bmp" /> <em>Guardar</em> o F2</p>
+</div></blockquote>
+</div>
+<div class="section" id="anular-un-despacho-ingreso-de-vehiculo">
+<h2>Anular un despacho/ingreso de vehículo<a class="headerlink" href="#anular-un-despacho-ingreso-de-vehiculo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al anular un ingreso de vehículo se inhabilita el proceso, pero se deja registro del ingreso para poder consultarlo más adelante.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción &#8220;Administración Despacho Productos Sólidos&#8221;</li>
+<li>Realice una búsqueda del despacho al que ya realizó una entrada en peso. <a class="reference internal" href="#buscar-un-despacho">Buscar un despacho</a></li>
+<li>Localice el despacho en la grilla, y al final de la fila presione <img alt="export1.gif" src="../../_images/export12.gif" />. Seleccione la opción &#8220;Anular ingreso de vehículo&#8221;</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="eliminar-un-despacho-ingreso-de-vehiculo">
+<h2>Eliminar un despacho/ingreso de vehículo<a class="headerlink" href="#eliminar-un-despacho-ingreso-de-vehiculo" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Al eliminar un ingreso, no se deja registro alguno. El consecutivo de los registros no se retrocede: si elimina el registro 17, su próximo registro NO tomará ese luhar sino más bien el siguiente: 18.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción &#8220;Administración Despacho Productos Sólidos&#8221;</li>
+<li>Realice una búsqueda del despacho al que ya realizó una entrada en peso. <a class="reference internal" href="#buscar-un-despacho">Buscar un despacho</a></li>
+<li>Localice el despacho en la grilla, y al final de la fila presione <img alt="export1.gif" src="../../_images/export12.gif" />. Seleccione la opción &#8220;Eliminar ingreso de vehículo&#8221;</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Administración Despacho Productos Sólidos</a><ul>
+<li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
+<li><a class="reference internal" href="#introduccion">Introducción</a></li>
+<li><a class="reference internal" href="#pre-requisitos">Pre - requisitos</a></li>
+<li><a class="reference internal" href="#crear-un-nuevo-despacho-entrada">Crear un nuevo despacho - Entrada</a></li>
+<li><a class="reference internal" href="#buscar-un-despacho">Buscar un despacho</a></li>
+<li><a class="reference internal" href="#registrar-una-salida-en-el-despacho">Registrar una salida en el despacho</a></li>
+<li><a class="reference internal" href="#anular-un-despacho-ingreso-de-vehiculo">Anular un despacho/ingreso de vehículo</a></li>
+<li><a class="reference internal" href="#eliminar-un-despacho-ingreso-de-vehiculo">Eliminar un despacho/ingreso de vehículo</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/quintal/despachos/frm_despacho_admin.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Quality Systems.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="../../_sources/quintal/despachos/frm_despacho_admin.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
