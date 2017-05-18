@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Selección de Lotes por despacho &#8212; documentación de QuintalDOC - 1</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="top" title="documentación de QuintalDOC - 1" href="../../index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="seleccion-de-lotes-por-despacho">
+<h1>Selección de Lotes por despacho<a class="headerlink" href="#seleccion-de-lotes-por-despacho" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ubicacion">
+<h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Módulo:</th><td class="field-body">Real Q</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Despachos</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Lotes por despacho</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><p>Este es el segundo paso para la realización de un despacho de sólido. En esta interfaz usted podrá seleccionar, según el peso escogido y el número de containers en la programación de despacho, los lotes enumerados (producidos/en stock) que van a cada container.</p>
+<ul class="simple">
+<li>Primer paso: <a class="reference external" href="../despachos/frm_pedido_venta_admin_despacho.html">Crear programación de despacho</a></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li>Usted programo 25000 kg de producto, en dos containers de 20000 kgs de capacidad. El producto viene en presentaciones de 7500kg de peso. Entonces, lógicamente deberá repartir 2 presentaciones para 1 container y 1 para otro container.</li>
+<li>Por cada lote salen 2 presentaciones, lo que significa que al menos 2 lotes van a salir de almacen.</li>
+<li>Aunque cada presentación es individual, pertenece a un lote. Ejemplo: la presentación &#8216;a&#8217; pertenece al lote 1, la presentación &#8216;b&#8217; pertenece al lote 1, la presentación &#8216;d&#8217; pertence al lote 4.</li>
+<li>Supongamos que usted tiene disponibles en almacen 5 lotes enumerados del 1 al 5, cada uno con 2 presentaciones marcadas de la &#8216;a&#8217; a la &#8216;j&#8217;. El sistema le permite elegir la presentacion a, la d para mnontarse en el container x1, y la presentación g para montarse en el container x2.</li>
+</ul>
+<p>Si un lote tiene 3 presentaciones, y solo se elige una para salir, el lote seguira disponible para seleccionar las presentaciones que quedan en otra selección de lotes por despacho.</p>
+<p>Las unidades/presentaciones asignadas a cada conteiner son listadas en el segundo panel. En el tercer panel puede cambiar su posición, de esta manera y en este orden, el informe de lotes por despacho será impreso.</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="crear-la-seleccion-de-lotes-por-despacho">
+<h2>Crear la selección de lotes por despacho<a class="headerlink" href="#crear-la-seleccion-de-lotes-por-despacho" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Ejecute la opción <em>Lotes por despacho</em></p>
+</li>
+<li><p class="first">En la lista superior seleccione el Almacén donde realizó la programación</p>
+</li>
+<li><p class="first">El cursor se posicionará sobre un cuadro de texto bajo la lista, presione Enter para seleccionar un cliente de la lista. Solo aparecerán los clientes que tengan un despacho en proceso.</p>
+</li>
+<li><p class="first">El cursor se posiciona ahora en el cuadro de texto &#8216;Número de orden&#8217;, presione Enter para ver las ordenes asociadas a este cliente que se encuentran en proceso de despacho. Haga click sobre la orden que desea procesar y lugo Enter.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Pulse el botón <img alt="btn_ok.bmp" src="../../_images/btn_ok2.bmp" /> <em>Cargar datos</em></dt>
+<dd><ul class="first last simple">
+<li>Aparecerá una ventana donde podrá elegir las presentaciones para el producto a despachar. En este momento verá listadas en la grilla las posibles presentaciones del producto, con una columna llamada &#8216;Cantidad&#8217;.</li>
+<li>La suma de las cantidades de cada presentación deben coincidir con la cantidad de producto a despachar. <strong>Ejemplo a1</strong>: si quiero despachar 5000kg de un producto, puedo seleccionar 2 presentaciones de 2000kg y una de 1000kg; también puedo seleccionar 5 presentaciones de 1000kg.</li>
+<li>Si todo está correcto, puede oprimir <em>Continuar</em></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Es importante resaltar que una vez carguen los datos correctamente, la programación de despacho deja de ser editable.</p>
+</li>
+<li><dl class="first docutils">
+<dt>En la primera grilla horizontal, aparecerán los productos que seleccionó en la programación, divididos en las presentaciones que recién escogió, junto con la información de los container. Haga click sobre cualquiera de las filas de esta primera grilla (Cada una representa una presentacion) para ver en el panel vertical derecho los lotes que coinciden con esta presentación y la cantidad de presentaciones que contienen.</dt>
+<dd><ul class="first">
+<li><p class="first"><strong>Ejemplo a2:</strong> En el &#8216;ejemplo a1&#8217; Usted seleccionó despachar el producto en 2 presentaciones de 2000 y una de 1000 Kg. En el panel superior horizontal verá una fila para la presentación de 2000 y una para la presentación de 1000.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Si hace click en la fila que indica la presentación de 2000, a la derecha, verá los lotes de esta presentación. Algo como esto:</dt>
+<dd><ul class="first last simple">
+<li>Lote: 546545 | sacos: 4 | cantidad: <strong>Usted elige</strong> | [] |</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p class="last">-Si hace check en la casilla del final, podrá elegir la cantidad de &#8216;sacos&#8217; que desea sacar de este lote para el contenedor.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">El panel vertical derecho muestra los lotes y le permite seleccionar la cantidad de sacos que desea sacar del lote despues de chequear la casilla de verificación. Estos lotes pueden ser agregados al <strong>contenedor que se encuentra en la parte inferior del panel</strong>, haciendo click en <img alt="plus.bmp" src="../../_images/plus2.bmp" />. Esta selección es guardada.</p>
+</li>
+<li><p class="first">A medida que va marcando lotes y eligiendo las cantidades, puede observar que se reduce la columna saldo de la grilla primera. La cantidad de sacos que elige debe ser menor a la cantidad marcada en la columna &#8216;Bls x Contndr&#8217; (Bolsas por contenedor).</p>
+</li>
+<li><p class="first">Una vez elija los sacos que van a ir al contenedor (después de presionar <img alt="plus.bmp" src="../../_images/plus2.bmp" />), los sacos aparecerán listados en la segunda grilla horizontal. Los sacos listados en la segunda grilla serán los de la presentación seleccionada en la primera grilla. Desde este segundo panel, la cantidad de sacos es editable, mientras esté permitida por los límites de cantidad.</p>
+</li>
+<li><p class="first">En el panel horizontal 3 aparece la lista de sacos seleccionados para el contenedor, aquí puede arrastrarlos hacia arriba o hacia abajo para ordenarlos. Si desea cambiar de contenedor, seleccione cualquier lote en la grilla 2 del contenedor que necesita ordenar.</p>
+</li>
+<li><p class="first">En la parte inferior, hay un cuadro de texto que le permite colocar una observación opcional acerca de este proceso del despacho.</p>
+</li>
+<li><p class="first">Presione <img alt="save.bmp" src="../../_images/save2.bmp" /> <em>Finalizar despacho</em>. Ahora puede imprimir el documento <a class="reference internal" href="#imprimir-la-seleccion-de-lotes">Imprimir la selección de Lotes</a></p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-la-seleccion-de-lotes">
+<h2>Imprimir la selección de Lotes<a class="headerlink" href="#imprimir-la-seleccion-de-lotes" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="../despachos/frm_pedido_venta_admin_despacho.html#imprimir-una-seleccion-de-lotes">Imprimir una selección de lotes</a></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Selección de Lotes por despacho</a><ul>
+<li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
+<li><a class="reference internal" href="#introduccion">Introducción</a></li>
+<li><a class="reference internal" href="#crear-la-seleccion-de-lotes-por-despacho">Crear la selección de lotes por despacho</a></li>
+<li><a class="reference internal" href="#imprimir-la-seleccion-de-lotes">Imprimir la selección de Lotes</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/quintal/despachos/frm_seleccion_lotes_despacho.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Quality Systems.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="../../_sources/quintal/despachos/frm_seleccion_lotes_despacho.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

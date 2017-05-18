@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Programación de despacho &#8212; documentación de QuintalDOC - 1</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="top" title="documentación de QuintalDOC - 1" href="../../index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="programacion-de-despacho">
+<h1>Programación de despacho<a class="headerlink" href="#programacion-de-despacho" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ubicacion">
+<h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Módulo:</th><td class="field-body">Real Q</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Despachos</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Programación de despacho</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La programación para un despacho es el primer paso a seguir para realizar el despacho de mercancía.</p>
+</div>
+<div class="section" id="pre-requisitos">
+<h2>Pre - requisitos<a class="headerlink" href="#pre-requisitos" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Tener una orden de compra a la mano (nacional o internacional)</li>
+<li>Haber creado un Container</li>
+<li>Tener un almacen del cual saldrá la mercancía</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="crear-una-programacion-de-despacho">
+<h2>Crear una programación de despacho<a class="headerlink" href="#crear-una-programacion-de-despacho" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Ejecute la opción <em>Programación de despacho</em></p>
+</li>
+<li><p class="first">En la lista &#8216;Almacén&#8217; seleccione el almacen del cual sale la mercancía</p>
+</li>
+<li><p class="first">Busque un cliente <a href="#id1"><span class="problematic" id="id2">|buscar.bmp|</span></a> seleccionandolo de la lista, o agréguelo <img alt="plus.bmp" src="../../_images/plus2.bmp" />, vea <a class="reference external" href="../parametros/act_clientes_pos.html#crear-un-cliente">Crear cliente</a></p>
+</li>
+<li><p class="first">Puede cambiar la fecha de la programación, por defecto aparece la fecha actual</p>
+</li>
+<li><p class="first">Introduzca la orden de compra internacional PO (Purchase Order) - Si la tiene</p>
+</li>
+<li><p class="first">Introduzca la orden de compra nacional, del cliente directo - Si la tiene. El sistema le dejará hacer la programación con tan solo una de las dos ordenes, o las 2.</p>
+</li>
+<li><p class="first">En el campo de texto &#8216;Búsqueda de productos&#8217; haga click y presione Enter. En la lista desplegada de productos, haga click sobre uno y presione Enter</p>
+</li>
+<li><p class="first">En la &#8216;Unidad de medida&#8217; ecoja de la lista la adecuada (kg, toneladas, unidades). Si selecciona &#8216;unidades&#8217; en el siguiente campo seleccione la presentación, ejemplo: bolsa de 10kg</p>
+</li>
+<li><p class="first">El campo &#8216;Existencias&#8217; muestra la cantidad de producto existente según la unidad seleccionada. Seleccione en el campo &#8216;Cantidad&#8217; la cantidad de producto según la unidad elegida.</p>
+<blockquote>
+<div></div></blockquote>
+</li>
+<li><p class="first">A continuación seleccione la cantidad de Containers en los que el producto será despachado. Un container es un recipiente con una capacidad limitada. Puede elegir la cantidad de containers que desee. <a href="#id3"><span class="problematic" id="id4">`Para crear un Container&lt;&gt;`_</span></a></p>
+</li>
+<li><p class="first">Seleccione ahora el tipo de container adecuado. Deberám coincidir la capacidad del container con la cantidad de producto seleccionada.</p>
+</li>
+<li><p class="first">Pulse <img alt="plus.bmp" src="../../_images/plus2.bmp" /></p>
+</li>
+<li><p class="first">Ahora que el producto está en la lista, puede proceder a guardar la programación de despacho haciendo click en <img alt="save.bmp" src="../../_images/save2.bmp" /> <em>Guardar</em></p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="buscar-una-programacion">
+<h2>Buscar una programación<a class="headerlink" href="#buscar-una-programacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Programación de despachos</em></li>
+<li>En la primera lista, seleccione el almacén donde realizó la programación</li>
+<li>Si desea un cliente en particular, puede buscarlo en la lista &lt;&lt;Clientes&gt;&gt;, si no, se mostrarán las programaciones de todos.</li>
+<li>Puede seleccionar la opción &#8216;Pedidos Vigentes&#8217; que mostrará todos los despachos que aún no han sido culminados. También puede buscar &#8216;Por períodos&#8217;, seleccionado la fecha de inicio y la fecha fin.</li>
+<li>Haga click en <img alt="btn_ok.bmp" src="../../_images/btn_ok2.bmp" /> para aplicar los filtros y realizar la búsqueda.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="modificar-una-programacion">
+<h2>Modificar una programación<a class="headerlink" href="#modificar-una-programacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Realice el proceso de búsqueda para encontrar la programación a modificar, vea <a class="reference internal" href="#buscar-una-programacion">Buscar una programación</a></li>
+<li>Al final de la fila de la programación en la grilla, haga click en <img alt="export1.gif" src="../../_images/export12.gif" /></li>
+<li>Escoja la opción <img alt="wzedit.bmp" src="../../_images/wzedit2.bmp" /> <em>Modificar programación de despacho ####</em></li>
+<li>A continuación, proceda a modificar los datos de la programación. Si tiene dudas sobre los campos requeridos, vea <a class="reference internal" href="#crear-una-programacion-de-despacho">crear una programación de despacho</a></li>
+<li>Al finalizar los cambios presione <img alt="save.bmp" src="../../_images/save2.bmp" /> <em>Guardar</em></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="anular-una-programacion">
+<h2>Anular una programación<a class="headerlink" href="#anular-una-programacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Realice el proceso de búsqueda para encontrar la programación a modificar, vea <a class="reference internal" href="#buscar-una-programacion">Buscar una programación</a></li>
+<li>Al final de la fila de la programación en la grilla, haga click en <img alt="export1.gif" src="../../_images/export12.gif" /></li>
+<li>Escoja la opción <img alt="delete.bmp" src="../../_images/delete2.bmp" /> <em>Anular programación de despacho ####</em>. La anulación no elimina la programación, más bien la inhabilita y la señala como &#8216;Anulada&#8217;</li>
+<li>En la ventana emergente, escriba las razones por las cuales decidió anular la programación y presione <img alt="btn_ok.bmp" src="../../_images/btn_ok2.bmp" /> <em>Aceptar</em> o F2 en el teclado.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-una-programacion">
+<h2>Imprimir una programación<a class="headerlink" href="#imprimir-una-programacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Realice el proceso de búsqueda para encontrar la programación a modificar, vea <a class="reference internal" href="#buscar-una-programacion">Buscar una programación</a></li>
+<li>Al final de la fila de la programación en la grilla, haga click en <img alt="export1.gif" src="../../_images/export12.gif" /></li>
+<li>Escoja la opción <img alt="printer_q.bmp" src="../../_images/printer_q2.bmp" /> <em>Imprimir programación de despacho #####</em></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-una-seleccion-de-lotes">
+<h2>Imprimir una selección de lotes<a class="headerlink" href="#imprimir-una-seleccion-de-lotes" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Realice el proceso de búsqueda para encontrar la programación a modificar, vea <a class="reference internal" href="#buscar-una-programacion">Buscar una programación</a></li>
+<li>Al final de la fila de la programación en la grilla, haga click en <img alt="export1.gif" src="../../_images/export12.gif" /></li>
+<li>Escoja la opción <img alt="printer_q.bmp" src="../../_images/printer_q2.bmp" /> <em>Imprimir selección de lotes #####</em></li>
+</ul>
+<p>La impresión de la selección de lotes, contiene la misma información que la programación, pero muestra los sacos que se llevarán al container en el orden establecido cuando se hizo la selección.</p>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Programación de despacho</a><ul>
+<li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
+<li><a class="reference internal" href="#introduccion">Introducción</a></li>
+<li><a class="reference internal" href="#pre-requisitos">Pre - requisitos</a></li>
+<li><a class="reference internal" href="#crear-una-programacion-de-despacho">Crear una programación de despacho</a></li>
+<li><a class="reference internal" href="#buscar-una-programacion">Buscar una programación</a></li>
+<li><a class="reference internal" href="#modificar-una-programacion">Modificar una programación</a></li>
+<li><a class="reference internal" href="#anular-una-programacion">Anular una programación</a></li>
+<li><a class="reference internal" href="#imprimir-una-programacion">Imprimir una programación</a></li>
+<li><a class="reference internal" href="#imprimir-una-seleccion-de-lotes">Imprimir una selección de lotes</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/quintal/despachos/frm_pedido_venta_admin_despacho.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Quality Systems.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="../../_sources/quintal/despachos/frm_pedido_venta_admin_despacho.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
