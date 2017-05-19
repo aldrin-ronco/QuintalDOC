@@ -46,7 +46,7 @@ Buscar una órden de compra
 	- Escoja como filtro el almacén en la lista desplegable
 	- Elija el cliente en la lista <<Seleccione cliente>>
 	- Puede usar una fecha inicio y una fin para filtrar la búsqueda
-	- Que contenga:
+	- Que contenga: Este campo de texto es una ayuda muy funcional para la búsqueda. Puede colocar aquí caracteres que coincidadn con algún dato de la orden, referencia, cliente, etc.
 	- Presione |btn_ok.bmp| para realizar la búsqueda
 
 
