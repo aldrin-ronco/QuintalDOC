@@ -58,8 +58,7 @@ Registrar una salida en el despacho
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
-	- Introduzca la referencia del Predespacho en la casila "Predespacho No
-	"
+	- Introduzca la referencia del Predespacho en la casila "Predespacho No"
 	- En la lista "Seleccione el producto a despachar" escoja el producto.
 	- En la lista "Seleccione Contenedor" escoja el número de contenedor al que le hará registro de salida. 
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Salida" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso

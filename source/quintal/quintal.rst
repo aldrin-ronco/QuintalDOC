@@ -21,8 +21,11 @@ Módulos:
 
   Configure y cree las ordenes de compra para la remisión de productos líquidos y la programación de despachos de productos sólido. Administre los lotes por despacho. Use la conexión a la báscula para pesar las transportadoras tanto en su entrada como en su salida.
 
+  `Materia Prima: <../quintal/materiaPrima/materiaPrima.html>`_   
+
+  Cree, edite, elimine y establezca configraciones avanzadas sobre la materia prima. Realice los ingresos de materia prima. Registre los anñalisis de la materia prima entrante; apruebe y desapruebe los ingresos. 
+
   `Producto Terminado: <../quintal/productoTerminado/productoTerminado.html>`_ 
 
   Cree, imprima y asocie los certificados a los productos terminados y posibles despachos.
-
-  
+	

@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Registro de ingreso de materias primas &#8212; documentación de QuintalDOC - 1</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/translations.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Índice" href="../../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../../search.html" />
+    <link rel="top" title="documentación de QuintalDOC - 1" href="../../index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="registro-de-ingreso-de-materias-primas">
+<h1>Registro de ingreso de materias primas<a class="headerlink" href="#registro-de-ingreso-de-materias-primas" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="ubicacion">
+<h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Módulo:</th><td class="field-body">Real Q</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Materia Prima</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Registro de ingreso de materias primas</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduccion">
+<h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><p>Este administrador le permite buscar, anular, eliminar, crear y clasificar los ingresos de materias primas. El estado de un ingreso de mercancía se ve anunciado en la parte inferior de la ventana.</p>
+<p>El ingreso de un vehículo con materia prima se adapta a las <a class="reference external" href="../materiaPrima/act_maestroinsumos.html#configuracion-avanzada-del-producto">definiciones del producto</a>. Si usted eligió que la materia prima ingresaba por lotes y además tenía presentaciones distintas, podrá ver reflejado eso en el formulario de ingresos.</p>
+<p><em>En el ingreso de mercancía se marca el peso del vehículo + el peso de la materia prima. Luego de hecho un ingreso, se hace inmediatamente la salida del vehículo para finiquitar el peso real de la mercancía entrante.</em></p>
+<p>Registro rechazado: Todo aquel cuyo análisis no cumplió con lo premeditado.</p>
+<p>Registro Derogado: Aquel registro que en un principio fue rechazado, pero por alguna razón el usuario quizo permitir su entrada al almacén.</p>
+<p>Registro Liquidado: Una manera de proceder para calcular la verdadera cantidad de un producto (Carbón)</p>
+<p>Registro Aprobado: Cualquier ingreso de materia cuyo análisis haya sido exitoso.</p>
+</div></blockquote>
+</div>
+<div class="section" id="crear-un-ingreso-de-materia-prima">
+<h2>Crear un Ingreso de Materia Prima<a class="headerlink" href="#crear-un-ingreso-de-materia-prima" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Haga click en <img alt="wznew.bmp" src="../../_images/wznew4.bmp" /></li>
+<li>En la ventana emergente, seleccione en la lista superior el almacén donde registra el ingreso del vehículo</li>
+<li>En el botón &#8220;Proveedor&#8221; seleccione la empresa que envía la materia prima</li>
+<li>En &#8220;Producto&#8221; seleccione la materia prima entrante. Si usted eligió en la creación de productos que el producto entra en Sacos, entonces aparecerá un nuevo campo a la derecha para colocar el número de sacos. Si usted eligió que el producto tenía varias presentaciones, aparecerá una lista debajo con las posibles opciones; elija una.</li>
+<li>Seleccione un conductor de la lista haciendo click en el botón <a href="#id1"><span class="problematic" id="id2">|buscar.bmp|</span></a>. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.</li>
+<li>Escriba la placa del vehículo de transporte (tres letras - tres números)</li>
+<li>Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en &#8220;Peso Entrada&#8221; es coherente. Si desea marcarlo manualmente, haga click en &#8220;Capturar peso manual&#8221; (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso</li>
+<li>En el cuadro de texto inferior puede hacer alguna observación pertinente</li>
+<li>Presione <img alt="save.bmp" src="../../_images/save4.bmp" /> <em>Guardar</em> o F2</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="buscar-un-ingreso-de-materia-prima">
+<h2>Buscar un Ingreso de Materia Prima<a class="headerlink" href="#buscar-un-ingreso-de-materia-prima" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><p>En la parte superior de la ventana, encontrará los 3 filtros principales para realizar una búsqueda</p>
+<blockquote>
+<div>1 - Por salidas: Se refiere a aquellos ingresos de mercancía creados, a los que no se les ha registrado salida de automovil.
+2 - Por Analizar: Se refiere a aquellos ingresos de mercancía creados, a los que ya se les registro una salida pero aún no se ha ingresado el análisis correspondiente para terminar el proceso.
+3 - Rechazados: Una vez realizado el análisis, si alguna variable está fuera de rango, el ingreso es rechazado.
+- TODOS: En este filtro puede realizar una búsqueda de todos aquellos registros que han sido aprobados, liquidados o derrogados.</div></blockquote>
+<ul>
+<li><p class="first">Elija algun de las opciones anteriores</p>
+</li>
+<li><dl class="first docutils">
+<dt>A partir de ahora todos los filtros son opcionales:</dt>
+<dd><ul class="first last simple">
+<li>Escoja el almacén</li>
+<li>Seleccione un producto de la lista</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Puede usar el campo &#8220;Filtrar por # de ingreso&#8221; si conoce la referencia del ingreso y desea buscarlo directamente.</p>
+</li>
+<li><p class="first">Para ejecutar la búsqueda presione <img alt="btn_ok.bmp" src="../../_images/btn_ok4.bmp" /></p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="pesar-salida-de-vehiculo">
+<h2>Pesar salida de vehículo<a class="headerlink" href="#pesar-salida-de-vehiculo" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li>Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Realizar registro de salida&#8221;</li>
+<li>En la ventana desplegada: Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en &#8220;Peso Salida&#8221; es coherente. Si desea marcarlo manualmente, haga click en &#8220;Capturar peso manual&#8221; (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso</li>
+<li>En el cuadro de texto inferior puede hacer alguna observación pertinente</li>
+<li>Presione <img alt="save.bmp" src="../../_images/save4.bmp" /> <em>Guardar</em> o F2</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="registrar-analisis-de-materia-prima">
+<h2>Registrar Análisis de Materia Prima<a class="headerlink" href="#registrar-analisis-de-materia-prima" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first">Ejecute la opción <em>Registro de ingreso de materias primas</em></p>
+</li>
+<li><p class="first">Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></p>
+</li>
+<li><p class="first">Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Realizar análisis de materia prima&#8221;</p>
+</li>
+<li><dl class="first docutils">
+<dt>En la nueva ventana:</dt>
+<dd><ul class="first last simple">
+<li>En el campo &#8220;Fecha&#8221; escriba la fecha en el formato indicado</li>
+<li>En lo siguiente, puede elegir una hora para la realización del análisis</li>
+<li>Escoja el Almacén</li>
+<li>Elija un Analista. Vea <a class="reference external" href="../parametros/act_analistas.html#crear-un-analista">Crear un analista</a></li>
+<li>Seleccione un operario. Vea <a class="reference external" href="../parametros/act_operarios.html#crear-un-operario">Crear un operario</a></li>
+<li>Las líneas negras destacan los análisis disponibles para el perfil elegido para este producto. Ingrese en los campos, los valores recogidos de las muestras. Los campos etiquetados como &#8220;Resultado&#8221; son de solo lectura y provienen de ecuaciones internas, configuradas anteriormente en la creación del perfil. Si Existe algún resultado marcado en rojo, el análisis está fuera de rango y el ingreso de la materia será rechazado.</li>
+<li>Puede incluir una observación</li>
+<li>Presione <img alt="save.bmp" src="../../_images/save4.bmp" /></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Puede usar los filtros de nuevo para conseguir el registro de ingreso de materia prima -Aprobado-, esta vez aplicando el filtro principal &#8220;Todos&#8221;, si fue rechazado, aplique el filtro principal número 3 &#8220;Rechazados&#8221;</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="registrar-analisis-de-materia-prima-combinado">
+<h2>Registrar Análisis de Materia Prima Combinado<a class="headerlink" href="#registrar-analisis-de-materia-prima-combinado" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para hacer un análisis de Materia prima combinado (Para varios vehículos) deberá primero chequear esta opción en las características de la materia prima, en la pestaña &#8216;Otros&#8217;.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li>Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Realizar análisis</li>
+</ul>
+<p>de materia prima&#8221;
+- Se mostrará una grilla con los registros de vehículo para esta materia. Elija los vehículos a los que se les enlazará el análisis próximo a hacer.
+- Presione &#8220;Continuar&#8221;
+- Siga los pasos restantes descritos en <a class="reference internal" href="#registrar-analisis-de-materia-prima">Registrar Análisis de Materia Prima</a></p>
+</div></blockquote>
+</div>
+<div class="section" id="derogar-un-registro">
+<h2>Derogar un registro<a class="headerlink" href="#derogar-un-registro" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li>Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Derogación materia prima&#8221; - Solo disponible para registros rechazados</li>
+<li>Verá una ventana con los resultados de los análisis que fueron rechazados y podrá escribir una observación. Justifique allí el porqué de la derogación.</li>
+<li>Haga click en <img alt="save.bmp" src="../../_images/save4.bmp" /> &#8220;Guardar&#8221;</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="liquidar-un-registro">
+<h2>Liquidar un registro<a class="headerlink" href="#liquidar-un-registro" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Esta opción solo está disponible para el carbón vegetal, después de haber registrado su análisis.</p>
+<blockquote>
+<div><ul>
+<li><p class="first">Ejecute la opción <em>Registro de ingreso de materias primas</em></p>
+</li>
+<li><p class="first">Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></p>
+</li>
+<li><p class="first">Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Liquidar materia prima&#8221; - Solo disponible para registros rechazados</p>
+</li>
+<li><dl class="first docutils">
+<dt>Verá una ventana con los siguientes campos:</dt>
+<dd><ul class="first last simple">
+<li>% Cisco</li>
+<li>Peso Cisco</li>
+<li>Sacos para Cisco</li>
+<li>Dcto x basura</li>
+<li>Dcto x Basura</li>
+<li>Dcto x Cisco</li>
+<li>Dcto x aumento</li>
+<li>Cantidad Neta</li>
+<li>Observación Análisis</li>
+<li>Observación Derogación</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="eliminar-un-registro">
+<h2>Eliminar un registro<a class="headerlink" href="#eliminar-un-registro" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Solo podrá eliminar por completo un registro antes de registrar su salida.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li>Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Eliminar ingreso de vehículo&#8221;</li>
+<li>En la ventana emergente de confirmación presione &#8220;Aceptar&#8221;</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="anular-un-registro">
+<h2>Anular un registro<a class="headerlink" href="#anular-un-registro" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Solo podrá anular un ingreso de vehículo, antes de registrar su Análisis.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Ejecute la opción <em>Registro de ingreso de materias primas</em></li>
+<li>Encuentre el registro que busca, vea: <a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li>Al final de la fila del registro, presione <img alt="export1.gif" src="../../_images/export14.gif" />. Seleccione la opción &#8220;Anular ingreso de vehículo&#8221;</li>
+<li>En la ventana emergente, escriba una justificación y presione <img alt="btn_ok.bmp" src="../../_images/btn_ok4.bmp" /> <em>Aceptar</em></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Registro de ingreso de materias primas</a><ul>
+<li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
+<li><a class="reference internal" href="#introduccion">Introducción</a></li>
+<li><a class="reference internal" href="#crear-un-ingreso-de-materia-prima">Crear un Ingreso de Materia Prima</a></li>
+<li><a class="reference internal" href="#buscar-un-ingreso-de-materia-prima">Buscar un Ingreso de Materia Prima</a></li>
+<li><a class="reference internal" href="#pesar-salida-de-vehiculo">Pesar salida de vehículo</a></li>
+<li><a class="reference internal" href="#registrar-analisis-de-materia-prima">Registrar Análisis de Materia Prima</a></li>
+<li><a class="reference internal" href="#registrar-analisis-de-materia-prima-combinado">Registrar Análisis de Materia Prima Combinado</a></li>
+<li><a class="reference internal" href="#derogar-un-registro">Derogar un registro</a></li>
+<li><a class="reference internal" href="#liquidar-un-registro">Liquidar un registro</a></li>
+<li><a class="reference internal" href="#eliminar-un-registro">Eliminar un registro</a></li>
+<li><a class="reference internal" href="#anular-un-registro">Anular un registro</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/quintal/materiaPrima/frm_ingreso_mp_admin.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Búsqueda rápida</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Ir a" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Quality Systems.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="../../_sources/quintal/materiaPrima/frm_ingreso_mp_admin.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
