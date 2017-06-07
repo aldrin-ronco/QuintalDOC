@@ -80,7 +80,7 @@ Generación y Administración de Lotes EMD
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Registrar análisis previos"
-	- Seleccione el Electrodo de Lectura. Vea, `Administración de electrodos de lectura EMD <../parametros/act_emd_new_electrodo_lect.html>`_
+	- Seleccione el Electrodo de Lectura. Vea, `Administración de electrodos de lectura EMD <>`_
 	- Digite el valor de lectura  referencial
 	- Digite el valor KOH
 	- Se desplegará una ventana con una grilla con todos los lotes. Los lotes en verde son los seleccionados en el paso anterior. Las celdas de los lotes verdes son editables.
@@ -121,7 +121,7 @@ Generación y Administración de Lotes EMD
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Realizar Análisis final"
-	- En la ventana emergente podrá seleccionar la presentación para el ingreso y la calidad. Ambas opciones son especificadas en las `configuraciones avanzadas de la materia prima <../materiaPrima/act_maestroinsumos.html#configuracion-avanzada-del-producto>`_
+	- En la ventana emergente podrá seleccionar la presentación para el ingreso y la calidad. Ambas opciones son especificadas en las `configuraciones avanzadas de la materia prima`_
 	- Se abre la ventana para el registro de los análisis del perfil correspondiente a EMD. 
 	- Digite la fecha del análisis del ingreso, al lado, elija la hora del registro
 	- En la lista 'Operario' seleccione el operario
