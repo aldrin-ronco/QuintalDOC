@@ -28,4 +28,8 @@ Módulos:
   `Producto Terminado: <../quintal/productoTerminado/productoTerminado.html>`_ 
 
   Cree, imprima y asocie los certificados a los productos terminados y posibles despachos.
+
+  `EMD: <../quintal/EMD/EMD.html>`_
+
+  Realice los ingresos de mercancía correspondientes al EMD. Escoja los tipos de lote, haga lotes combinados e ingrese los análisis previos y finales.
 	

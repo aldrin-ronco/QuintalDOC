@@ -269,19 +269,14 @@ Pestaña Otros
   :Seleccione Perfil:
     Escoja el perfil de análisis pertinente al producto de acuerdo a su tipo. Al momento de enlazar un analisis para un ingreso de mercancía aparecerá el formulario elegido en este apartado.
 
-  :Tipo de material:
+  :Código de lote:
+    Se refiere al código para el producto terminado generado por el software administrativo. No aplica para Materia prima.
 
+  :Requiere Lote detallado:
+    Marque esta opción si requiere un código de lote detallado para cada saco de producto terminado. No aplica para Materia Prima.
 
-  :Código Lote:
-
-  :Capacidad de Kg por estiba:
-
-  :Registrar Información Extendida:
-
-  :Permitir fracción:
-
-  :Cantidad controlada por báscula en la venta:
-
+  :Kg por Estiba: Peso máximo de producto terminado en K para montar en una estiba. No aplica para Materia Prima.
+ 
   :Requiere Sacos al realizar el ingreso:
     Algunas materias son recibidas en forma de sacos. Marque esta opción para pedir el número de sacos en el ingreso.
 

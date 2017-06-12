@@ -67,7 +67,7 @@
 <p>El ingreso de un vehículo con materia prima se adapta a las <a class="reference external" href="../materiaPrima/act_maestroinsumos.html#configuracion-avanzada-del-producto">definiciones del producto</a>. Si usted eligió que la materia prima ingresaba por lotes y además tenía presentaciones distintas, podrá ver reflejado eso en el formulario de ingresos.</p>
 <p><em>En el ingreso de mercancía se marca el peso del vehículo + el peso de la materia prima. Luego de hecho un ingreso, se hace inmediatamente la salida del vehículo para finiquitar el peso real de la mercancía entrante.</em></p>
 <p>Registro rechazado: Todo aquel cuyo análisis no cumplió con lo premeditado.</p>
-<p>Registro Derogado: Aquel registro que en un principio fue rechazado, pero por alguna razón el usuario quizo permitir su entrada al almacén.</p>
+<p>Registro Derogado: Aquel registro que en un principio fue rechazado, pero por alguna razón el usuario quiso permitir su entrada al almacén.</p>
 <p>Registro Liquidado: Una manera de proceder para calcular la verdadera cantidad de un producto (Carbón)</p>
 <p>Registro Aprobado: Cualquier ingreso de materia cuyo análisis haya sido exitoso.</p>
 </div></blockquote>
@@ -94,12 +94,12 @@
 <blockquote>
 <div><p>En la parte superior de la ventana, encontrará los 3 filtros principales para realizar una búsqueda</p>
 <blockquote>
-<div>1 - Por salidas: Se refiere a aquellos ingresos de mercancía creados, a los que no se les ha registrado salida de automovil.
+<div>1 - Por salidas: Se refiere a aquellos ingresos de mercancía creados, a los que no se les ha registrado salida de automóvil.
 2 - Por Analizar: Se refiere a aquellos ingresos de mercancía creados, a los que ya se les registro una salida pero aún no se ha ingresado el análisis correspondiente para terminar el proceso.
 3 - Rechazados: Una vez realizado el análisis, si alguna variable está fuera de rango, el ingreso es rechazado.
-- TODOS: En este filtro puede realizar una búsqueda de todos aquellos registros que han sido aprobados, liquidados o derrogados.</div></blockquote>
+- TODOS: En este filtro puede realizar una búsqueda de todos aquellos registros que han sido aprobados, liquidados o derogados.</div></blockquote>
 <ul>
-<li><p class="first">Elija algun de las opciones anteriores</p>
+<li><p class="first">Elija alguna de las opciones anteriores</p>
 </li>
 <li><dl class="first docutils">
 <dt>A partir de ahora todos los filtros son opcionales:</dt>
@@ -189,7 +189,7 @@
 </div>
 <div class="section" id="liquidar-un-registro">
 <h2>Liquidar un registro<a class="headerlink" href="#liquidar-un-registro" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Esta opción solo está disponible para el carbón vegetal, después de haber registrado su análisis.</p>
+<p>Esta opción solo está disponible para el carbón vegetal, después de haber registrado su análisis. La liquidación facilita el cálculo de la cantidad real de producto.</p>
 <blockquote>
 <div><ul>
 <li><p class="first">Ejecute la opción <em>Registro de ingreso de materias primas</em></p>
@@ -201,11 +201,12 @@
 <li><dl class="first docutils">
 <dt>Verá una ventana con los siguientes campos:</dt>
 <dd><ul class="first last simple">
+<li>Peso Empaque: Se refiere al peso de la bolsa del saco.</li>
 <li>% Cisco</li>
-<li>Peso Cisco</li>
-<li>Sacos para Cisco</li>
-<li>Dcto x basura</li>
-<li>Dcto x Basura</li>
+<li><em>Peso Cisco:</em> Peso del residuo natural del Carbón en Kilogramos.</li>
+<li><em>Sacos para Cisco:</em> Número de sacos para la muestra.</li>
+<li><em>Dcto x basura:</em> Ingrese el peso de los entes extraños al producto en kilogramos.</li>
+<li><em>Dcto x humedad:</em> Es calculado de acuerdo al % de humedad en el análisis.</li>
 <li>Dcto x Cisco</li>
 <li>Dcto x aumento</li>
 <li>Cantidad Neta</li>
