@@ -17,12 +17,12 @@ Ubicación
 Introducción
 ============
 
-	Introduzca en esta interfaz el valor necesario usado como referencia en el reistro de los análisis previos de EMD. Esta referencia solo tiene un valor a la vez, el último configurado.
+	Introduzca en esta interfaz el valor necesario usado como referencia en el registro de los análisis previos de EMD. Esta referencia solo tiene un valor a la vez, el último configurado.
 
 Crear un valor de referencia
 ============================
 	
-	- Ejecute la opción "Registro datos de referencia para análisis previos"
+	- Ejecute la opción *Registro datos de referencia para análisis previos*
 	- En el cuadro de texto, intruzca el valor deseado
 	- Haa click en |save.bmp| *Guardar*
 

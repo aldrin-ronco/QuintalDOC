@@ -45,9 +45,8 @@ Eliminar un Transportadora
 	- Presione el botón |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'
 
-	.. NOTE: 
 
-		No podrá eliminar una transportadora que tenga un despacho adjudicado.
+	**No podrá eliminar una transportadora que tenga un despacho adjudicado.**
 
 	
 

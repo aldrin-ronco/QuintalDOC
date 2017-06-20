@@ -37,7 +37,7 @@ Crear una Variable/Constante
 		
 		- **Variable Estandar:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. 
 
-		- **Variable Especial:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. *Las propiedades de la variable especial son modificadas en:* REF ``_
+		- **Variable Especial:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. *Las propiedades de la variable especial son modificadas en: `Administración de perfiles <../parametros/act_perfil_x_analisis.html>`_
 		- Constante: Aquí podrá agregar además del 'Nombre del parámetro', un valor a la constante.
 
 		.. NOTE:
@@ -60,13 +60,11 @@ Eliminar una Variable/Constante
 -------------------------------
 
 	- Ejecute la opción *Administración de Variables y Constantes*
-	- Seleccione en la grilla la VAriable a eliminar, haciendo click sobre ella
+	- Seleccione en la grilla la Variable a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
 	- En la ventana de confirmación pulse 'Sí'
 
-	.. NOTE:
-
-		Cuando una variable ha sido usada, no es posible modificarla. Consulte al administrador de sistema.
+	**Cuando una variable ha sido usada, no es posible modificarla. Consulte al administrador de sistema.**
 
 
 

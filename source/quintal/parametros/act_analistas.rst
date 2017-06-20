@@ -39,6 +39,8 @@ Eliminar un Analista
 	- Presione la tecla 'Supr'
 	- En la ventana de confirmación, pulse 'Sí'
 
+	 	**No podrá eliminar un analista que haya realizado una operación, pero puede inhabilitarlo para futuras ocasiones.**
+
 
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif

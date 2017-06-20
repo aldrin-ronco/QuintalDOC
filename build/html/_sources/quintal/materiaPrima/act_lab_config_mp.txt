@@ -25,7 +25,7 @@ Modificar encabezado del análisis
 =================================
 
 	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima*
-	- En el listado de materias primas, seleccione una y haa click derecho sobre él. En el menú emergente escoja la opción "Configuración de encabezado para materia"
+	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menú emergente escoja la opción "Configuración de encabezado para materia"
 	- Se despleará una ventana con los parametros elegibles:
 		- Operario
 		- Estado de la planta
@@ -40,7 +40,7 @@ Elegir un perfil de análisis para la materia prima
 ==================================================
 	
 	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima*
-	- En el listado de materias primas, seleccione una y haa click derecho sobre él. En el menu emergente elija la opción "Vincular perfil análisis"
+	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menu emergente elija la opción "Vincular perfil análisis"
 	- En la nueva ventana, seleccione un perfil de la lista y haga click en |save.bmp| *Guardar*
 
 

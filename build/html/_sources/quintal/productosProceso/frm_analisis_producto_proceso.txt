@@ -1,0 +1,17 @@
+======================================
+Registro Análisis Productos en Proceso
+======================================
+
+Ubicación
+=========
+
+:Módulo:
+ Real Q
+
+:Grupo:
+ Materia Prima
+
+:Descripción:
+	Registro Análisis Productos en Proceso
+
+Introducción

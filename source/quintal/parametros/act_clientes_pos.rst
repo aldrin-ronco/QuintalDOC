@@ -65,7 +65,13 @@ Para crear un cliente realice los siguientes pasos:
 
  		- **Leyenda Certificado:** Digite aquí un texto de personalización para la certificación de sólidos. Este texto es opcional. El resto del certificado permanece igual.
 
+Modificar un cliente
+====================
 
+ 	- Ejecute la opción *Administración de clientes*
+ 	- Seleccione, haciendo click, a un cliente en la grilla
+ 	- Presione el botón |wzedit.bmp| *modificar* al pie de la ventana 
+ 	- Aparecerá una ventana donde podrá cambiar los datos del cliente que necesite, y dejar los que considere ya están bien.
 
 
 Elmiminar un cliente
@@ -76,20 +82,7 @@ Elmiminar un cliente
 
  	- En el cuadro de confirmación presiones 'Sí'
 
- 	.. Note:
- 	No podrá eliminar un cliente que tenga cualquier tipo de transacción adjudicada.
-
-
-Modificar un cliente
-====================
-
- 	- Ejecute la opción *Administración de clientes*
- 	- Seleccione, haciendo click, a un cliente en la grilla
- 	- Presione el botón |wzedit.bmp| *modificar* al pie de la ventana
-		 
-
-
- 	- Aparecerá una ventana donde podrá cambiar los datos del cliente que necesite, y dejar los que considere ya están bien.
+ 	**No podrá eliminar un cliente que tenga cualquier tipo de transacción adjudicada.**
 
 
 

@@ -82,9 +82,7 @@ Elmiminar un tercero
  	- Presione el botón |delete.bmp| *eliminar* al pie de la ventana
 	- En el cuadro de confirmación presiones 'Sí'
 
- 	.. NOTE::
- 	 
- 	 No podrá eliminar un tercero que tenga cualquier tipo de transacción adjudicada.
+ 	** No podrá eliminar un tercero que tenga cualquier tipo de transacción adjudicada.**
 
 
 Exportar lista de terceros
