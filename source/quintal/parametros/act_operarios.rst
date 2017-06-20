@@ -27,7 +27,7 @@ Crear un Operario
 -----------------
 
 	- Ejecute la opción *Administración de Operarios*
-	- **Si no ha creado el tercero anteriormente**, haga click en |plus.bmp| de la esquina superior **izquierda** y siga los pasos de la creación de un tercero. Vea `Crear un tercero<../parametros/act_terceros.html#crear-un-nuevo-tercero>`_. Al crear el tercero, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Operario a la lista.
+	- **Si no ha creado el tercero anteriormente**, haga click en |plus.bmp| de la esquina superior **izquierda** y siga los pasos de la creación de un tercero. Vea `Crear un tercero <../parametros/act_terceros.html#crear-un-nuevo-tercero>`_ Al crear el tercero, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Operario a la lista.
 	- Si ya ha creado el tercero anteriormente, haga click en |buscar.bmp| para buscarlo en la lista. Haga click sobre el tercero que será ahora operario y presione Enter. Al Seleccionar el tercero de la lista, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Operario a la lista.
 
 
@@ -39,6 +39,7 @@ Eliminar un Operario
 	- Presione la tecla 'Supr'
 	- En la ventana de confirmación, pulse 'Sí'
 
+	 	**No podrá eliminar un operario que haya realizado una operación, pero puede inhabilitarlo para futuras ocasiones.**
 
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
