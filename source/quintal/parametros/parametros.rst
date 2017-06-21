@@ -18,6 +18,8 @@ Parámetros
   /quintal/parametros/act_emd_datosref_analisis
   /quintal/parametros/act_emd_new_tipo_lotes
   /quintal/parametros/act_emd_new_electrodo_lect
+  /quintal/parametros/act_administracion_cubas
+  
   
 
 
