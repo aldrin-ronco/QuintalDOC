@@ -12,7 +12,7 @@ Ubicación
  Consultas
 
 :Descripción:
- C omportamiento de Análisis
+ Comportamiento de Análisis
 
 Introducción
 ------------
@@ -25,7 +25,7 @@ Casos de Uso
 	Usted podrá remitirse a este informe para:
 
 		- Conocer los resultados de un determinado análisis, de un producto en específico
-		- Obtener información relevante sobre un análisis en específico: Fecha, valor, hora, analísta, etc.
+		- Obtener información relevante sobre un análisis en específico: Fecha, valor, hora, analista, etc.
 		- Obtener una gráfica en formato excel que incluye las variables obtenidas en las consultas, y sus respectivos valores.
 
 

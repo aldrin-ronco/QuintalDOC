@@ -21,10 +21,14 @@ Introducción
 	Tipos de Análisis
 	-----------------
 
-	Los perfiles están agrupados según el momento o proceso (Tipo de análisis) en el cual se aplican. Puede crear nuevos tipos desde esta interfaz. Los tipos que aparecen en la lista, fueron creados en la interfaz `Administración de Análisis <../parametros/act_análisis.html#crear-un-tipo-de-análisis>`_
+	Los perfiles están agrupados según el momento o proceso (Tipo de análisis) en el cual se aplican: materia prima, producto en proceso, producto terminado. Puede crear nuevos tipos desde esta interfaz. Los tipos que aparecen en la lista, fueron creados en la interfaz `Administración de Análisis <../parametros/act_análisis.html#crear-un-tipo-de-análisis>`_
 
 	Ejemplo: La agrupación 'Materia Prima' requiere de los perfiles: Azufre, carbón vegetal, ácido sulfúrico, etc.
 
+	Los perfiles creados en "materia prima" luego podrán ser vinculados en el apartado *3.1 Configuración de encabezado y perfil para materia prima*
+
+	
+	
 	Perfil
 	------
 

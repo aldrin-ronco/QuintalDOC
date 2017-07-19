@@ -41,4 +41,7 @@ Módulos:
   `Consultas: <../quintal/consultas/consultas.html>`_
 
   Consulte y exporte en diferentes formatos, información relevante de sus productos.
-	
+
+  `Preguntas Frecuentes FAQ: <../quintal/FAQ/FAQ.html>`_
+
+  Resuelva rápidamente sus dudas con una guía de pasos para los procedimientos del sistema

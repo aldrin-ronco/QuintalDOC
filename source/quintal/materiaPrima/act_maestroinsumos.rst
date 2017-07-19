@@ -290,7 +290,7 @@ Pestaña Otros
 
           Si usted selecciona un Perfil de Análisis y también selecciona que requiere presentación, es importante recordar que puede haber un perfil creado para cada presentación. Usted podrá elegir la presentación en el momento del ingreso de la materia. El perfil lo elige en este mismo apartado.
 
-  :Requiere Lote Detallado:
+  :Requiere Lote Detallado: Solo aplica a EMD
 
 
 ----------------------------------------------------------------------------------

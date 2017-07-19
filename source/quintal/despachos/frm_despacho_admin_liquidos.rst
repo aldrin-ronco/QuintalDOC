@@ -32,7 +32,7 @@ Introducción
 	Paso 2:
 	-------
 
-		Ingrese un Análisis y asócielo a un vehículo ` <>`_. Este paso no es obligatorio para ir al paso 3, pero sí para terminar el proceso.
+		`Ingrese un Análisis <../productoTerminado/frm_analisis_liquidos.html#crear-un-nuevo-ingreso-de-analisis-liquido>`_ y `asocielo a un vehículo <../productoTerminado/frm_analisis_liquidos.html#asociar-un-analisis-a-un-vehiculo>`_. Este paso no es obligatorio para ir al paso 3, pero sí para terminar el proceso.
 
 	Paso 3:
 	-------
