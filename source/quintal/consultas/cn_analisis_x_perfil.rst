@@ -27,7 +27,7 @@ Casos de Uso
 	Usted podrá remitirse a este informe para:
 
 		- Conocer los resultados de los análisis ingresados para cada sub-proceso de un producto
-		- Análisis por proceso y analísta
+		- Análisis por proceso y analista
 		- Análisis por proceso y Tanque
 		- Análisis por proceso y Estado de planta
 		- Análisis por proceso y cada variable del perfil

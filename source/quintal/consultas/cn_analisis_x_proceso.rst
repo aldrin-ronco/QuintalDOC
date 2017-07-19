@@ -45,4 +45,4 @@ Opciones de salida
 ------------------
 
 	- |excel.bmp| Excel plano
-	- |excel.bmp| Excel por analísta
+	- |excel.bmp| Excel por analista
