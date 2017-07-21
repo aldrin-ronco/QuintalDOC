@@ -39,7 +39,7 @@ Podrá filtrar la información por:
 	- Producto
 	- Proceso
 	- Sub-Proceso
-	-Tipo de consulta
+	- Tipo de consulta
 
 Opciones de salida
 ------------------

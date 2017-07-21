@@ -96,6 +96,9 @@ Registrar salida de vehículo con producto
 	- Realice una búsqueda de la entrada en peso. `Buscar un registro`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
 	- Escoja la destino del producto: Cliente, Traslado, Libre
+		- **Cliente:** Elija un cliente como destino del vehículo - `Crear un cliente </parametros/act_clientes_pos.html#crear-un-cliente>`_
+		- **Traslado:** Se usa para trasladar entre almacenes de la misma empresa, el almacén debe haber sido establecido como destino en: `Configuración de destinos <../parametros/act_destinos.html#agregar-un-nuevo-destino>`_
+		- **Libre:** Puede poner una descripción libre del destino
 	- Puede seleccionar varios productos para sumar el peso total de la báscula. Se usa para llevar un control simple. En la lista "Seleccione el producto a despachar" escoja el producto, seleccione la cantidad en Kg y pulse |plus.bmp|. Se agrega a la grilla
 	- Repita hasta haber completado la lista de productos
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso

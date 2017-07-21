@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Comportamiento de Análisis &#8212; documentación de QuintalDOC - 1</title>
+    <title>Consulta aprobación y entrega de productos terminados a bodega &#8212; documentación de QuintalDOC - 1</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -43,8 +43,8 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="comportamiento-de-analisis">
-<h1>Comportamiento de Análisis<a class="headerlink" href="#comportamiento-de-analisis" title="Enlazar permanentemente con este título">¶</a></h1>
+  <div class="section" id="consulta-aprobacion-y-entrega-de-productos-terminados-a-bodega">
+<h1>Consulta aprobación y entrega de productos terminados a bodega<a class="headerlink" href="#consulta-aprobacion-y-entrega-de-productos-terminados-a-bodega" title="Enlazar permanentemente con este título">¶</a></h1>
 <div class="section" id="ubicacion">
 <h2>Ubicación<a class="headerlink" href="#ubicacion" title="Enlazar permanentemente con este título">¶</a></h2>
 <table class="docutils field-list" frame="void" rules="none">
@@ -55,7 +55,7 @@
 </tr>
 <tr class="field-even field"><th class="field-name">Grupo:</th><td class="field-body">Consultas</td>
 </tr>
-<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Comportamiento de Análisis</td>
+<tr class="field-odd field"><th class="field-name">Descripción:</th><td class="field-body">Consulta aprobación y entrega de productos terminados a bodega</td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,9 @@
 <div class="section" id="introduccion">
 <h2>Introducción<a class="headerlink" href="#introduccion" title="Enlazar permanentemente con este título">¶</a></h2>
 <blockquote>
-<div>Use esta interfaz para consultar, de manera plana o gráfica, en un periodo determinado, los resultados de diferentes análisis sobre determinados productos y procesos.</div></blockquote>
+<div><p>Aquí puede obtener una &#8220;hoja de producción&#8221; que le permitirá conocer los productos sólidos que han sido terminados y están disponibles para despacho.</p>
+<p>Además, en esta interfaz podrá imprimir los <a href="#id3"><span class="problematic" id="id4">`rótulos para las estíbas`_</span></a>.</p>
+</div></blockquote>
 </div>
 <div class="section" id="casos-de-uso">
 <h2>Casos de Uso<a class="headerlink" href="#casos-de-uso" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -71,9 +73,7 @@
 <div><p>Usted podrá remitirse a este informe para:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Conocer los resultados de un determinado análisis, de un producto en específico</li>
-<li>Obtener información relevante sobre un análisis en específico: Fecha, valor, hora, analista, etc.</li>
-<li>Obtener una gráfica en formato excel que incluye las variables obtenidas en las consultas, y sus respectivos valores.</li>
+<li>Conocer el peso, la pureza, el lote, la fecha y el usuario de un producto disponible.</li>
 </ul>
 </div></blockquote>
 </div></blockquote>
@@ -84,22 +84,71 @@
 <blockquote>
 <div><ul class="simple">
 <li>Almacén</li>
-<li>Periodo</li>
-<li>Tipo de proceso</li>
 <li>Producto</li>
 <li>Proceso</li>
-<li>Sub-Proceso</li>
-<li>Tipo de consulta</li>
+<li>Rango de fechas</li>
+<li>Lote</li>
+<li>Presentación</li>
+<li>Calidad</li>
 </ul>
 </div></blockquote>
 </div>
 <div class="section" id="opciones-de-salida">
 <h2>Opciones de salida<a class="headerlink" href="#opciones-de-salida" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Usted podrá dar salida al reporte de <em>Consulta de Anñalisis por mes</em> en los siguientes formatos:</p>
 <blockquote>
 <div><ul class="simple">
-<li><a href="#id1"><span class="problematic" id="id2">|excel.bmp|</span></a> Excel</li>
-<li><a href="#id3"><span class="problematic" id="id4">|excel.bmp|</span></a> Excel y Gráfica</li>
+<li><a href="#id1"><span class="problematic" id="id2">|printer_q.bmp|</span></a> Impresión</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-rotulos">
+<h2>Imprimir Rótulos<a class="headerlink" href="#imprimir-rotulos" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li>Para imprimir los rótulos deberá tener presente el lote que desea identificar.</li>
+<li>Deberá además llenar TODOS los filtros disponibles.</li>
+<li>Cada lote cuenta con cierta cantidad de bolsas de x peso.</li>
+<li>Cada producto está configurado para que sus estibas llevén un peso máximo x.</li>
+<li>Al momento de hacer la rotulación se dividirá: El Peso Estiba/Número de bolsas/Peso de cada bolsa. Para sacar una etiqueta por estiba.</li>
+</ul>
+<p>Información en la etiqueta:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Producto</li>
+<li>Calidad</li>
+<li>Lote</li>
+<li>Sacos</li>
+<li>Peso total</li>
+<li>Concentración</li>
+<li>Fecha</li>
+<li>Analista</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<p>Ejemplo:</p>
+<blockquote>
+<div><p>Un Lote ### de 50 sacos de 50kg cada uno. El producto X, está configurado para 1000 kg por estiba.
+El resultado serán 3 Etiquetas con la siguiente información:</p>
+<p>Etiqueta 1:</p>
+<ul class="simple">
+<li>Producto X</li>
+<li>Lote ###</li>
+<li>Sacos: 20</li>
+<li>Peso: 1000Kg</li>
+</ul>
+<p>Etiqueta 2:</p>
+<ul class="simple">
+<li>Producto X</li>
+<li>Lote ###</li>
+<li>Sacos: 20</li>
+<li>Peso: 1000Kg</li>
+</ul>
+<p>Etiqueta 3:</p>
+<ul class="simple">
+<li>Producto X</li>
+<li>Lote ###</li>
+<li>Sacos: 10</li>
+<li>Peso: 500Kg</li>
 </ul>
 </div></blockquote>
 </div>
@@ -113,12 +162,13 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="../../index.html">Tabla de Contenidos</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Comportamiento de Análisis</a><ul>
+<li><a class="reference internal" href="#">Consulta aprobación y entrega de productos terminados a bodega</a><ul>
 <li><a class="reference internal" href="#ubicacion">Ubicación</a></li>
 <li><a class="reference internal" href="#introduccion">Introducción</a></li>
 <li><a class="reference internal" href="#casos-de-uso">Casos de Uso</a></li>
 <li><a class="reference internal" href="#filtros-aplicables">Filtros aplicables</a></li>
 <li><a class="reference internal" href="#opciones-de-salida">Opciones de salida</a></li>
+<li><a class="reference internal" href="#imprimir-rotulos">Imprimir Rótulos</a></li>
 </ul>
 </li>
 </ul>
@@ -132,7 +182,7 @@
   <div role="note" aria-label="source link">
     <h3>Esta página</h3>
     <ul class="this-page-menu">
-      <li><a href="../../_sources/quintal/consultas/cn_analisis_pp_pt.txt"
+      <li><a href="../../_sources/quintal/consultas/cn_informe_aeprodterbod.txt"
             rel="nofollow">Mostrar el código</a></li>
     </ul>
    </div>
@@ -158,7 +208,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/quintal/consultas/cn_analisis_pp_pt.txt"
+      <a href="../../_sources/quintal/consultas/cn_informe_aeprodterbod.txt"
           rel="nofollow">Page source</a>
     </div>
 

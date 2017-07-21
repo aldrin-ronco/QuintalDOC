@@ -26,15 +26,15 @@ Modificar encabezado del análisis
 
 	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima*
 	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menú emergente escoja la opción "Configuración de encabezado para materia"
-	- Se despleará una ventana con los parametros elegibles:
+	- Se desplegará una ventana con los parámetros elegibles:
 		- Operario
 		- Estado de la planta
 		- Tanques
 		- Clientes
 		- Acepta aprobado/rechazado
 		- Calidad
-	- Marque en la casilla de verificación aquellos que considere deban ir en el reistro del análisis
-	- Para mostrar un activo en el reistro del análisis, presione el botón [...] "Seleccione reactivos a utilizar" Luego haga click en [+] para incluirlo en la lista.
+	- Marque en la casilla de verificación aquellos que considere deban ir en el registro del análisis
+	- Para mostrar un activo en el registro del análisis, presione el botón [...] "Seleccione reactivos a utilizar" Luego haga click en [+] para incluirlo en la lista.
 
 Elegir un perfil de análisis para la materia prima
 ==================================================
