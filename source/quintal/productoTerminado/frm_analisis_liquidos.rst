@@ -18,7 +18,7 @@ Ubicación
 Introducción
 ------------
 
-	El ingreso de Análisis líquidos está relacionado con las configuraciones de los paramteros relacionados con los perfiles de análisis. Las variables que usted decida dentro de los análisis para un producto terminado, aquí serán visualizadas.
+	El ingreso de Análisis líquidos está relacionado con las configuraciones de los parámetros relacionados con los perfiles de análisis. Las variables que usted decida dentro de los análisis para un producto terminado, aquí serán visualizadas.
 
 	Vea `Administración de perfiles <../parametros/act_perfil_x_analisis.html>`_
 

@@ -67,17 +67,6 @@ Registrar una Salida de producto
 
 Registrar una entrada de vehículo vacío
 ---------------------------------------
-	
-	- Ejecute la opción *Administración Despacho Productos Comercializables*
-	- Realice una búsqueda de la entrada en peso. `Buscar un registro`_
-	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
-	- En la lista "Seleccione el producto a despachar" escoja el producto.
-	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
-	- En el cuadro de texto inferior puede hacer alguna observación pertinente
-	- Presione |save.bmp| *Guardar* o F2
-
-Registrar salida de vehículo con producto
------------------------------------------
 
 	- Ejecute la opción *Administración Despacho Productos Comercializables*
 	- En la lista "Seleccione almacén" escoja el almacén donde hará la entrada o la salida de producto
@@ -91,5 +80,38 @@ Registrar salida de vehículo con producto
 	- Presione |save.bmp| *Guardar* o F2
 
 
+	
+Registrar salida de vehículo con producto
+-----------------------------------------
+
+	- Ejecute la opción *Administración Despacho Productos Comercializables*
+	- Realice una búsqueda de la entrada en peso. `Buscar un registro`_
+	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
+	- En la lista "Seleccione el producto a despachar" escoja el producto.
+	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
+	- En el cuadro de texto inferior puede hacer alguna observación pertinente
+	- Presione |save.bmp| *Guardar* o F2
 
 
+
+
+
+
+.. |export1.gif| image:: ../../../_images/generales/export1.gif
+.. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
+.. |excel.bmp| image:: ../../../_images/generales/excel.bmp
+.. |codbar.png| image:: ../../../_images/generales/codbar.png
+.. |printer_q.bmp| image:: ../../../_images/generales/printer_q.bmp
+.. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
+.. |gear.bmp| image:: ../../../_images/generales/gear.bmp
+.. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
+.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |plus.bmp| image:: ../../../_images/generales/plus.bmp
+.. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
+.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |delete.bmp| image:: ../../../_images/generales/delete.bmp
+.. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
+.. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
+.. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
+.. |save.bmp| image:: ../../../_images/generales/save.bmp
+.. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp

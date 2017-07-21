@@ -14,24 +14,24 @@ Generación y Administración de Lotes EMD
 	:Descripción:
 	 Registro de ingreso de materias primas
  
-	Introducción
-	============
+Introducción
+============
  
 	Este administrador le permite buscar, anular, eliminar, crear y clasificar los Lotes de EMD. El estado de un ingreso de mercancía se ve anunciado en la parte inferior de la ventana.
  
 	Los lotes pueden ser clasificados en varios tipos según su consecutivo y algunas otras normas, como está especificado en: `Creación de tipos de lote y selección de consecutivos EMD <../parametros/act_emd_new_tipo_lotes.html>`_
  
-	Guía de pasos para el ingreso de EMD al inventario
-	==================================================
+Guía de pasos para el ingreso de EMD al inventario
+==================================================
  
-	1- Crear Nuevo Ingreso Lote EMD
-	2- Selección de sacos para analizar
-	3- Análisis previos: Son algunos análisis que se registran sobre los sacos seleccionados.
-		3.1 - Si escogió que el ingreso sería de un lote combinado, ahora deberá seleccionar los sacos que conformarán el nuevo ingreso.
-	4- Análisis final: Análisis completo. Aquí puede corregir los análisis previos.
+	- Crear Nuevo Ingreso Lote EMD
+	- Selección de sacos para analizar
+	- Análisis previos: Son algunos análisis que se registran sobre los sacos seleccionados.
+		- Si escogió que el ingreso sería de un lote combinado, ahora deberá seleccionar los sacos que conformarán el nuevo ingreso.
+	- Análisis final: Análisis completo. Aquí puede corregir los análisis previos.
  
-	Crear Nuevo Ingreso Lote EMD
-	============================
+Crear Nuevo Ingreso Lote EMD
+============================
  
 	- Ejecute la opción *Generación y Administración de Lotes EMD*
 	- Presione |wznew.bmp| 
@@ -44,8 +44,8 @@ Generación y Administración de Lotes EMD
 	- La producción por lote multiplica los sacos * kg de la presentación * sacos por estiba
 	- Haga click en |save.bmp| *Generar*
  
-	Buscar un Ingreso EMD
-	=====================
+Buscar un Ingreso EMD
+=====================
  
 	- Ejecute la opción *Generación y Administración de Lotes EMD*
 	- En la lista "Seleccione Almacén" escoja el almacén donde hará el ingreso de mercancía
@@ -54,8 +54,8 @@ Generación y Administración de Lotes EMD
 	- Si conoce el número del lote, puede saltarse los pasos anteriores y usar la casilla "Filtro por lote" para buscar uno en específico
 	- Haga click en |btn_ok.bmp|
  
-	Modificar un ingreso/registro
-	=============================
+Modificar un ingreso/registro
+=============================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
@@ -64,8 +64,8 @@ Generación y Administración de Lotes EMD
 	- Haga click en |save.bmp| *Guardar*
  
  
-	Seleccionar sacos para analizar
-	===============================
+Seleccionar sacos para analizar
+===============================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
@@ -74,8 +74,8 @@ Generación y Administración de Lotes EMD
 	- Si elige 'Manual' seleccione las casillas correspondientes a los sacos que quiere
 	- Haga click en |save.bmp| *Guardar*
  
-	Realizar Análisis Previos
-	=========================
+Realizar Análisis Previos
+=========================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
@@ -87,8 +87,8 @@ Generación y Administración de Lotes EMD
 	- Digite los valores en las celdas correspondientes a los análisis previos de los lotes y a sus valores OCP
 	- Haga click en |save.bmp|
  
-	Seleccionar Lotes Mezclados (Lote tipo Especial)
-	================================================
+Seleccionar Lotes Mezclados (Lote tipo Especial)
+================================================
  
 	Si el tipo de lote lo amerita, antes de hacer el análisis final, puede seleccionar sacos de diferentes lotes; Mezclando lotes puede reunir sacos que han quedado rezagados en selecciones anteriores.
  
@@ -107,16 +107,16 @@ Generación y Administración de Lotes EMD
  
  
  
-	Revertir Análisis Previos
-	-------------------------
+Revertir Análisis Previos
+-------------------------
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Revertir análisis previos"
 	- En la ventana de confirmación presione *Sí*
  
-	Realizar Análisis final
-	=======================
+Realizar Análisis final
+=======================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
@@ -128,19 +128,19 @@ Generación y Administración de Lotes EMD
 	- Cada barra negra indica un análisis diferente; llene los cuadros de texto con los resultados obtenidos de las muestras
 	- En la parte inferior de la ventana puede observar el estado del análisis: Aprobado|Rechazado
 	- Al finalizar presione |save.bmp| *Guardar*
-	- En la ventana emergente, escriba alguna observación y presione |btn_ok| *Aceptar* o F2
+	- En la ventana emergente, escriba alguna observación y presione |btn_ok.bmp| *Aceptar* o F2
 	
  
-	Revertir Análisis Final
-	=======================
+Revertir Análisis Final
+=======================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Revertir análisis final a análisis previos"
 	- En la ventana de confirmación presione *Sí*
  
-	Digitar OCP cliente
-	===================
+Digitar OCP cliente
+===================
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 

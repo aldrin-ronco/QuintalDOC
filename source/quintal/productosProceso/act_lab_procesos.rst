@@ -19,7 +19,7 @@ Introducción
 	
 	En este apartado puede configurar algunas de las opciones que aparecen al momento de registrar el análisis para un ingreso producto terminado (EMD) o para producto en proceso, en cualquiera de sus etapas.
 
-	Cree procesos y sub-procesos para dividir las fases de análisis del producto. En los procesos determinan las propiedades (Encabezados) de un conjunto de análisis combinados. Un proceso puede asociarse a un producto en la pestaña "Otros" para que sea el Análisis final. Un proceso tiene varios subprocesos, los sub-procesos van ligados a un análisis (creado anteriormente) 
+	Cree procesos y sub-procesos para dividir las fases de análisis del producto. En los procesos determinan las propiedades (Encabezados) de un conjunto de análisis combinados. Un proceso puede asociarse a un producto en la pestaña "Otros" para que sea el Análisis final. Un proceso tiene varios subprocesos, los sub-procesos van ligados a un análisis (creado anteriormente) en Perfiles de análisis.
 
 	El encabezado del análisis se refiere a los parámetros tales como: Operario, estado de la planta, tanques, clientes, etc... que van a ser pedidos al momento de registrar el análisis. Además, seleccione los reactivos que usted puede visualizar al momento del registro del análisis.
 
@@ -31,7 +31,7 @@ Crear un Proceso
 ================
 
 	- Ejecute la opción *Configuración de productos en proceso*
-	- En el listado de productos, seleccione uno y haga click derecho sobré él. En el menú emergente escoja la opción "Nuevo Proceso"
+	- En el listado de productos, seleccione uno y haga click derecho sobre él. En el menú emergente escoja la opción "Nuevo Proceso"
 	- En la nueva carpeta de la lista, escriba el nombre del proceso y presione 'Enter'
 
 		**En la pestaña "Otros" de la configuración avanzada del producto, puede asociar un proceso. Este proceso lleva consigo el perfil de análisis que usted selecciona.**
@@ -87,15 +87,15 @@ Modificar encabezado del análisis
 	- Ejecute la opción *Configuración de productos en proceso*
 	- En el listado de productos, seleccione uno. Haga click en el + a su izquierda.
 	- En los procesos del producto, seleccione uno y haga click derecho sobré él. En el menú emergente escoja la opción "Configuración de encabezado a proceso"
-	- Se despleará una ventana con los parametros elegibles:
+	- Se desplegará una ventana con los parámetros elegibles:
 		- Operario
 		- Estado de la planta
 		- Tanques
 		- Clientes
 		- Acepta aprobado/rechazado
 		- Calidad
-	- Marque en la casilla de verificación aquellos que considere deban ir en el reistro del análisis
-	- Para mostrar un activo en el reistro del análisis, presione el botón [...] "Seleccione reactivos a utilizar" Luego haga click en [+] para incluirlo en la lista.
+	- Marque en la casilla de verificación aquellos que considere deban ir en el registro del análisis
+	- Para mostrar un activo en el registro del análisis, presione el botón [...] "Seleccione reactivos a utilizar" Luego haga click en [+] para incluirlo en la lista.
 
 Elegir un perfil de análisis para sub proceso
 =============================================
@@ -103,7 +103,7 @@ Elegir un perfil de análisis para sub proceso
 	- Ejecute la opción *Configuración de productos en proceso*
 	- En el listado de productos, seleccione uno. Haga click en el + a su izquierda.
 	- En los procesos del producto, seleccione uno. Haga click en el + a su izquierda.
-	- En el listado de subprocesos, seleccione una y haga click derecho sobre él. En el menu emergente elija la opción "Modificar SubProceso"
+	- En el listado de subprocesos, seleccione una y haga click derecho sobre él. En el menú emergente elija la opción "Modificar SubProceso"
 	- En la nueva ventana, seleccione un perfil de análisis de la lista y haga click en |save.bmp| *Guardar*
 
 

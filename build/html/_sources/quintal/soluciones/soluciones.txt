@@ -12,5 +12,6 @@ Soluciones
   /quintal/soluciones/frm_protocolo_solucion_list
   /quintal/soluciones/frm_cn_soluciones
   /quintal/soluciones/frm_soluciones_preparadas
+  
 
   
