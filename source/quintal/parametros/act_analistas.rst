@@ -29,7 +29,7 @@ Crear un Analista
 
 	- Ejecute la opción *Administración de Analistas*
 	- **Si no ha creado el tercero anteriormente**, haga click en |plus.bmp| de la esquina superior **izquierda** y siga los pasos de la creación de un tercero. Vea `Crear un tercero <../parametros/act_terceros.html#crear-un-nuevo-tercero>`_. Al crear el tercero, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Analista a la lista.
-	- Si ya ha creado el tercero anteriormente, haga click en |buscar.bmp| para buscarlo en la lista. Haga click sobre el tercero que será ahora analista y presione Enter. Al Seleccionar el tercero de la lista, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Analista a la lista.
+	- Si ya ha creado el tercero anteriormente, haga click en |find.bmp| para buscarlo en la lista. Haga click sobre el tercero que será ahora analista y presione Enter. Al Seleccionar el tercero de la lista, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Analista a la lista.
 
 Eliminar un Analista
 --------------------
@@ -50,13 +50,14 @@ Eliminar un Analista
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

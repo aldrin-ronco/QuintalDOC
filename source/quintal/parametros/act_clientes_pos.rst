@@ -47,7 +47,6 @@ Para crear un cliente realice los siguientes pasos:
  		- **Otros datos**: 
 
  				- Nombre comercial: Nombre del establecimiento (no razón social)
- 				- lista de precios: Las listas de precios pueden ser asociadas a un cliente específico con el fin de ofrecer precios especiales al mismo. Vea `Configurar lista de precios <>`_ Esta lista será cargada automáticamente al elegir este cliente.
  				- vendedor destinado: Un vendedor puede ser asociado  a un cliente. Será cargado automáticamente en el momento de hacer una venta a este cliente.
  				- Email
  				- Plazo de crédito: El número aquí indicado será mostrado automáticamente en el momento de la facturación al elegir este cliente.
@@ -98,13 +97,14 @@ Elmiminar un cliente
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

@@ -39,7 +39,7 @@ Crear un Ingreso de Materia Prima
 	- En la ventana emergente, seleccione en la lista superior el almacén donde registra el ingreso del vehículo
 	- En el botón "Proveedor" seleccione la empresa que envía la materia prima
 	- En "Producto" seleccione la materia prima entrante. Si usted eligió en la creación de productos que el producto entra en Sacos, entonces aparecerá un nuevo campo a la derecha para colocar el número de sacos. Si usted eligió que el producto tenía varias presentaciones, aparecerá una lista debajo con las posibles opciones; elija una.
-	- Seleccione un conductor de la lista haciendo click en el botón |buscar.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
+	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
@@ -162,16 +162,17 @@ Solo podrá anular un ingreso de vehículo, antes de registrar su Análisis.
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp
  
 	
  

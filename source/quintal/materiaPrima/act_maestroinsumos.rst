@@ -114,7 +114,7 @@ Eliminar una Sub Categoría
 Crear un Producto
 =================
 
-El proceso de creación del producto solo permite aportar algunos datos básicos, si desea modificar características complejas, entonces vea: `Carácteristicas de un producto o materia prima`_
+El proceso de creación del producto solo permite aportar algunos datos básicos, si desea modificar características complejas, entonces vea: `Configuración avanzada del producto`_
 
   - Ejecute la opción *Administrador de Productos*
   - Escoja la carpeta de la rama principal que convenga: Materia prima, producto terminado, servicios y producción; 
@@ -152,7 +152,7 @@ Con un catálogo muy extenso, puede ser difícil ubicar un producto/servicio en 
 
 Para buscar un productos/servicio siga los siguientes pasos:
 
-- En la ventana principal del *Administrador de Productos* haga click en icono |buscar.bmp|
+- En la ventana principal del *Administrador de Productos* haga click en icono |find.bmp|
 - El sistema despliega la búsqueda de productos/servicios
 - Digite el nombre del producto/servicio
 - Confirme la selección colocándose sobre el producto/servicio y presionando la tecla ENTER o haciendo doble-click
@@ -248,7 +248,7 @@ Actualización de Códigos EAN
 Esta interfaz le permite actualizar los códigos EAN (barras) de cualquier producto, de una manera más sencilla que la interfaz de edición de producto.
 
   - Ejecute la opción *Administrador de Productos*
-  - En la cabecera de la ventana desplegada, haga click en el botón |codbar.bmp| *Actualización de códigos EAN*
+  - En la cabecera de la ventana desplegada, haga click en el botón |codbar.png| *Actualización de códigos EAN*
   - El cursor se colocará en el primer cuadro de texto. Si sabe el código del producto digítelo o también oprima Enter y búsquelo en la lista de productos, haga click sobre él y presione Enter.
   - Una vez seleccionado el producto, se mostrará su nombre en el segundo campo de texto y el cursor se posará sobre el tercer campo de texto.
   - Ingrese el nuevo código EAN con el lector laser. Si el foco permanece en este campo presione Enter para confirmar y cambiar el código. Su lector puede estar configurado para confirmar el cambio automáticamente.
@@ -267,15 +267,15 @@ Pestaña Otros
 
 
   :Seleccione Perfil:
-    Escoja el perfil de análisis pertinente al producto de acuerdo a su tipo. Al momento de enlazar un analisis para un ingreso de mercancía aparecerá el formulario elegido en este apartado.
+    Escoja el perfil de análisis pertinente al producto de acuerdo a su tipo. Al momento de enlazar un analisis para un ingreso de mercancía aparecerá el formulario elegido en este apartado. Vea, `Perfil de análisis <../parametros/act_perfil_x_analisis.html>`_. Esta es la manera de escoger el análisis final para cualquier producto terminado.
 
   :Código de lote:
     Se refiere al código para el producto terminado generado por el software administrativo. No aplica para Materia prima.
 
   :Requiere Lote detallado:
-    Marque esta opción si requiere un código de lote detallado para cada saco de producto terminado. No aplica para Materia Prima.
+    Marque esta opción si requiere un código de lote detallado para cada saco de producto terminado. Solo aplica a EMD. No aplica para Materia Prima.
 
-  :Kg por Estiba: Peso máximo de producto terminado en K para montar en una estiba. No aplica para Materia Prima.
+  :Kg por Estiba: Peso máximo de producto terminado en Kg para montar en una estiba. No aplica para Materia Prima. - Esta opción es útil para el rotulado - 
  
   :Requiere Sacos al realizar el ingreso:
     Algunas materias son recibidas en forma de sacos. Marque esta opción para pedir el número de sacos en el ingreso.
@@ -290,7 +290,7 @@ Pestaña Otros
 
           Si usted selecciona un Perfil de Análisis y también selecciona que requiere presentación, es importante recordar que puede haber un perfil creado para cada presentación. Usted podrá elegir la presentación en el momento del ingreso de la materia. El perfil lo elige en este mismo apartado.
 
-  :Requiere Lote Detallado: Solo aplica a EMD
+
 
 
 ----------------------------------------------------------------------------------
@@ -304,13 +304,14 @@ Pestaña Otros
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

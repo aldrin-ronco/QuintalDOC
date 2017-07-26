@@ -32,7 +32,7 @@ Crear una programación de despacho
 
 	- Ejecute la opción *Programación de despacho*
 	- En la lista 'Almacén' seleccione el almacen del cual sale la mercancía
-	- Busque un cliente |buscar.bmp| seleccionandolo de la lista, o agréguelo |plus.bmp|, vea `Crear cliente <../parametros/act_clientes_pos.html#crear-un-cliente>`_
+	- Busque un cliente |find.bmp| seleccionandolo de la lista, o agréguelo |plus.bmp|, vea `Crear cliente <../parametros/act_clientes_pos.html#crear-un-cliente>`_
 	- Puede cambiar la fecha de la programación, por defecto aparece la fecha actual
 	- Introduzca la orden de compra internacional PO (Purchase Order) - Si la tiene
 	- Introduzca la orden de compra nacional, del cliente directo - Si la tiene. El sistema le dejará hacer la programación con tan solo una de las dos ordenes, o las 2.
@@ -40,7 +40,7 @@ Crear una programación de despacho
 	- En la 'Unidad de medida' ecoja de la lista la adecuada (kg, toneladas, unidades). Si selecciona 'unidades' en el siguiente campo seleccione la presentación, ejemplo: bolsa de 10kg
 	- El campo 'Existencias' muestra la cantidad de producto existente según la unidad seleccionada. Seleccione en el campo 'Cantidad' la cantidad de producto según la unidad elegida.
 
-		.. NOTE:
+		.. NOTE::
 
 			Es muy importante tener en cuenta la presentación del producto a la hora de elegir el peso del producto en Kilos o Toneladas. La cantidad debe poder coincidir con un número entero de presentaciones del producto, por ejemplo: Si el producto tiene una única presnetacion de 1250 Kg, entonces la cantidad no podrá ser 1 tonelada o 1300 Kg, sino más bien 1.25 toneladas o 1250 kg. De lo contrario, no podrá elegir los lotes para el despacho en el siguiente paso.
 
@@ -49,7 +49,7 @@ Crear una programación de despacho
 	- Pulse |plus.bmp|
 	- Ahora que el producto está en la lista, puede proceder a guardar la programación de despacho haciendo click en |save.bmp| *Guardar*
 
-	.. NOTE:
+	.. NOTE::
 
 		Puede eliminar productos de la lista haciendo click sobre el nombre en la grilla y presionando Supr
 
@@ -110,15 +110,16 @@ Imprimir una selección de lotes
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp
 
 	

@@ -70,7 +70,7 @@ Modificar propiedades del Análisis
 		- Nombre del Análisis
 		- Método de realización, ejemplo: Medición
 		- Nombre del Análisis [En], nombre en ingles
-		- Método de realización [En], Método em ingles
+		- Método de realización [En], Método en ingles
 		- Unidad del Análisis, ejemplo: m (metros), kg (kilogramos), % (porcentaje)...
 		- Decimales a mostrar en reportes - Establezca el nñumero de decimales a mostrar en el reporte, ejemplo: Decimales: 2 = "1,54"
 			- Líquido
@@ -106,13 +106,14 @@ Eliminar un Análisis
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

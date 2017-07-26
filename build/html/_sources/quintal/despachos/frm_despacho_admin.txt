@@ -27,7 +27,7 @@ Introducción
 Pre - requisitos
 ----------------
 
-	- Haber creado la `selección de lotes (Paso 2) <../despachos/despachos.html>`_
+	- Haber creado la `selección de lotes (Paso 2) <../despachos/frm_seleccion_lotes_despacho.html>`_
 
 Crear un nuevo despacho - Entrada
 ---------------------------------
@@ -35,7 +35,7 @@ Crear un nuevo despacho - Entrada
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Haga aclick en el botón |wznew.bmp|
 	- Selección en la lista 'Seleccione Almacén' el Almacén de donde sale el despacho
-	- Seleccione un conductor de la lista haciendo click en el botón |buscar.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
+	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
@@ -95,13 +95,14 @@ Al eliminar un ingreso, no se deja registro alguno. El consecutivo de los regist
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

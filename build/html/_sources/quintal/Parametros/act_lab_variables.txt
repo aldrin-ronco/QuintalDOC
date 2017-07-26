@@ -24,7 +24,7 @@ Introducción
 	- **Especial:** Es un tipo de variable que puede tomar varias formas/valores. En esta interfaz solo se le asigna un nombre.
 	- **Constante:** Como su nombre lo indica, se refiere a un simbolo que posee un valor invariable. 
 
-	.. NOTE:
+	.. NOTE::
 
 		Cuando una variable ha sido usada, no es posible modificarla. Consulte al administrador de sistema.
 
@@ -40,7 +40,7 @@ Crear una Variable/Constante
 		- **Variable Especial:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. *Las propiedades de la variable especial son modificadas en: `Administración de perfiles <../parametros/act_perfil_x_analisis.html>`_
 		- Constante: Aquí podrá agregar además del 'Nombre del parámetro', un valor a la constante.
 
-		.. NOTE:
+		.. NOTE::
 
 			 El nombre de la variable (Llave del parámetro) se crea automáticamente tomando como referencia el nombre que usted introduce. Si desea puede cambiarlo en el campo 'Llave de parámetro'.
 
@@ -76,13 +76,14 @@ Eliminar una Variable/Constante
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

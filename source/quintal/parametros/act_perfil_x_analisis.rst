@@ -21,7 +21,7 @@ Introducción
 	Tipos de Análisis
 	-----------------
 
-	Los perfiles están agrupados según el momento o proceso (Tipo de análisis) en el cual se aplican: materia prima, producto en proceso, producto terminado. Puede crear nuevos tipos desde esta interfaz. Los tipos que aparecen en la lista, fueron creados en la interfaz `Administración de Análisis <../parametros/act_análisis.html#crear-un-tipo-de-análisis>`_
+	Los perfiles están agrupados según el momento o proceso (Tipo de análisis) en el cual se aplican: materia prima, producto en proceso, producto terminado. Puede crear nuevos tipos desde esta interfaz. Los tipos que aparecen en la lista, fueron creados en la interfaz `Administración de Análisis <../parametros/act_analisis.html#crear-un-tipo-de-analisis>`_
 
 	Ejemplo: La agrupación 'Materia Prima' requiere de los perfiles: Azufre, carbón vegetal, ácido sulfúrico, etc.
 
@@ -32,7 +32,7 @@ Introducción
 	Perfil
 	------
 
-	Un perfil es un conjunto de análisis que pueden ser aplicados a un producto/proceso para obtener un resultado útil. Cree nuevos perfiles y agregue análisis, desde esta interfaz. **Los análisis que puede agregar a un perfil son solamente aquellos que fueron agregados al Tipo de Análisis** en la interfaz `Administración de Análisis <../parametros/act_análisis.html#crear-un-tipo-de-análisis>`_
+	Un perfil es un conjunto de análisis que pueden ser aplicados a un producto/proceso para obtener un resultado útil. Cree nuevos perfiles y agregue análisis, desde esta interfaz. **Los análisis que puede agregar a un perfil son solamente aquellos que fueron agregados al Tipo de Análisis** en la interfaz `Administración de Análisis <../parametros/act_analisis.html#crear-un-tipo-de-analisis>`_
 
 	Ejemplo: El perfil 'Análisis de Azufre' requiere de análisis como: % de acidez, constantes, % de azufre, % de humedad, etc.
 
@@ -220,13 +220,14 @@ Una variable especial es útil para parametrizar algunas características, por e
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp
