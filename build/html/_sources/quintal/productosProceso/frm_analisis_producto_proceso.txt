@@ -49,11 +49,13 @@ Solución en Cubas
 	- La ventana para el registro de los análisis por Cubas, le permite registrar Cuba por Cuba los valores obtenidos de: Vol. EDTA, Vol NaOH, y Hierro.
 	- Seleccione los terceros apropiados en la lista "Operario" y la lista "Analista"
 	- Digite una fecha, y luego una hora para el ingreso
+	
 	**Registrar una Cuba**
-	1- En el cuadro de texto "Búsqueda de cubas" ubique el cursor haciendo click sobre él y luego presione enter. "Elija una Cuba de la lista"
-	2- Aparecerá el código y nombre de la Cuba. A continuación puede llenar los campos: Vol. EDTA, Vol NaOH, y Hierro y presionar el botón |plus.bmp|
-	3- Se agregará la Cuba a la lista
-	4- Regrese al paso 1 hasta que haya completado todas las Cubas
+
+	- 1- En el cuadro de texto "Búsqueda de cubas" ubique el cursor haciendo click sobre él y luego presione enter. "Elija una Cuba de la lista".
+	- 2- Aparecerá el código y nombre de la Cuba. A continuación puede llenar los campos: Vol. EDTA, Vol NaOH, y Hierro y presionar el botón |plus.bmp|.
+	- 3- Se agregará la Cuba a la lista.
+	- 4- Regrese al paso 1 hasta que haya completado todas las Cubas.
 
 	- Presione |save.bmp| *Guardar*
 
@@ -81,13 +83,14 @@ Solución en Cubas
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

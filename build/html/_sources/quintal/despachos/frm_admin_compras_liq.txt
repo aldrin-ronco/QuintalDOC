@@ -33,7 +33,7 @@ Crear una órden de compra
 	- En la esquina superior derecha puede ver el número consecutivo de la órden
 	- Escoja el almacén en la lista desplegable, del cual hará el despacho
 	- Introduzca la fecha para el inicio del proceso 
-	- Escoja el cliente al que enviará la mercancía haciendo click en el botón |buscar.bmp|
+	- Escoja el cliente al que enviará la mercancía haciendo click en el botón |find.bmp|
 	- Introduzca la orden de compra del referido comercial. 
 	- Introduzca la orden de compra del cliente directo. No es obligatoria.
 	- Es posible escribir cualquier observación útil relacionada a la OCL.
@@ -68,13 +68,14 @@ Al anular un ingreso de vehículo se deja registro de la OCL para poder consulta
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

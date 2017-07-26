@@ -28,7 +28,7 @@ Buscar un registro
 	- Elija un periodo marcando la opción 'Por periodos' o marque 'Actuales' Para ver los despachos o ingresos que aún no han sido terminados
 	- Haga click en |btn_ok.bmp| para ejecutar la búsqueda
 
-	..NOTE:
+	..NOTE::
 
 		Puede hacer una búsqueda directa si posee el número de referencia del registro usando la casilla de texto: "Filtrar por # ingreso"
 
@@ -42,7 +42,7 @@ Registrar ingreso de vehículo con producto
 	- En la lista "Seleccione almacén" escoja el almacén donde hará la entrada o la salida de producto
 	- En la lista "Seleccione el tipo pesaje" puede elegir si el producto está entrando o saliendo
 	- Haga click en |wznew.bmp| 
-	- Seleccione un conductor de la lista haciendo click en el botón |buscar.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
+	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
@@ -72,7 +72,7 @@ Registrar una entrada de vehículo vacío
 	- En la lista "Seleccione almacén" escoja el almacén donde hará la entrada o la salida de producto
 	- En la lista "Seleccione el tipo pesaje" puede elegir si el producto está entrando o saliendo
 	- Haga click en |wznew.bmp| 
-	- Seleccione un conductor de la lista haciendo click en el botón |buscar.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
+	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Salida" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
@@ -105,13 +105,14 @@ Registrar salida de vehículo con producto
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

@@ -3,7 +3,7 @@ Administración de certificados líquidos
 ======================================
 
 Ubicación
----------
+=========
 
 :Módulo:
  Real Q
@@ -34,7 +34,7 @@ Imprimir un certificado
 	- Haga click en |btn_ok.bmp| para ejecutar la búsqueda. Los resultados que coinciden con los filtros anteriores aparecerán en la grilla con información pertinente.
 	- Elija el certificado a imprimir guiándose por el vehículo, el conductor, la fecha, los pesos o de manera más exacta: por el número de salida.
 	- Haga check al final de la fila, de los certificados que desea imprimir, en la casilla de verificación.
-	- Haga clic en |primter_q.bmp| para imprimir.
+	- Haga clic en |printer_q.bmp| para imprimir.
 
 
 
@@ -47,13 +47,14 @@ Imprimir un certificado
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

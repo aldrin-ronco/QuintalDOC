@@ -32,9 +32,9 @@ Imprimir los certificados
 	- Ejecute la opción "Administración de certificados sólidos"
 	- En la lista "Seleccionar almacén" escoja el almacén donde se encuentran los lotes remitidos
 	- Puede filtrar por periodo de tiempo: Elija Actuales para ver los últimos lotes remitidos; elija Por periodos para poder ingresar una fecha inicio y una fin
-	- Escoja un predespacho en específico. Haga click en |buscar.bmp| *Buscar Predespacho*; también puede omitir este filtro
+	- Escoja un predespacho en específico. Haga click en |find.bmp| *Buscar Predespacho*; también puede omitir este filtro
 	- Escoja un cliente como filtro para ver los lotes remitidos. Seleccione un cliente de la lista "búsqueda por cliente"
-	- Puede filtrar los lotes por producto haciendo click en |buscar.bmp| o en la lista 
+	- Puede filtrar los lotes por producto haciendo click en |find.bmp| o en la lista 
 	- Origen de datos: Se refiere a la forma de presentación - Original o Espejo
 	- Idioma: Elija el idioma en el que se presenta el certificado
 	- Todos - Impresos - Sin imprimir: Elija uno de estos filtros para mostrar los certificados por lote según el estado

@@ -101,7 +101,7 @@ Seleccionar Lotes Mezclados (Lote tipo Especial)
 	- Arrastre los sacos que quiere mezclar en el nuevo ingreso y que pertenecerán a este nuevo lote
 	- Haga click en |save.bmp| *Guardar*
  
-	.. NOTE:
+	.. NOTE::
  
 		Puede verificar la salida de los sacos, y la entrada al inventario como un nuevo lote en el movimiento de kardex por producto x tipo de transacción
  
@@ -158,13 +158,14 @@ Digitar OCP cliente
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

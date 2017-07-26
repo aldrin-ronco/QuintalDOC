@@ -32,9 +32,9 @@ Imprimir los certificados
 	- Ejecute la opción "Administración de certificados sólidos"
 	- En la lista "Seleccionar almacén" escoja el almacén donde se encuentran los lotes remitidos
 	- Puede filtrar por periodo de tiempo: Elija Actuales para ver los últimos lotes remitidos; elija Por periodos para poder ingresar una fecha inicio y una fin
-	- Escoja un predespacho en específico. Haga click en |buscar.bmp| *Buscar Predespacho*; también puede omitir este filtro
+	- Escoja un predespacho en específico. Haga click en |find.bmp| *Buscar Predespacho*; también puede omitir este filtro
 	- Escoja un cliente como filtro para ver los lotes remitidos. Seleccione un cliente de la lista "búsqueda por cliente"
-	- Puede filtrar los lotes por producto haciendo click en |buscar.bmp| o en la lista 
+	- Puede filtrar los lotes por producto haciendo click en |find.bmp| o en la lista 
 	- Origen de datos: Se refiere a la forma de presentación - Original o Espejo
 	- Idioma: Elija el idioma en el que se presenta el certificado
 	- Todos - Impresos - Sin imprimir: Elija uno de estos filtros para mostrar los certificados por lote según el estado
@@ -57,13 +57,14 @@ Imprimir los certificados
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

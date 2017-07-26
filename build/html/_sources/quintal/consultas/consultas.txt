@@ -22,3 +22,4 @@ Parámetros
   /quintal/consultas/cn_informe_semanal_lote
   /quintal/consultas/cn_analisis_x_perfil
   
+  

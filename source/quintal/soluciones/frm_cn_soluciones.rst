@@ -22,7 +22,7 @@ Introducción
 Consultar una solución
 ----------------------
 	- Ejecute la opción *Consulta de protocolo para preparación de soluciones*
-	- Para consultar una solución puede usar el listado de soluciones en la parte superior de la ventana o usar la búsqueda rápida |buscar.bmp|. *En la búsqueda rápida puede escribir el nombre de la solución para encontrarlo*
+	- Para consultar una solución puede usar el listado de soluciones en la parte superior de la ventana o usar la búsqueda rápida |find.bmp|. *En la búsqueda rápida puede escribir el nombre de la solución para encontrarlo*
 	- Una vez elegida la solución, haga click en el botón |btn_ok.bmp| para realizar la consulta de protocolos
 	- Se desplegarán las filas con los resultados. Puede consultar el protocolo haciendo click al final de la fila en el botón |export1.gif| y luego dando click en 'Imprimir protocolo de...'
 
@@ -39,13 +39,14 @@ Consultar una solución
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp

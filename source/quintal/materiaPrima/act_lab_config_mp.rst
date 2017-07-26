@@ -38,8 +38,9 @@ Modificar encabezado del análisis
 
 Elegir un perfil de análisis para la materia prima
 ==================================================
+
 	
-	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima*
+	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima* - Vea, `Perfil de análisis <../parametros/act_perfil_x_analisis.html>`_
 	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menu emergente elija la opción "Vincular perfil análisis"
 	- En la nueva ventana, seleccione un perfil de la lista y haga click en |save.bmp| *Guardar*
 
@@ -53,15 +54,16 @@ Elegir un perfil de análisis para la materia prima
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp
 
 	

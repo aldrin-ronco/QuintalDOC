@@ -37,7 +37,7 @@ Introducción
 	Paso 3:
 	-------
 
-		Registre la salida del camión con su nuevo peso y evalúe el peso final del producto despachado según la concentración `Crear un nuevo despacho - Salida`_
+		Registre la salida del camión con su nuevo peso y evalúe el peso final del producto despachado según la concentración `Registrar una salida en el despacho`_
 
 
 
@@ -49,9 +49,9 @@ Crear un nuevo despacho - Entrada
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Haga aclick en el botón |wznew.bmp|
 	- Selección en la lista 'Seleccione Almacén' el Almacén de donde sale el despacho
-	- Seleccione un conductor de la lista haciendo click en el botón |buscar.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
+	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
-	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <>`_
+	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
 	- Presione |save.bmp| *Guardar* o F2
@@ -72,15 +72,15 @@ Buscar un despacho
 Registrar una salida en el despacho
 -----------------------------------
 
-		.. NOTE:
+		.. NOTE::
 
 			Al buscar el despacho - entrada creado anteriormente recuerde que no puede usar el filtro cliente ya que no ha sido asignado.
 
 	- Ejecute la opción "Administración Despacho Productos líquidos"
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif| Seleccione la opción "Registro de Salida"
-	- Seleccione el cliente |buscar.bmp| *Cliente*
-	- Seleccione el producto |buscar.bmp| *Producto*
+	- Seleccione el cliente |find.bmp| *Cliente*
+	- Seleccione el producto |find.bmp| *Producto*
 	- Si ya ha asociado este auto aun análisis, entonces verá como los datos del análisis son cargados en pantalla. Si no lo ha hecho, no podrá ver el peso final real de la solución por los momentos, ya que no se tienen los datos de concentración
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Salida" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
 	- Revise que el tercer digito: Peso Materia Prima, coincida con el peso requerido por el cliente. **Recuerde que la concentración en el análisis es un factor determinante en el peso final**
@@ -120,14 +120,15 @@ Al eliminar un ingreso, no se deja registro alguno. El consecutivo de los regist
 .. |calendaricon.gif| image:: ../../../_images/generales/calendaricon.gif
 .. |gear.bmp| image:: ../../../_images/generales/gear.bmp
 .. |openfolder.bmp| image:: ../../../_images/generales/openfold.bmp
-.. |library_listview.bmp| image:: ../../../_images/generales/library_listview.png
+.. |library_listview.png| image:: ../../../_images/generales/library_listview.png
 .. |plus.bmp| image:: ../../../_images/generales/plus.bmp
 .. |wzedit.bmp| image:: ../../../_images/generales/wzedit.bmp
-.. |buscar.bmp| image::../../../_images/generales/buscar.bmp
+.. |find.bmp| image::../../../_images/generales/find.bmp
 .. |delete.bmp| image:: ../../../_images/generales/delete.bmp
 .. |btn_ok.bmp| image:: ../../../_images/generales/btn_ok.bmp
 .. |refresh.bmp| image:: ../../../_images/generales/refresh.bmp
 .. |descartar.bmp| image:: ../../../_images/generales/descartar.bmp
 .. |save.bmp| image:: ../../../_images/generales/save.bmp
 .. |wznew.bmp| image:: ../../../_images/generales/wznew.bmp
+.. |find.bmp| image:: ../../../_images/generales/find.bmp
 	
