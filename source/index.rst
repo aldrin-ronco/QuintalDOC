@@ -14,3 +14,4 @@ Módulos Administrativos
   :maxdepth: 1
 
   /quintal/quintal
+  /config/config

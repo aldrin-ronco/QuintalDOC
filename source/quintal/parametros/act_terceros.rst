@@ -36,6 +36,10 @@ Para crear un nuevo tercero, realice los siguientes pasos:
 
 	- Ejecute la opción *Administrador de Terceros*
 	- Haga click en el botón |wznew.bmp| *Nuevo*
+
+			.. figure:: images/cajasybancos/0.png
+ 			:align: center
+
 	- Verá una ventana emergente con los campos necesarios para la especificación del tercero.
     - En la cabecera conseguirá dos opciones llamadas "Múltiples textos" y "Único texto" que modificarán la manera en cómo el sistema pide los datos (En uno, o en varios campos de texto)
 

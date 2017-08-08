@@ -19,7 +19,7 @@ Introducción
 
 	En esta interfaz puede confiurar las características de los lotes que marcarán los sacos de los productos producidos. 
 
-	Asigne el tipo de consecutivo a un tipo de lote. Vea, `Crear un consecutivo <>`
+	Asigne el tipo de consecutivo a un tipo de lote. Vea, `Crear un consecutivo <../../config/parametros/act_consecutivos.html#crear-un-consecutivo>`_
 
 Crear nuevo tipo de lote
 ========================
