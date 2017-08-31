@@ -43,6 +43,9 @@ Registrar ingreso de vehículo con producto
 	- En la lista "Seleccione almacén" escoja el almacén donde hará la entrada o la salida de producto
 	- En la lista "Seleccione el tipo pesaje" puede elegir si el producto está entrando o saliendo
 	- Haga click en |wznew.bmp| 
+		      .. figure:: images/despaotros/3.jpg
+           				 :align: center
+
 	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
@@ -79,6 +82,8 @@ Registrar una entrada de vehículo vacío
 	- En la lista "Seleccione almacén" escoja el almacén donde hará la entrada o la salida de producto
 	- En la lista "Seleccione el tipo pesaje", elija: Producto Saliendo
 	- Haga click en |wznew.bmp| 
+		      .. figure:: images/despaotros/1.jpg
+           				 :align: center
 	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
 	- Seleccione una transportadora en la lista o agréguela haciendo click en el botón |plus.bmp|. Siga las instrucciones de `Crear transportadora <../parametros/act_transportadoras.html#crear-una-transportadora>`_
@@ -95,6 +100,8 @@ Registrar salida de vehículo con producto
 	- Ejecute la opción *Administración despacho para otros productos*
 	- Realice una búsqueda de la entrada en peso. `Buscar un registro`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
+		      .. figure:: images/despaotros/2.jpg
+           				 :align: center
 	- Escoja la destino del producto: Cliente, Traslado, Libre
 		- **Cliente:** Elija un cliente como destino del vehículo - `Crear un cliente </parametros/act_clientes_pos.html#crear-un-cliente>`_
 		- **Traslado:** Se usa para trasladar entre almacenes de la misma empresa, el almacén debe haber sido establecido como destino en: `Configuración de destinos <../parametros/act_destinos.html#agregar-un-nuevo-destino>`_

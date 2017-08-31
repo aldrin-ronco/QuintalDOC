@@ -36,20 +36,19 @@ Para crear un nuevo tercero, realice los siguientes pasos:
 
 	- Ejecute la opción *Administrador de Terceros*
 	- Haga click en el botón |wznew.bmp| *Nuevo*
-
-			.. figure:: images/cajasybancos/0.png
+		.. figure:: images/terceros/1.jpg
  			:align: center
-
 	- Verá una ventana emergente con los campos necesarios para la especificación del tercero.
     - En la cabecera conseguirá dos opciones llamadas "Múltiples textos" y "Único texto" que modificarán la manera en cómo el sistema pide los datos (En uno, o en varios campos de texto)
 
 
  	- Se desplegará una ventana emergente donde podrá dar cavida a los datos del *tercero*:
+ 			.. figure:: images/terceros/2.jpg
+ 				:align: center	
  		- Régimen (tributario): 
  			- Simplificado
  			- Común
  			- Gran contribuyente
-
  			- **Documento de identificación**: Si hay un tercero creado con este id, entonce el sistema lanzará una alerta para indicar que ya existe.
  			- **Datos básicos**: Nombres (si es Régimen Común) o Razón social, teléfonos, dirección
 
@@ -74,7 +73,11 @@ Modificar un tercero
  	- Ejecute la opción *Administración de terceros*
  	- Haga click en el tercero a modificar, en la grilla
  	- Presione el botón |wzedit.bmp| *modificar* al pie de la ventana
+ 			.. figure:: images/terceros/3.jpg
+ 				:align: center	
  	- Aparecerá una ventana donde podrá cambiar los datos del tercero que necesite, y dejar los que considere ya están bien.
+ 			.. figure:: images/terceros/4.jpg
+ 				:align: center	
 
 
 
@@ -84,8 +87,11 @@ Elmiminar un tercero
  	- Ejecute la opción *Administración de terceros*
  	- Haga click en el tercero a eliminar, en la grilla
  	- Presione el botón |delete.bmp| *eliminar* al pie de la ventana
+ 			.. figure:: images/terceros/5.jpg
+ 				:align: center	
 	- En el cuadro de confirmación presiones 'Sí'
-
+ 			.. figure:: images/terceros/6.jpg
+ 				:align: center	
  	** No podrá eliminar un tercero que tenga cualquier tipo de transacción adjudicada.**
 
 

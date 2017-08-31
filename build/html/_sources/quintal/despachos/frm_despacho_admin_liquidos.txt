@@ -48,6 +48,10 @@ Crear un nuevo despacho - Entrada
 	
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Haga aclick en el botón |wznew.bmp|
+
+		      .. figure:: images/despaliquidos/1.jpg
+           				 :align: center
+
 	- Selección en la lista 'Seleccione Almacén' el Almacén de donde sale el despacho
 	- Seleccione un conductor de la lista haciendo click en el botón |find.bmp|. Si no tiene el conductor guardado, llene los datos correspondientes (nombres y apellidos) y quedará guardado de manera automática al finalizar este proceso.
 	- Escriba la placa del vehículo de transporte (tres letras - tres números)
@@ -87,6 +91,9 @@ Registrar una salida en el despacho
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
 	- Presione |save.bmp| *Guardar* o F2
 
+		      .. figure:: images/despaliquidos/2.jpg
+           				 :align: center
+
 Anular un despacho/ingreso de vehículo
 --------------------------------------
 
@@ -96,6 +103,9 @@ Al anular un ingreso de vehículo se inhabilita el proceso, pero se deja registr
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Anular ingreso de vehículo"
 
+		      .. figure:: images/despaliquidos/3.jpg
+           				 :align: center
+
 Eliminar un despacho/ingreso de vehículo
 --------------------------------------
 
@@ -104,6 +114,9 @@ Al eliminar un ingreso, no se deja registro alguno. El consecutivo de los regist
 	- Ejecute la opción "Administración Despacho Productos Líquidos"
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Eliminar ingreso de vehículo"
+
+		      .. figure:: images/despaliquidos/4.jpg
+           				 :align: center
 
 
 

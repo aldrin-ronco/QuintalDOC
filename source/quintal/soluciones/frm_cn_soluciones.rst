@@ -24,7 +24,18 @@ Consultar una solución
 	- Ejecute la opción *Consulta de protocolo para preparación de soluciones*
 	- Para consultar una solución puede usar el listado de soluciones en la parte superior de la ventana o usar la búsqueda rápida |find.bmp|. *En la búsqueda rápida puede escribir el nombre de la solución para encontrarlo*
 	- Una vez elegida la solución, haga click en el botón |btn_ok.bmp| para realizar la consulta de protocolos
+			.. figure:: images/consulta/1.jpg
+ 						:align: center
 	- Se desplegarán las filas con los resultados. Puede consultar el protocolo haciendo click al final de la fila en el botón |export1.gif| y luego dando click en 'Imprimir protocolo de...'
+			.. figure:: images/consulta/2.jpg
+ 						:align: center
+
+
+Ejemplo de consulta
+-------------------
+
+			.. figure:: images/consulta/3.jpg
+ 						:align: center
 
 
 

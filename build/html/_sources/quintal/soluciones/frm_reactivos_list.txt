@@ -27,16 +27,24 @@ Crear un Reactivo de Solución
 
 	- Ejecute la opción *Administración de Reactivos para la preparación de soluciones*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
+			.. figure:: images/reactivos/1.jpg
+ 						:align: center
+
 	- En la parte superior de la nueva ventana digite el nombre del Reactivo, ejemplo: ACETATO DE PLOMO TRIHIDRATADO         
 	- En la pestaña 'Pictogramas' seleccione aquellos que representen una cualidad del Reactivo.
+			.. figure:: images/reactivos/1b.jpg
+ 						:align: center
 	- En la pestaña 'Riesgos y Soluciones':
 		- Seleccione un riesgo de la lista superior
-		- Seleccione en la grilla las precauciones/soluciones/medidas que van asociadas al riesgo, marcándolas en la casilla de verificación.
-		- Haga click en el botón |plus.bmp|
+		- Seleccione en la grilla las precauciones/soluciones/medidas que van asociadas al riesgo, marcándolas en la casilla de verificación. 
+		- Haga click en el botón |plus.bmp|. Las precauciones ahora pueden ser ordenadas, arrastrandolas hacia arriba o hacia abajo.
+			.. figure:: images/reactivos/1d.jpg
+ 						:align: center
 		- Puede asociar cuantos riesgos considere.
 	- En la parte inferior de la ventana, marque la casilla *Activo* si desea que el reactivo esté disponible para el protocolo de solución.
 	- Haga click en |save.bmp| *Guardar*
-
+			.. figure:: images/reactivos/1c.jpg
+ 						:align: center
 
 Modificar un Reactivo de Solución
 ----------------------------------
@@ -44,7 +52,11 @@ Modificar un Reactivo de Solución
 	- Ejecute la opción "Administración de Reactivos para la preparación de soluciones"
 	- Haga click en un Reactivo de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
+			.. figure:: images/reactivos/2.jpg
+ 						:align: center
 	- En la ventana emergente cambie los campos que considere oportuno. Si desea saber que significa cada campo vea la explicación en `Crear un Reactivo de Solución`_
+			.. figure:: images/reactivos/2b.jpg
+ 						:align: center
 
 Eliminar un Reactivo de Solución
 ---------------------------------
@@ -52,7 +64,11 @@ Eliminar un Reactivo de Solución
 	- Ejecute la opción "Administración de Reactivos para la preparación de soluciones"
 	- Haga click en un Reactivo de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
+			.. figure:: images/reactivos/3.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'
+			.. figure:: images/reactivos/3b.jpg
+ 						:align: center
 
 
 

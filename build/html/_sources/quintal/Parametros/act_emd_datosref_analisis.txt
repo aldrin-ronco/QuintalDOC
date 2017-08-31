@@ -19,6 +19,9 @@ Introducción
 
 	Introduzca en esta interfaz el valor necesario usado como referencia en el registro de los análisis previos de EMD. Esta referencia solo tiene un valor a la vez, el último configurado.
 
+			.. figure:: images/referencia/0.jpg
+ 						:align: center
+
 Crear un valor de referencia
 ============================
 	

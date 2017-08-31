@@ -26,7 +26,10 @@ Para crear un cliente realice los siguientes pasos:
  	
  	- Ejecute la opción *Administración de clientes*
  	- En el pie de la ventana pulse sobre el botón |wznew.bmp| *nuevo*
+  			.. figure:: images/terceros/1.jpg
+ 				:align: center	
  	- Se desplegará una ventana emergente donde podrá dar cavida a los datos del cliente:
+
  		- Régimen (tributario): 
  			- Simplificado
  			- Común
@@ -39,13 +42,13 @@ Para crear un cliente realice los siguientes pasos:
 
 
  		- **Datos básicos**: Nombres (si es Régimen Común) o Razón social, teléfonos, dirección
-
+ 		 		.. figure:: images/terceros/2.jpg
+ 						:align: center	
  		.. NOTE::
 
  			Datos obligatorios: Primer nombre, primer apellido, departamento, municipio y número de documento.
 
  		- **Otros datos**: 
-
  				- Nombre comercial: Nombre del establecimiento (no razón social)
  				- vendedor destinado: Un vendedor puede ser asociado  a un cliente. Será cargado automáticamente en el momento de hacer una venta a este cliente.
  				- Email
@@ -58,11 +61,16 @@ Para crear un cliente realice los siguientes pasos:
 
  		- **Sucursales**: Un cliente puede tener en cuanto a su negocio, varias sucursales. En esta pestaña se pueden crear sucursales para saber a cual se atiende en el momento de la venta. Para crear una nueva sucursal, haga click en la pestaña 'Sucursales' y luego en el botón 'Crear sucursales'. La referencia de la sucursal se refiere a cualquier nombre que la pueda identificar.
 
+ 				.. figure:: images/terceros/2b.jpg
+ 						:align: center	
 
  		- **Retenciones:** Aparece un listado de retenciones creadas en sistema, puede marcar las que quiere que se apliquen **automáticamente** sobre la facturación para este cliente. 
  			- Puede marcar la casilla *Retiene sobre cualquier base* para aplicar las retenciones marcadas en cualquier monto imponible.
 
  		- **Leyenda Certificado:** Digite aquí un texto de personalización para la certificación de sólidos. Este texto es opcional. El resto del certificado permanece igual.
+
+  		 		.. figure:: images/terceros/2c.jpg
+ 						:align: center	
 
 Modificar un cliente
 ====================
@@ -70,6 +78,8 @@ Modificar un cliente
  	- Ejecute la opción *Administración de clientes*
  	- Seleccione, haciendo click, a un cliente en la grilla
  	- Presione el botón |wzedit.bmp| *modificar* al pie de la ventana 
+  		 	.. figure:: images/terceros/3.jpg
+ 						:align: center	
  	- Aparecerá una ventana donde podrá cambiar los datos del cliente que necesite, y dejar los que considere ya están bien.
 
 
@@ -78,6 +88,8 @@ Elmiminar un cliente
  	- Ejecute la opción *Administración de clientes*
  	- Seleccione, haciendo click, a un cliente en la grilla
  	- Presione el botón |delete.bmp| *eliminar* al pie de la ventana
+  		 	.. figure:: images/terceros/4.jpg
+ 						:align: center	
 
  	- En el cuadro de confirmación presiones 'Sí'
 

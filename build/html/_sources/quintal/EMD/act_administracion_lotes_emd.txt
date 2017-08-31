@@ -43,6 +43,9 @@ Crear Nuevo Ingreso Lote EMD
 	- Ingrese el número de sacos por estiba
 	- La producción por lote multiplica los sacos * kg de la presentación * sacos por estiba
 	- Haga click en |save.bmp| *Generar*
+
+		      .. figure:: images/emd/1.jpg
+           				 :align: center
  
 Buscar un Ingreso EMD
 =====================
@@ -53,6 +56,9 @@ Buscar un Ingreso EMD
 	- En la lista "Tipo de lote" facilite la búsqueda eligiendo el tipo de lote que seleccionó al crear el ingreso. No es obligatorio
 	- Si conoce el número del lote, puede saltarse los pasos anteriores y usar la casilla "Filtro por lote" para buscar uno en específico
 	- Haga click en |btn_ok.bmp|
+
+ 		      .. figure:: images/emd/5.jpg
+           				 :align: center
  
 Modificar un ingreso/registro
 =============================
@@ -66,16 +72,27 @@ Modificar un ingreso/registro
  
 Seleccionar sacos para analizar
 ===============================
- 
+ 		 
+ 		      .. figure:: images/emd/2.jpg
+           				 :align: center
+         
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Seleccionar sacos"
 	- En la nueva ventana, seleccione la forma de elección de los sacos en la lista "Selección de sacos"
 	- Si elige 'Manual' seleccione las casillas correspondientes a los sacos que quiere
 	- Haga click en |save.bmp| *Guardar*
+
+ 		      .. figure:: images/emd/2b.jpg
+           				 :align: center
+
+
  
 Realizar Análisis Previos
 =========================
+
+ 		      .. figure:: images/emd/3.jpg
+           				 :align: center
  
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
@@ -86,6 +103,9 @@ Realizar Análisis Previos
 	- Se desplegará una ventana con una grilla con todos los lotes. Los lotes en verde son los seleccionados en el paso anterior. Las celdas de los lotes verdes son editables.
 	- Digite los valores en las celdas correspondientes a los análisis previos de los lotes y a sus valores OCP
 	- Haga click en |save.bmp|
+
+ 		      .. figure:: images/emd/3b.jpg
+           				 :align: center
  
 Seleccionar Lotes Mezclados (Lote tipo Especial)
 ================================================
@@ -114,10 +134,16 @@ Revertir Análisis Previos
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Revertir análisis previos"
 	- En la ventana de confirmación presione *Sí*
+
+ 		      .. figure:: images/emd/6.jpg
+           				 :align: center
  
 Realizar Análisis final
 =======================
  
+  		      .. figure:: images/emd/4.jpg
+           				 :align: center
+
 	- Escoja un registro de ingreso de la grilla. Vea, `Buscar un Ingreso EMD`_
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Realizar Análisis final"
@@ -130,7 +156,9 @@ Realizar Análisis final
 	- Al finalizar presione |save.bmp| *Guardar*
 	- En la ventana emergente, escriba alguna observación y presione |btn_ok.bmp| *Aceptar* o F2
 	
- 
+ 		      .. figure:: images/emd/4b.jpg
+           				 :align: center
+
 Revertir Análisis Final
 =======================
  
@@ -138,6 +166,9 @@ Revertir Análisis Final
 	- Al final de la fila haga click en |export1.gif| 
 	- En el menú desplegado haga click en "Revertir análisis final a análisis previos"
 	- En la ventana de confirmación presione *Sí*
+
+ 		      .. figure:: images/emd/7.jpg
+           				 :align: center
  
 Digitar OCP cliente
 ===================

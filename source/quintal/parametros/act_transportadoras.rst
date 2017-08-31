@@ -27,7 +27,11 @@ Crear una Transportadora
 
 	- Ejecute la opción *Administración de Transportadoras*
 	- Haga click en |wznew.bmp| *Nuevo* 
+			.. figure:: images/transportadoras/1.jpg
+ 						:align: center
 	- En la ventana emergente ingrese el nombre de la transportadora y haga click en |save.bmp| *Guardar*
+			.. figure:: images/transportadoras/2.jpg
+ 						:align: center
 
 Modificar un Transportadora
 ---------------------------
@@ -35,7 +39,11 @@ Modificar un Transportadora
 	- Ejecute la opción *Administración de Transportadoras*
 	- Seleccione en la grilla la transportadora a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
+			.. figure:: images/transportadoras/3.jpg
+ 						:align: center
 	- En la ventana emergente ingrese el nuevo nombre de la transportadora y haga click en |save.bmp| *Guardar*
+			.. figure:: images/transportadoras/4.jpg
+ 						:align: center
 
 Eliminar un Transportadora
 --------------------------
@@ -43,8 +51,11 @@ Eliminar un Transportadora
 	- Ejecute la opción *Administración de Transportadoras*
 	- Seleccione en la grilla la transportadora a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
+			.. figure:: images/transportadoras/5.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'
-
+			.. figure:: images/transportadoras/6.jpg
+ 						:align: center
 
 	**No podrá eliminar una transportadora que tenga un despacho adjudicado.**
 

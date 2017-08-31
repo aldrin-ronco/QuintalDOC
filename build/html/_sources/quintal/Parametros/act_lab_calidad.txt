@@ -23,7 +23,11 @@ Crear una ocpión de Calidad
 
 	- Ejecute la opción *Administración de Calidades*
 	- Haga click en |wznew.bmp| *Nuevo* 
+			.. figure:: images/calidad/1.jpg
+ 						:align: center
 	- En la ventana emergente ingrese el nombre de la nueva opción de calidad y haga click en |save.bmp| *Guardar*
+			.. figure:: images/calidad/2.jpg
+ 						:align: center
 
 Modificar un opción de Calidad
 ------------------------------
@@ -31,7 +35,11 @@ Modificar un opción de Calidad
 	- Ejecute la opción *Administración de Calidades*
 	- Seleccione en la grilla la Calidad a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
+			.. figure:: images/calidad/3.jpg
+ 						:align: center
 	- En la ventana emergente ingrese el nuevo nombre de la opción de Calidad y haga click en |save.bmp| *Guardar*
+			.. figure:: images/calidad/4.jpg
+ 						:align: center
 
 Eliminar un opción de Calidad
 -----------------------------
@@ -39,8 +47,12 @@ Eliminar un opción de Calidad
 	- Ejecute la opción *Administración de Calidades*
 	- Seleccione en la grilla la Calidad a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
-	- En la ventana de confirmación pulse 'Sí'
+			.. figure:: images/calidad/5.jpg
+ 						:align: center
 
+	- En la ventana de confirmación pulse 'Sí'
+			.. figure:: images/calidad/6.jpg
+ 						:align: center
 	.. NOTE:: 
 
 		No podrá eliminar una opción de Calidad que haya sido adjudicada a algún documento.

@@ -51,6 +51,11 @@ Usted podrá dar salida al reporte de *Consulta de Anñalisis por mes* en los si
 
 	- |excel.bmp| Excel
 
+
+      .. figure:: images/6.jpg
+            :align: center
+
+
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
 .. |excel.bmp| image:: ../../../_images/generales/excel.bmp

@@ -41,6 +41,9 @@ Crear un nuevo despacho - Entrada
 	- Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Entrada" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
 	- Presione |save.bmp| *Guardar* o F2
+		      .. figure:: images/despasolidos/1.jpg
+           				 :align: center
+
 
 Buscar un despacho
 ------------------
@@ -58,6 +61,11 @@ Registrar una salida en el despacho
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Registro de Salida"
+
+	      .. figure:: images/despasolidos/2a.jpg
+            		:align: center
+
+
 	- Introduzca la referencia del Predespacho en la casila "Predespacho No"
 	- En la lista "Seleccione el producto a despachar" escoja el producto.
 	- En la lista "Seleccione Contenedor" escoja el número de contenedor al que le hará registro de salida. 
@@ -65,6 +73,16 @@ Registrar una salida en el despacho
 	- Revise que el tercer digito: Peso Materia Prima, coincida con el peso requerido por el cliente
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
 	- Presione |save.bmp| *Guardar* o F2
+
+	      .. figure:: images/despasolidos/2b.jpg
+           		 :align: center
+  
+** Tiquete de báscula:***
+
+ 	      .. figure:: images/despasolidos/2c.jpg
+              	  :align: center
+
+
 
 Anular un despacho/ingreso de vehículo
 --------------------------------------
@@ -74,6 +92,8 @@ Al anular un ingreso de vehículo se inhabilita el proceso, pero se deja registr
 	- Ejecute la opción "Administración Despacho Productos Sólidos"
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Anular ingreso de vehículo"
+		      .. figure:: images/despasolidos/3.jpg
+           				 :align: center
 
 Eliminar un despacho/ingreso de vehículo
 --------------------------------------
@@ -84,7 +104,8 @@ Al eliminar un ingreso, no se deja registro alguno. El consecutivo de los regist
 	- Realice una búsqueda del despacho al que ya realizó una entrada en peso. `Buscar un despacho`_
 	- Localice el despacho en la grilla, y al final de la fila presione |export1.gif|. Seleccione la opción "Eliminar ingreso de vehículo"
 
-
+		      .. figure:: images/despasolidos/4.jpg
+           				 :align: center
 
 
 .. |export1.gif| image:: ../../../_images/generales/export1.gif

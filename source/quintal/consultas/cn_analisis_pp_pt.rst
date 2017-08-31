@@ -46,7 +46,15 @@ Opciones de salida
 Usted podrá dar salida al reporte de *Consulta de Anñalisis por mes* en los siguientes formatos:
 
 	- |excel.bmp| Excel
-	- |excel.bmp| Excel y Gráfica
+	- |excel.bmp| Excel y Gráfi
+
+      .. figure:: images/7.jpg
+            :align: center
+
+      .. figure:: images/7b.jpg
+            :align: center
+
+
 
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif

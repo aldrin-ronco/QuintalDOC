@@ -22,6 +22,9 @@ Introducción
 	El ingreso de un vehículo con materia prima se adapta a las `definiciones del producto <../materiaPrima/act_maestroinsumos.html#configuracion-avanzada-del-producto>`_. Si usted eligió que la materia prima ingresaba por lotes y además tenía presentaciones distintas, podrá ver reflejado eso en el formulario de ingresos.
  
 	*En el ingreso de mercancía se marca el peso del vehículo + el peso de la materia prima. Luego de hecho un ingreso, se hace inmediatamente la salida del vehículo para finiquitar el peso real de la mercancía entrante.*
+
+			.. figure:: images/registro/a.jpg
+ 						:align: center
  
 	Registro rechazado: Todo aquel cuyo análisis no cumplió con lo premeditado.
  
@@ -36,6 +39,10 @@ Crear un Ingreso de Materia Prima
  
 	- Ejecute la opción *Registro de ingreso de materias primas*
 	- Haga click en |wznew.bmp|
+
+			.. figure:: images/registro/1.jpg
+ 						:align: center
+
 	- En la ventana emergente, seleccione en la lista superior el almacén donde registra el ingreso del vehículo
 	- En el botón "Proveedor" seleccione la empresa que envía la materia prima
 	- En "Producto" seleccione la materia prima entrante. Si usted eligió en la creación de productos que el producto entra en Sacos, entonces aparecerá un nuevo campo a la derecha para colocar el número de sacos. Si usted eligió que el producto tenía varias presentaciones, aparecerá una lista debajo con las posibles opciones; elija una.
@@ -49,7 +56,8 @@ Buscar un Ingreso de Materia Prima
 ==================================
  
 	En la parte superior de la ventana, encontrará los 3 filtros principales para realizar una búsqueda
- 
+ 			.. figure:: images/registro/0.jpg
+ 						:align: center
 		1 - Por salidas: Se refiere a aquellos ingresos de mercancía creados, a los que no se les ha registrado salida de automóvil. 
 		2 - Por Analizar: Se refiere a aquellos ingresos de mercancía creados, a los que ya se les registro una salida pero aún no se ha ingresado el análisis correspondiente para terminar el proceso.
 		3 - Rechazados: Una vez realizado el análisis, si alguna variable está fuera de rango, el ingreso es rechazado.
@@ -69,6 +77,8 @@ Pesar salida de vehículo
 	- Ejecute la opción *Registro de ingreso de materias primas*
 	- Encuentre el registro que busca, vea: `Buscar un Ingreso de Materia Prima`_
 	- Al final de la fila del registro, presione |export1.gif|. Seleccione la opción "Realizar registro de salida" 
+			.. figure:: images/registro/2.jpg
+ 						:align: center
 	- En la ventana desplegada: Si el caso es el de tener una rampa/báscula conectada al sistema, verifique que el peso marcado en "Peso Salida" es coherente. Si desea marcarlo manualmente, haga click en "Capturar peso manual" (Debe tener el permiso necesario). El sistema pedirá una contraseña, introduzcala y proceda a marcar el peso
 	- En el cuadro de texto inferior puede hacer alguna observación pertinente
 	- Presione |save.bmp| *Guardar* o F2
@@ -79,6 +89,8 @@ Registrar Análisis de Materia Prima
 	- Ejecute la opción *Registro de ingreso de materias primas*
 	- Encuentre el registro que busca, vea: `Buscar un Ingreso de Materia Prima`_
 	- Al final de la fila del registro, presione |export1.gif|. Seleccione la opción "Realizar análisis de materia prima" 
+			.. figure:: images/registro/3.jpg
+ 						:align: center
 	- En la nueva ventana:
 		- En el campo "Fecha" escriba la fecha en el formato indicado
 		- En lo siguiente, puede elegir una hora para la realización del análisis
@@ -95,6 +107,9 @@ Registrar Análisis de Materia Prima Combinado
  
 Para hacer un análisis de Materia prima combinado (Para varios vehículos) deberá primero chequear esta opción en las características de la materia prima, en la pestaña 'Otros'.
  
+			.. figure:: images/registro/5a.jpg
+ 						:align: center
+
 	- Ejecute la opción *Registro de ingreso de materias primas*
 	- Encuentre el registro que busca, vea: `Buscar un Ingreso de Materia Prima`_
 	- Al final de la fila del registro, presione |export1.gif|. Seleccione la opción "Realizar análisis 
@@ -102,6 +117,9 @@ Para hacer un análisis de Materia prima combinado (Para varios vehículos) debe
 	- Se mostrará una grilla con los registros de vehículo para esta materia. Elija los vehículos a los que se les enlazará el análisis próximo a hacer.
 	- Presione "Continuar"
 	- Siga los pasos restantes descritos en `Registrar Análisis de Materia Prima`_
+
+			.. figure:: images/registro/5b.jpg
+ 						:align: center
  
 Derogar un registro
 ===================
@@ -111,6 +129,10 @@ Derogar un registro
 	- Al final de la fila del registro, presione |export1.gif|. Seleccione la opción "Derogación materia prima" - Solo disponible para registros rechazados 
 	- Verá una ventana con los resultados de los análisis que fueron rechazados y podrá escribir una observación. Justifique allí el porqué de la derogación. 
 	- Haga click en |save.bmp| "Guardar"
+
+
+			.. figure:: images/registro/6.jpg
+ 						:align: center
  
  
 Liquidar un registro

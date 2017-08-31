@@ -38,12 +38,17 @@ Consultar una Solución
 	- En la parte superior puede seleccionar el periodo, o la opción 'actual' para consultar solo el día de hoy.
 	- Haga click en |btn_ok.bmp| para consultar los registros.
 
+			.. figure:: images/registro/2.jpg
+ 						:align: center
+
 Registrar una Solución
 ----------------------
 
-	- Ejecute la opción "Registro de resultados en soluciones preparadas"
+	- Ejecute la opción "Registro de resultados en soluciones preparadas". Debe tener el permiso adecuado para hacer un registro.
 	- Escoja en la lista 'Seleccione Solución' la Solución a la que se le hará registro de muestras
 	- Haga click en el botón |wznew.bmp| *Nuevo*
+			.. figure:: images/registro/1.jpg
+ 						:align: center
 	- En la nueva interfaz seleccione el 'Almacén' del que provienen las muestras
 	- Ingrese la fecha del muestreo
 	- Si la solución está Estandarizada
@@ -53,8 +58,11 @@ Registrar una Solución
 	- Si la solución NO está estandarizada
 		- Ingrese el volumen
 	- Haga click en |save.bmp| *Guardar*
+
+			.. figure:: images/registro/1b.jpg
+ 						:align: center
 	
-	.. NOTE:
+	.. NOTE::
 
 		Una solución es estandarizada cuando existe un proceso de escrito desde la definición de su protocolo en la pestaña de 'estandarización', vea: `Estandarización <../soluciones/frm_protocolo_solucion_list.html#estandarizacion>`_
 

@@ -37,6 +37,14 @@ Crear un evento
 	- Un evento puede contener palabras clave tales como: procedimiento, manganeso, julio. Si usa las palabras clave, luego le será más fácil buscar dentro de la bitácora
 	- Presione F2 o |save.bmp| *Guardar*
 
+      .. figure:: images/8.jpg
+            :align: center
+
+      .. figure:: images/8b.jpg
+            :align: center
+
+
+
 Consultar los eventos de un almacén
 -----------------------------------
 

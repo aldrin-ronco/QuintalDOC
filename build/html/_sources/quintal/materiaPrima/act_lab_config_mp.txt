@@ -21,11 +21,17 @@ Introducción
 
 	El encabezado del análisis se refiere a los parámetros tales como: Operario, estado de la planta, tanques, clientes, etc... que van a ser pedidos al momento de registrar el análisis. Además, seleccione los reactivos que usted puede visualizar al momento del registro del análisis.
 
+      .. figure:: images/perfiles/1.jpg
+            :align: center
+
 Modificar encabezado del análisis
 =================================
 
+      		.. figure:: images/perfiles/0.jpg
+            		:align: center
+
 	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima*
-	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menú emergente escoja la opción "Configuración de encabezado para materia"
+	- En el listado de materias primas, seleccione una y haga click derecho sobre ella. En el menú emergente escoja la opción "Configuración de encabezado para materia"
 	- Se desplegará una ventana con los parámetros elegibles:
 		- Operario
 		- Estado de la planta
@@ -39,9 +45,11 @@ Modificar encabezado del análisis
 Elegir un perfil de análisis para la materia prima
 ==================================================
 
+     		 .. figure:: images/perfiles/7.jpg
+            		:align: center
 	
 	- Ejecute la opción *Configuración de encabezado y perfil análisis materia prima* - Vea, `Perfil de análisis <../parametros/act_perfil_x_analisis.html>`_
-	- En el listado de materias primas, seleccione una y haga click derecho sobre él. En el menu emergente elija la opción "Vincular perfil análisis"
+	- En el listado de materias primas, seleccione una y haga click derecho sobre ella. En el menu emergente elija la opción "Vincular perfil análisis"
 	- En la nueva ventana, seleccione un perfil de la lista y haga click en |save.bmp| *Guardar*
 
 

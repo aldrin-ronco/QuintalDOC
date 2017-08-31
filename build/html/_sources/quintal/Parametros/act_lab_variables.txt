@@ -33,13 +33,17 @@ Crear una Variable/Constante
 
 	- Ejecute la opción *Administración de variables y constantes*
 	- En la parte inferior de la ventana, presione |wznew.bmp| *Nuevo*
+			.. figure:: images/variables/1.jpg
+ 						:align: center
 	- En el 'tipo' escoja entre:
 		
 		- **Variable Estandar:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. 
-
+			.. figure:: images/variables/2.jpg
+ 						:align: center
 		- **Variable Especial:** Si escoje este tipo, introduzca en el campo 'Nombre del parámetro' la referencia con la que desea llamar a la variable. *Las propiedades de la variable especial son modificadas en: `Administración de perfiles <../parametros/act_perfil_x_analisis.html>`_
 		- Constante: Aquí podrá agregar además del 'Nombre del parámetro', un valor a la constante.
-
+			.. figure:: images/variables/2b.jpg
+ 						:align: center
 		.. NOTE::
 
 			 El nombre de la variable (Llave del parámetro) se crea automáticamente tomando como referencia el nombre que usted introduce. Si desea puede cambiarlo en el campo 'Llave de parámetro'.
@@ -54,7 +58,11 @@ Modificar un Variable/Constante
 	- Ejecute la opción *Administración de Variables y Constantes*
 	- Seleccione en la grilla la Variable a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
+			.. figure:: images/variables/3.jpg
+ 						:align: center
 	- En la ventana emergente modifique el nombre de la variable, su llave o su valor (en caso de ser constante) y haga click en |save.bmp| *Guardar*
+			.. figure:: images/variables/4.jpg
+ 						:align: center
 
 Eliminar una Variable/Constante
 -------------------------------
@@ -62,9 +70,14 @@ Eliminar una Variable/Constante
 	- Ejecute la opción *Administración de Variables y Constantes*
 	- Seleccione en la grilla la Variable a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
+			.. figure:: images/variables/5.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'
 
 	**Cuando una variable ha sido usada, no es posible modificarla. Consulte al administrador de sistema.**
+
+			.. figure:: images/variables/6.jpg
+ 						:align: center
 
 
 

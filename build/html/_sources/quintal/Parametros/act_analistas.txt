@@ -29,7 +29,11 @@ Crear un Analista
 
 	- Ejecute la opción *Administración de Analistas*
 	- **Si no ha creado el tercero anteriormente**, haga click en |plus.bmp| de la esquina superior **izquierda** y siga los pasos de la creación de un tercero. Vea `Crear un tercero <../parametros/act_terceros.html#crear-un-nuevo-tercero>`_. Al crear el tercero, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Analista a la lista.
+	  		 	.. figure:: images/analistas/1.jpg
+ 						:align: center	
 	- Si ya ha creado el tercero anteriormente, haga click en |find.bmp| para buscarlo en la lista. Haga click sobre el tercero que será ahora analista y presione Enter. Al Seleccionar el tercero de la lista, su nombre aparecerá en el cuadro de texto superior y el cursor en el |plus.bmp| de la esquina superior **derecha**, Presione Enter para agregar este tercero como nuevo Analista a la lista.
+		.. figure:: images/analistas/2.jpg
+ 						:align: center	
 
 Eliminar un Analista
 --------------------

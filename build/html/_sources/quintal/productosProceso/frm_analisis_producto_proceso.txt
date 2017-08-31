@@ -9,7 +9,7 @@ Ubicación
  Real Q
 
 :Grupo:
- Materia Prima
+ 	Productos en proceso
 
 :Descripción:
 	Registro Análisis Productos en Proceso
@@ -36,6 +36,10 @@ Registrar un análisis
 	- Aparecerá una nueva lista "Seleccione análisis" - Seleccione un proceso (contiene varios subprocesos, ligados cada uno a un análisis)
 	- Si el proceso es la Solución en Cubas, vea: `Solución en Cubas`_
 	- haga click en |wznew.bmp| *Nuevo*
+
+			.. figure:: images/registro/1.jpg
+ 						:align: center
+
 	-Se desplegará una nueva ventana conformada por un Encabezado (Variables configuradas según el proceso: Operario, Estado de Planta, etc) y un panel más abajo con los Análisis correspondientes a los subprocesos: Alimentación, secador, humedad, etc... divididos en pestañas.
 	- Una vez haya completado los campos del encabezado y las variables de los análisis, presione |save.bmp| *Guardar*
 	- Inserte una observación acorde al registro, y presione F2 o haga click en |btn_ok.bmp| *Aceptar*
@@ -45,20 +49,30 @@ Registrar un análisis
 Solución en Cubas
 ================= 
 
+	*Algunos productos permiten el ingreso de análisis por Cuba*
+
+			.. figure:: images/registro/3a.jpg
+ 						:align: center
+
 	- Siga los pasos en `Registrar un análisis`_ hasta que presione |wznew.bmp| *Nuevo*
 	- La ventana para el registro de los análisis por Cubas, le permite registrar Cuba por Cuba los valores obtenidos de: Vol. EDTA, Vol NaOH, y Hierro.
 	- Seleccione los terceros apropiados en la lista "Operario" y la lista "Analista"
 	- Digite una fecha, y luego una hora para el ingreso
 	
-	**Registrar una Cuba**
+	**Registrar un análisis por Cuba**
 
 	- 1- En el cuadro de texto "Búsqueda de cubas" ubique el cursor haciendo click sobre él y luego presione enter. "Elija una Cuba de la lista".
+
+			.. figure:: images/registro/3b.jpg
+ 						:align: center
+
 	- 2- Aparecerá el código y nombre de la Cuba. A continuación puede llenar los campos: Vol. EDTA, Vol NaOH, y Hierro y presionar el botón |plus.bmp|.
 	- 3- Se agregará la Cuba a la lista.
+			.. figure:: images/registro/3c.jpg
+ 						:align: center
 	- 4- Regrese al paso 1 hasta que haya completado todas las Cubas.
 
 	- Presione |save.bmp| *Guardar*
-
 
 
 

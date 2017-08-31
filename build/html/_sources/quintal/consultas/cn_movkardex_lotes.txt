@@ -45,6 +45,10 @@ Usted podrá dar salida al reporte de *Movimiento del Kardex x producto* en los 
 	- |printer_q.bmp| Impresión
 	- |pdf_logo.gif| PDF
 	- |excel.bmp| Excel
+
+      .. figure:: images/3.jpg
+            :align: center
+
 	
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif

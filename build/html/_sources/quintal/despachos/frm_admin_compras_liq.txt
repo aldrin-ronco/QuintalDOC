@@ -30,6 +30,7 @@ Crear una órden de compra
 -------------------------
 	
 	- Ejecute la opción "Configuración de órdenes de compra"
+	- Haga click en |wznew.bmp| *Nuevo*
 	- En la esquina superior derecha puede ver el número consecutivo de la órden
 	- Escoja el almacén en la lista desplegable, del cual hará el despacho
 	- Introduzca la fecha para el inicio del proceso 
@@ -39,6 +40,9 @@ Crear una órden de compra
 	- Es posible escribir cualquier observación útil relacionada a la OCL.
 	- Haga click en |save.bmp| *Guardar*
 
+      .. figure:: images/ordenes/1.jpg
+            :align: center
+            
 Buscar una órden de compra
 --------------------------
 	

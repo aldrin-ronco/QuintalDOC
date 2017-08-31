@@ -1,5 +1,5 @@
 ==========
-Parámetros
+Consultas
 ==========
 
 
