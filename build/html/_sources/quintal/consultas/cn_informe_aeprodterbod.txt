@@ -20,7 +20,7 @@ Introducción
 
 	Aquí puede obtener una "hoja de producción" que le permitirá conocer los productos sólidos que han sido terminados y están disponibles para despacho.
 
-	Además, en esta interfaz podrá imprimir los `rótulos para las estíbas`_.
+	Además, en esta interfaz podrá `imprimir rótulos`_ para las estíbas.
 
 	
 Casos de Uso
@@ -48,6 +48,10 @@ Opciones de salida
 
 	- |printer_q.bmp| Impresión
 
+      .. figure:: images/13.jpg
+            :align: center
+
+
 Imprimir Rótulos
 ----------------
 
@@ -56,6 +60,11 @@ Imprimir Rótulos
 	- Cada lote cuenta con cierta cantidad de bolsas de x peso.
 	- Cada producto está configurado para que sus estibas llevén un peso máximo x.
 	- Al momento de hacer la rotulación se dividirá: El Peso Estiba/Número de bolsas/Peso de cada bolsa. Para sacar una etiqueta por estiba.
+
+
+      .. figure:: images/13b.jpg
+            :align: center
+
 
 	Información en la etiqueta:
 

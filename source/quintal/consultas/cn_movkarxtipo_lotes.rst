@@ -47,6 +47,9 @@ Usted podrá dar salida al reporte de *Movimiento del Kardex por tipo de transac
 	- |excel.bmp| Excel Plano
 	- |excel.bmp| Excel Por Concepto
 
+      .. figure:: images/2.jpg
+            :align: center
+
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
 .. |excel.bmp| image:: ../../../_images/generales/excel.bmp

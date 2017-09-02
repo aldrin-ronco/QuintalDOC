@@ -26,8 +26,12 @@ Crear nuevo tipo de lote
 
 	- Ejecute la opción *Creación tipo lotes y selección de consecutivos EMD*
 	- Haga click en el botón |wznew.bmp| *Nuevo*
+			.. figure:: images/lotes/1.jpg
+ 						:align: center
 	- En la ventana emergente escriba el nombre del Tipo de Lote en el cuadro de texto "Nombre del concepto"
 	- En la lista "Seleccione concepto de consecutivo" elija el concepto para el cual el consecutivo funcionará
+			.. figure:: images/lotes/2.jpg
+ 						:align: center
 	- En otras opciones, puede escoger un Sufijo para identificar el lote con una letra al final. 
 	- En otras opciones, chequee la opción "Aplica combinación de lotes" si desea que los sacos vengan de lotes anteriores
 	- Presione |save.bmp| *Guardar*
@@ -38,8 +42,12 @@ Modificar un tipo de lote
 	- Ejecute la opción *Creación tipo lotes y selección de consecutivos EMD*
 	- Seleccione un Tipo de Lote de la lista haciendo click sobre él
 	- Haga click en el botón |delete.bmp| *Modificar*	
+				.. figure:: images/lotes/3.jpg
+ 						:align: center
 	- Modifique los campos que crea necesarios
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/lotes/4.jpg
+ 					:align: center
 
 ELiminar un tipo de lote
 ========================
@@ -47,13 +55,16 @@ ELiminar un tipo de lote
 	- Ejecute la opción *Creación tipo lotes y selección de consecutivos EMD*
 	- Seleccione un Tipo de Lote de la lista haciendo click sobre él
 	- Haga click en el botón |wzedit.bmp| *Eliminar*
+			.. figure:: images/lotes/5.jpg
+ 						:align: center
 	- En la ventana de confirmación presione "Sí"
 
 	.. NOTE::
 
 		No podrá eliminar un registro que esté relacionado con algún ingreso de mercancía
 
-
+			.. figure:: images/lotes/6.jpg
+ 						:align: center
 
 
 

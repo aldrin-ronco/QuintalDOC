@@ -28,12 +28,17 @@ Introducción
 	- Tipo de Análisis
 		- Análisis
 
+			.. figure:: images/analisis/0.jpg
+ 						:align: center
+
 Crear un tipo de Análisis
 -------------------------
 
 	- Ejecute la opción *Administración de tipos de análisis*
 	- En cualquier lugar vacío de la ventana desplegada haga click derecho. 
 	- Haga click en |wznew.bmp| *Nuevo tipo de análisis*
+			.. figure:: images/analisis/1.jpg
+ 						:align: center
 	- Verá crearse un nuevo folder en la lista donde podrá introducir el nombre del tipo. Ejemplo: Materia Prima (aquí se agruparán todos los análisis necesarios para certificar la materia prima)
 
 Cambiar Nombre a un tipo de Análisis
@@ -42,6 +47,8 @@ Cambiar Nombre a un tipo de Análisis
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho en el tipo de análisis cuyo nombre desea modificar
 	- Escoja la opción |wzedit.bmp| *Cambiar nombre a [nombre de tipo]*
+			.. figure:: images/analisis/2.jpg
+ 						:align: center
 	- Digite el nuevo nombre y presione Enter
 
 Eliminar un tipo de Análisis
@@ -50,6 +57,8 @@ Eliminar un tipo de Análisis
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho en el tipo de análisis que desea eliminar
 	- Elija la opción |delete.bmp| *Eliminar tipo Análisis [Nombre de tipo]*
+			.. figure:: images/analisis/3.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'sí'
 
 Agregar un análisis a un tipo 
@@ -58,6 +67,8 @@ Agregar un análisis a un tipo
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho sobre el tipo al que agregará un análisis
 	- Elija la opción |wznew.bmp| *Nuevo análisis en [Nombre de tipo]*
+			.. figure:: images/analisis/4.jpg
+ 						:align: center
 	- Se agregarà un nuevo Análisis bajo el ícono del Tipo, digite el nombre del Análisis y presione Enter
 
 Modificar propiedades del Análisis
@@ -66,6 +77,8 @@ Modificar propiedades del Análisis
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho en el análisis cuyas propiedades va a establecer
 	- Escoja la opción |wzedit.bmp| *Modificar propiedades Análisis [nombre de Análisis]*
+			.. figure:: images/analisis/5.jpg
+ 						:align: center
 	- A continuación podrá digitar las siguientes propiedades:
 		- Nombre del Análisis
 		- Método de realización, ejemplo: Medición
@@ -85,6 +98,8 @@ Cambiar Nombre de Análisis
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho en el análisis cuyo nombre desea modificar
 	- Escoja la opción |wzedit.bmp| *Cambiar nombre Análisis [nombre de Análisis]*
+			.. figure:: images/analisis/6.jpg
+ 						:align: center
 	- Digite el nuevo nombre y presione Enter
 
 Eliminar un Análisis
@@ -93,6 +108,8 @@ Eliminar un Análisis
 	- Ejecute la opción *Administración de tipos de análisis*
 	- Haga click derecho en el análisis que desea eliminar
 	- Elija la opción |delete.bmp| *Eliminar Análisis [Nombre de Análisis]*
+			.. figure:: images/analisis/7.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'sí'
 
 	--------------------------------------------

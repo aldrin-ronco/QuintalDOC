@@ -45,6 +45,10 @@ Opciones de salida
 
 	- |excel.bmp| Excel 
 
+      .. figure:: images/14.jpg
+            :align: center
+
+
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
 .. |excel.bmp| image:: ../../../_images/generales/excel.bmp

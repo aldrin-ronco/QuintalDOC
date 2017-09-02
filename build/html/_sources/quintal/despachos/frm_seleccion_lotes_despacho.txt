@@ -42,23 +42,33 @@ Crear la selección de lotes por despacho
 	- En la lista superior seleccione el Almacén donde realizó la programación
 	- El cursor se posicionará sobre un cuadro de texto bajo la lista, presione Enter para seleccionar un cliente de la lista. Solo aparecerán los clientes que tengan un despacho en proceso.
 	- El cursor se posiciona ahora en el cuadro de texto 'Número de orden', presione Enter para ver las ordenes asociadas a este cliente que se encuentran en proceso de despacho. Haga click sobre la orden que desea procesar y lugo Enter.
+		      .. figure:: images/lotes/1.jpg
+           				 :align: center
 	- Pulse el botón |btn_ok.bmp| *Cargar datos*
 		- Aparecerá una ventana donde podrá elegir las presentaciones para el producto a despachar. En este momento verá listadas en la grilla las posibles presentaciones del producto, con una columna llamada 'Cantidad'. 
 		- La suma de las cantidades de cada presentación deben coincidir con la cantidad de producto a despachar. **Ejemplo a1**: si quiero despachar 5000kg de un producto, puedo seleccionar 2 presentaciones de 2000kg y una de 1000kg; también puedo seleccionar 5 presentaciones de 1000kg.
+		      .. figure:: images/lotes/2.jpg
+           				 :align: center
 		- Si todo está correcto, puede oprimir *Continuar*
 	- Es importante resaltar que una vez carguen los datos correctamente, la programación de despacho deja de ser editable.
 	- En la primera grilla horizontal, aparecerán los productos que seleccionó en la programación, divididos en las presentaciones que recién escogió, junto con la información de los container. Haga click sobre cualquiera de las filas de esta primera grilla (Cada una representa una presentacion) para ver en el panel vertical derecho los lotes que coinciden con esta presentación y la cantidad de presentaciones que contienen.
 		- **Ejemplo a2:** En el 'ejemplo a1' Usted seleccionó despachar el producto en 2 presentaciones de 2000 y una de 1000 Kg. En el panel superior horizontal verá una fila para la presentación de 2000 y una para la presentación de 1000. 
 		- Si hace click en la fila que indica la presentación de 2000, a la derecha, verá los lotes de esta presentación. Algo como esto:
 			- Lote: 546545 | sacos: 4 | cantidad: **Usted elige** | [] |
+		      		.. figure:: images/lotes/3.jpg
+           						 :align: center
 		-Si hace check en la casilla del final, podrá elegir la cantidad de 'sacos' que desea sacar de este lote para el contenedor.
 	- El panel vertical derecho muestra los lotes y le permite seleccionar la cantidad de sacos que desea sacar del lote despues de chequear la casilla de verificación. Estos lotes pueden ser agregados al **contenedor que se encuentra en la parte inferior del panel**, haciendo click en |plus.bmp|. Esta selección es guardada. 
+		      	.. figure:: images/lotes/4.jpg
+           				 :align: center
 	- A medida que va marcando lotes y eligiendo las cantidades, puede observar que se reduce la columna saldo de la grilla primera. La cantidad de sacos que elige debe ser menor a la cantidad marcada en la columna 'Bls x Contndr' (Bolsas por contenedor).
 	- Una vez elija los sacos que van a ir al contenedor (después de presionar |plus.bmp|), los sacos aparecerán listados en la segunda grilla horizontal. Los sacos listados en la segunda grilla serán los de la presentación seleccionada en la primera grilla. Desde este segundo panel, la cantidad de sacos es editable, mientras esté permitida por los límites de cantidad.
 	- En el panel horizontal 3 aparece la lista de sacos seleccionados para el contenedor, aquí puede arrastrarlos hacia arriba o hacia abajo para ordenarlos. Si desea cambiar de contenedor, seleccione cualquier lote en la grilla 2 del contenedor que necesita ordenar.
 	- En la parte inferior, hay un cuadro de texto que le permite colocar una observación opcional acerca de este proceso del despacho.
 	- Presione |save.bmp| *Finalizar despacho*. Ahora puede imprimir el documento `Imprimir la selección de Lotes`_
 
+		      .. figure:: images/lotes/6.jpg
+           				 :align: center
 
 Imprimir la selección de Lotes
 ------------------------------

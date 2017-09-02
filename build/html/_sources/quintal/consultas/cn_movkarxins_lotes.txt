@@ -1,6 +1,6 @@
-=================================
-Movimiento General del Inventario
-=================================
+==================================
+Movimiento del Kardex por producto
+==================================
 
 Ubicación
 ---------
@@ -46,6 +46,10 @@ Usted podrá dar salida al reporte de *Movimiento General del Inventario* en los
 	- |printer_q.bmp| Impresión en POS
 	- |pdf_logo.gif| PDF
 	- |excel.bmp| Excel
+
+      .. figure:: images/5.jpg
+            :align: center
+
 
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif

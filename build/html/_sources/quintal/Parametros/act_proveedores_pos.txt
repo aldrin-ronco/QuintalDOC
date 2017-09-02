@@ -27,10 +27,12 @@ Para crear un proveedor realice los siguientes pasos:
  	
  	- Ejecute la opción *Administración de proveedores*
  	- En el pie de la ventana pulse sobre el botón |wznew.bmp| *Nuevo*
+  			.. figure:: images/proveedores/1.jpg
+ 				:align: center	
  	- En la cabecera conseguirá dos opciones llamadas "Múltiples textos" y "Único texto" que modificarán la manera en cómo el sistema pide los datos (En uno, o en varios campos de texto)
-
-
  	- Se desplegará una ventana emergente donde podrá dar cavida a los datos del proveedor:
+ 			 		.. figure:: images/proveedores/2.jpg
+ 						:align: center	
  		- Régimen (tributario): 
  			- Simplificado
  			- Común
@@ -64,8 +66,11 @@ Modificar un proveedor
  	- Ejecute la opción *Administración de proveedores*
  	- Haga click en el proveedor a modificar, en la grilla
  	- Presione el botón |wzedit.bmp| *Modificar* al pie de la ventana
+ 	 			.. figure:: images/proveedores/3.jpg
+ 				 	:align: center	
  	- Aparecerá una ventana donde podrá cambiar los datos del proveedor que necesite, y dejar los que considere ya están bien.
-
+ 			 	.. figure:: images/proveedoress/4.jpg
+ 						:align: center	
 
 Elmiminar un proveedor
 ======================
@@ -73,9 +78,11 @@ Elmiminar un proveedor
  	- Ejecute la opción *Administración de proveedores*
  	- Haga click en el proveedor a modificar, en la grilla
  	- Presione el botón |delete.bmp| *Eliminar* al pie de la ventana
-
+ 			.. figure:: images/proveedores/5.jpg
+ 				:align: center	
 	- En el cuadro de confirmación presiones 'Sí'
-
+		 	.. figure:: images/proveedores/6.jpg
+ 							:align: center	
  	.. NOTE::
  	 
  	 No podrá eliminar un proveedor que tenga cualquier tipo de transacción adjudicada.

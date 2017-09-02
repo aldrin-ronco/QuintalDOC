@@ -24,18 +24,26 @@ Registrar un electrodo de lectura
 
 	- Ejecute la opción "Administración de electrodos de lectura EMD"
 	- Haga click en el botón |wznew.bmp| *Nuevo*
+			.. figure:: images/electrodos/1.jpg
+ 						:align: center
 	- En la ventana emergente escriba el nombre del Electrodo en el cuadro de texto "Nombre del electrodo de lectura"
 	- Chequee el campo "Está activo?" para que se encuentre disponible a la hora de seleccionarlo en los análisis previos de EMD
 	- Presione |save.bmp| *Guardar*
+			.. figure:: images/electrodos/2.jpg
+ 						:align: center
 
 Modificar un electrodo de lectura
 =================================
 
 	- Ejecute la opción "Administración de electrodos de lectura EMD"
 	- Seleccione un Electrodo de la lista haciendo click sobre él
-	- Haga click en el botón |wzedit.bmp| *Modificar*	
+	- Haga click en el botón |wzedit.bmp| *Modificar*
+			.. figure:: images/electrodos/3.jpg
+ 						:align: center	
 	- Modifique los campos que crea necesarios
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/electrodos/4.jpg
+ 						:align: center
 
 ELiminar un electrodo de lectura
 ================================
@@ -43,11 +51,16 @@ ELiminar un electrodo de lectura
 	- Ejecute la opción "Administración de electrodos de lectura EMD"
 	- Seleccione un Electrodo de la lista haciendo click sobre él
 	- Haga click en el botón |delete.bmp| *Eliminar*
+			.. figure:: images/electrodos/5.jpg
+ 						:align: center
 	- En la ventana de confirmación presione "Sí"
 
 	.. NOTE::
 
 		No podrá eliminar un Electrodo que esté relacionado con algún ingreso de mercancía
+
+			.. figure:: images/electrodos/6.jpg
+ 						:align: center
 
 
 

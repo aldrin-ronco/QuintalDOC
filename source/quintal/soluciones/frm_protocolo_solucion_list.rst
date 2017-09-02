@@ -27,6 +27,8 @@ Crear un Protocolo de Solución
 
 	- Ejecute la opción *Administración de Protocolos para la preparación de soluciones*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
+			.. figure:: images/protocolos/1.jpg
+ 						:align: center
 	- En la parte superior de la nueva ventana digite el nombre de la solución, ejemplo: NEGRO DE ERIOCROMO T 0.5 % P/V
 	- El código de gestión de calidad es un código generado por otro sistema de gestión. Introduzcalo como referencia útil.
 	- En la grilla aparecen los reactivos disponibles para hacerlos parte de esta solución. Seleccione los que desea incluir haciendo click en la casilla de verificación.
@@ -41,6 +43,8 @@ Crear un Protocolo de Solución
 		- Formula: Escriba la formula química para la creación de la solución.
 		- Disposición final: 
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/protocolos/1b.jpg
+ 						:align: center
 
 Estandarización
 ---------------
@@ -53,7 +57,11 @@ Modificar un Protocolo de Solución
 	- Ejecute la opción "Administración de Protocolos para la preparación de soluciones"
 	- Haga click en una solución de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
+			.. figure:: images/protocolos/2.jpg
+ 						:align: center
 	- En la ventana emergente cambie los campos que considere oportuno. Si desea saber que significa cada campo vea la explicación en `Crear un Protocolo de Solución`_
+			.. figure:: images/protocolos/2b.jpg
+ 						:align: center
 
 Eliminar un Protocolo de Solución
 ---------------------------------
@@ -61,14 +69,25 @@ Eliminar un Protocolo de Solución
 	- Ejecute la opción "Administración de Protocolos para la preparación de soluciones"
 	- Haga click en una solución de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
+			.. figure:: images/protocolos/3.jpg
+ 						:align: center
+
 	- En la ventana de confirmación pulse 'Sí'
+			.. figure:: images/protocolos/3b.jpg
+ 						:align: center
 
 Autorizar/Desautorizar un Protocolo de Solución
 -----------------------------------------------
 	- Ejecute la opción "Administración de Protocolos para la preparación de soluciones"
 	- En la parte inferior de la ventana haga click en *Autorizar*
+			.. figure:: images/protocolos/4.jpg
+ 						:align: center
 	- En la grilla, cada solución tiene una lista de dos opciones 'Autorizado' y 'No autorizado'. Para autorizar un Protocolo necesita tener el permiso adecuado y una contraseña asignada - Comuniquese con el administrador de sistema.
+			.. figure:: images/protocolos/4b.jpg
+ 						:align: center
 	- Seleccione la solución y cambie el estado. El cambio se guarda de manera automática.
+			.. figure:: images/protocolos/4c.jpg
+ 						:align: center
 
 
 

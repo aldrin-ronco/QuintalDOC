@@ -25,30 +25,42 @@ Crear una Cuba
 
 	- Ejecute la opción *Administración de Cubas*
 	- Haga click en |wznew.bmp| *Nuevo* 
+			.. figure:: images/cubas/1.jpg
+ 						:align: center
+
 	- Haga click sobre el check "Activo" si desea que esta cuba esté disponible para los análisis
 	- En la ventana emergente ingrese el nombre de la cuba y haga click en |save.bmp| *Guardar*
-
-Modificar un Cuba
----------------------------
+			.. figure:: images/cubas/2.jpg
+ 						:align: center
+Modificar una Cuba
+-------------------
 
 	- Ejecute la opción *Administración de Cubas*
 	- Seleccione en la grilla la cuba a Modificar, haciendo click sobre ella
 	- Presione el botón |wzedit.bmp| *Modificar*
+			.. figure:: images/cubas/3.jpg
+ 						:align: center
 	- En la ventana emergente ingrese el nuevo nombre de la cuba, activela o desactivela, y haga click en |save.bmp| *Guardar*
+			.. figure:: images/cubas/4.jpg
+ 						:align: center
 
-Eliminar un Cuba
---------------------------
+Eliminar una Cuba
+------------------
 
 	- Ejecute la opción *Administración de Cubas*
 	- Seleccione en la grilla la cuba a eliminar, haciendo click sobre ella
 	- Presione el botón |delete.bmp| *Eliminar*
+			.. figure:: images/cubas/5.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'
+
 
 
 	**No podrá eliminar una cuba que tenga un análisis adjudicado.**
 
 	
-
+			.. figure:: images/cubas/6.jpg
+ 						:align: center
 
 
 

@@ -18,6 +18,8 @@ Introducción
 ============
 
 El administrador de productos es el origen de los procesos de inventario; en él se administra toda la información referente a los productos, servicios y materia prima que son manejados por la empresa.
+      .. figure:: images/maestro/7.jpg
+            :align: center
 
 El Administrador de Productos le permitirá entre otras cosas:
 
@@ -25,6 +27,9 @@ El Administrador de Productos le permitirá entre otras cosas:
 - Buscar productos
 - Realizar la configuración contable para cada producto
 - Establecer características esenciales para el manejo de la materia prima: presentación, perfil de análisis, etc.
+
+      .. figure:: images/maestro/8.jpg
+            :align: center
 
 Categorías de Productos
 =======================
@@ -40,6 +45,9 @@ Para crear una Categoría de productos siga los siguientes pasos:
 - En la carpeta "Materia prima" haga click  derecho, seleccione la opción |wznew.bmp| *Nueva Categoría* en el menu desplegado
 - El sistema creará una carpeta con el siguiente texto : *Digite el nombre de la Categoría*
 - Reemplace el texto: *Digite el nombre de la Categoría* con el nombre de la Categoría correspondiente y confirme presionando la tecla ENTER
+
+      .. figure:: images/maestro/8b.jpg
+            :align: center
 
 Editar una Categoría
 --------------------
@@ -85,6 +93,9 @@ Para crear una sub-Categoría de productos/servicios siga los siguientes pasos:
 - El sistema creará una carpeta con el siguiente texto : *Digite el nombre de la sub Categoría*
 - Reemplace el texto: *Digite el nombre de la sub Categoría* con el nombre de la sub Categoría correspondiente y confirme presionando la tecla ENTER
 
+      .. figure:: images/maestro/8c.jpg
+            :align: center
+
 Editar una Sub Categoría
 ------------------------
 
@@ -116,6 +127,9 @@ Crear un Producto
 
 El proceso de creación del producto solo permite aportar algunos datos básicos, si desea modificar características complejas, entonces vea: `Configuración avanzada del producto`_
 
+      .. figure:: images/maestro/8d.jpg
+            :align: center
+
   - Ejecute la opción *Administrador de Productos*
   - Escoja la carpeta de la rama principal que convenga: Materia prima, producto terminado, servicios y producción; 
   - Escoja la Categoría apropiada
@@ -141,6 +155,9 @@ El proceso de creación del producto solo permite aportar algunos datos básicos
 
   *Los campos señalados con un * son obligatorios*
 
+      .. figure:: images/maestro/7b.jpg
+            :align: center
+
 **El código es único para cada producto/servicio y es generado por el sistema.**
 
 - Llene los campos solicitados y finalice el proceso presionando el botón *Guardar* para cerrar la ventana o el botón *Guardar y Continuar* para continuar creando productos/servicios dentro de la Sub Categoría actual.
@@ -149,6 +166,10 @@ Buscar un Producto/Servicio en el árbol
 ---------------------------------------
 
 Con un catálogo muy extenso, puede ser difícil ubicar un producto/servicio en el árbol; por esta razón existe un mecanismo de búsqueda que le permitirá ubicar fácilmente el ítem que necesite.
+
+      .. figure:: images/maestro/10.jpg
+            :align: center
+
 
 Para buscar un productos/servicio siga los siguientes pasos:
 
@@ -188,6 +209,8 @@ Descontinuar un Producto/Servicio
 
 Después de un tiempo considerable creando productos/servicios se encontrará con la necesidad de eliminar algunos que ya no se vayan a seguir utilizando, sin embargo el sistema no permitirá eliminar productos/servicios que hayan tenido algún tipo de movimiento debido a que esta información es necesaria a nivel estadístico; por esta razón existe la posibilidad de **descontinuar** productos; al descontinuar un producto este desaparece de todas las operaciones de inventario, por ejemplo : entradas, salidas, traslados y únicamente es visible en las estadísticas de las operaciones registradas previas a su discontinuación.
 
+      .. figure:: images/maestro/9.jpg
+            :align: center
 
 Para descontinuar un producto/servicio siga los siguientes pasos:
 
@@ -223,6 +246,8 @@ La correcta clasificación de los productos/servicios en Categorías y sub Categ
 - Establecer la interface contable de los productos/servicios por medio en esta clasificación
 
 Durante el proceso de creación de productos/servicios, será necesario *mover* productos/servicios de una Categoría *X* a una Categoría *Y*, o incluso, a una sub Categoría diferente a la actual; Esta es la función de la re-clasificación de productos/servicios.
+      .. figure:: images/maestro/12.jpg
+            :align: center
 
 La re-clasificación le permitirá estructurar el Administrador de Productos/servicios de la manera que considere mas provechosa para la empresa
 
@@ -250,9 +275,14 @@ Esta interfaz le permite actualizar los códigos EAN (barras) de cualquier produ
   - Ejecute la opción *Administrador de Productos*
   - En la cabecera de la ventana desplegada, haga click en el botón |codbar.png| *Actualización de códigos EAN*
   - El cursor se colocará en el primer cuadro de texto. Si sabe el código del producto digítelo o también oprima Enter y búsquelo en la lista de productos, haga click sobre él y presione Enter.
+      .. figure:: images/maestro/11.jpg
+            :align: center
   - Una vez seleccionado el producto, se mostrará su nombre en el segundo campo de texto y el cursor se posará sobre el tercer campo de texto.
   - Ingrese el nuevo código EAN con el lector laser. Si el foco permanece en este campo presione Enter para confirmar y cambiar el código. Su lector puede estar configurado para confirmar el cambio automáticamente.
   - Vera la lista de productos a los que cambió el código en la grilla inferior a los campos de texto.
+
+      .. figure:: images/maestro/11b.jpg
+            :align: center
 
 
 Configuración avanzada del producto
@@ -264,6 +294,9 @@ Configuración avanzada del producto
 
 Pestaña Otros
 -------------
+
+      .. figure:: images/maestro/7c.jpg
+            :align: center
 
 
   :Seleccione Perfil:

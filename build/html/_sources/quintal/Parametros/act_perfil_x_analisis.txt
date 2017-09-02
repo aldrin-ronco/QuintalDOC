@@ -61,6 +61,8 @@ Tipos de Análisis
 Crear un tipo de Análisis
 -------------------------
 
+			.. figure:: images/perfiles/a.jpg
+ 						:align: center
 	- Ejecute la opción *Administración de Perfiles por tipo de Análisis*
 	- En cualquier lugar vacío de la ventana desplegada haga clic derecho. 
 	- Haga clic en |wznew.bmp| *Nuevo tipo de análisis*
@@ -88,6 +90,9 @@ Perfiles
 Agregar un perfil a un tipo 
 ---------------------------
 
+			.. figure:: images/perfiles/b.jpg
+ 						:align: center
+
 	- Ejecute la opción *Administración de Perfiles por tipo de Análisis*
 	- Haga clic derecho sobre el tipo al que agregará un Perfil
 	- Elija la opción |wznew.bmp| *Nuevo Perfil*
@@ -95,18 +100,27 @@ Agregar un perfil a un tipo
 
 Agregar Análisis al Perfil
 --------------------------
-	
+
+			.. figure:: images/perfiles/c.jpg
+ 						:align: center
+
 	- Ejecute la opción *Administración de Perfiles por tipo de Análisis*
 	- Haga clic derecho en el Perfil 
 	- Escoja la opción |wzedit.bmp| *Configurar Análisis*
 	- Se desplegará una nueva ventana, en cualquier lugar vacío haga clic derecho. 
 	- Elija |wznew.bmp| *Agregar análisis a la lista*
 	- En la ventana emergente encontrará la lista de análisis disponibles:
-		- Recuerde que los análisis disponibles son solamente los que fueron agregados a este tipo de Análisis en la pantalla de Administración de Análisis REF
+		- Recuerde que los análisis disponibles son solamente los que fueron agregados a este tipo de Análisis en la pantalla de Administración de Análisis
 		- Puede seleccionar varios análisis para agregar, chequeando las casillas al final de cada fila de análisis
 		- En la grilla, junto al nombre de cada análisis, encontrará una lista de agrupaciones menores en las que puede elegir vaya el análisis.
 	- Una vez seleccionados los análisis, presione |btn_ok.bmp| *Seleccionar*
 	
+	** Ejemplo con datos reales **
+
+			.. figure:: images/perfiles/4.jpg
+ 						:align: center
+
+
 
 Eliminar un Análisis
 --------------------
@@ -161,6 +175,23 @@ Para ordenar las variables dentro de un  análisis de la manera más adecuada pa
 Variables
 ---------
 
+			.. figure:: images/perfiles/5a.jpg
+ 						:align: center
+
+
+ 	- Las variables son creadas para que, al momento de ingresar o dar salida a un producto, el usuario pueda rellenar un formulario y allí ingresar los valores de las mismas: humedad, alcalinidad, peso, etc.
+
+ 	- **Es sumamente importante que tome en cuenta las presnetaciones, los terceros y la calidad a la hora de crear la variable para el análisis. Si usted decide seleccionar una presentación, ejemplo: 50 Kg en bolsa, entonces esta variable (con la configuración elegida) solo se verá en los formularios cuando se elija esta presentación en el despacho**
+
+ 			.. figure:: images/perfiles/6a.jpg
+ 						:align: center
+
+ 	.. NOTE::
+
+ 		Cuando crea una variable sin elegir tercero, calidad o presentación, entonces esta variable será vista en cualquier formulario. Siempre que crea una variable para un tercero, una calidad o presentación, **automáticamente se crea otra igual, sin ninguna configuración**, para mostrar en todos los formularios.
+
+
+
 Agregar constante a Análisis
 ----------------------------
 
@@ -168,6 +199,10 @@ Agregar constante a Análisis
 	- Haga clic derecho en el Perfil a ordenar
 	- Escoja la opción |wzedit.bmp| *Configurar Análisis*
 	- Haga clic derecho sobre el análisis y elija la opción |wznew.bmp| *Agregar constante [Nombre de análisis]* 
+			.. figure:: images/perfiles/5b.jpg
+ 						:align: center
+
+
 	- En la lista superior de la nueva ventana escoja la constante que necesita. Es recomendable que los nombres de sus variables/constantes (en el momento de la creación) tengan nombres que faciliten su búsqueda, por ejemplo: 'Constante 0.1516' es un buen nombre para una constante cuyo valor es 0.1516.
 	- Haga clic en |save.bmp| *Guardar* o presione F2
 
@@ -178,6 +213,9 @@ Agregar variable Estándar
 	- Haga clic derecho en el Perfil a ordenar
 	- Escoja la opción |wzedit.bmp| *Configurar Análisis*
 	- Haga clic derecho sobre el análisis y elija la opción |wznew.bmp| *Agregar variable estándar [Nombre de análisis]*
+			.. figure:: images/perfiles/5c.jpg
+ 						:align: center
+
 	- En la lista superior de la nueva ventana escoja la variable que necesita.
 	- Existen tres tipos de personalización para la variable Estándar:
 		- Terceros: Si en la lista <<Configuración terceros>> usted selecciona <<configuración personalizada>>, se habilita el botón *Seleccionar Tercero*. Haga clic en él y seleccione un Tercero de la lista. Esta opción le permite que la configuración que guarde para esta variable solo esté dada para el tercero seleccionado. Para los demás terceros la variable permanece en su forma pura.
@@ -203,11 +241,17 @@ Una variable especial es útil para parametrizar algunas características, por e
 	- Haga clic derecho en el Perfil a ordenar
 	- Escoja la opción |wzedit.bmp| *Configurar Análisis*
 	- Haga clic derecho sobre el análisis y elija la opción |wznew.bmp| *Agregar variable estándar [Nombre de análisis]*
+			.. figure:: images/perfiles/5d.jpg
+ 						:align: center
+
 	- En la lista superior de la nueva ventana escoja la variable que necesita.
 	- En el campo 'Digite nombre de opción', puede escribir cuantas opciones necesite para esta variable especial. Escriba una opción, ejemplo: sólido, y pulse |plus.bmp|
 	- Reemplazar Especificación en certificado: Algunas variables requieren un cambio de nombre al momento de mostrarse en el certificado, por razones protocolares o de entendimiento. Si chequea esta opción, puede asignarle el nombre que llevará en el certificado.
 	- Requerida para impresión: Muchas variables no van impresas en el certificado. Para incluir esta variable en el certificado, chequee esta opción. 
 	- Haga clic en |save.bmp| *Guardar* o presione F2
+
+
+
 
 	--------------------------------------------
 

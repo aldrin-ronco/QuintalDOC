@@ -30,8 +30,12 @@ Crear un Pictograma
 
 	- Ejecute la opción *Administración de Pictogramas*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
+			.. figure:: images/pictogramas/1.jpg
+ 						:align: center
 	- En la ventana emergente digite un nombre
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/pictogramas/1b.jpg
+ 						:align: center
 
 Modificar un Pictograma
 -----------------------
@@ -39,8 +43,12 @@ Modificar un Pictograma
 	- Ejecute la opción *Administración de Pictogramas*
 	- Haga click en un Pictograma de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
+			.. figure:: images/pictogramas/2.jpg
+ 						:align: center
 	- Modifique el nombre del Pictograma
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/pictogramas/2b.jpg
+ 						:align: center
 
 Eliminar un Pictograma
 ----------------------
@@ -48,12 +56,18 @@ Eliminar un Pictograma
 	- Ejecute la opción *Administración de Pictogramas*
 	- Haga click en un Pictograma de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
+			.. figure:: images/pictogramas/3.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'	
 
 
 	.. NOTE:
 
 		No podrá eliminar un pictograma asociado ya a un reactivo
+
+
+			.. figure:: images/pictogramas/3b.jpg
+ 						:align: center
 
 
 

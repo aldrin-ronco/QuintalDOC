@@ -42,10 +42,14 @@ Imprimir los certificados
 	- Una vez listados los certificados en la grilla puede chequearlos en la casilla de la última columna.
 	- Haga click en |printer_q.bmp| y elija "Imprimir sin vista previa"
 
-	.. NOTE:
+	.. NOTE::
 
-	Hay un certificado por cada contenedor. Se genera un documento de varias páginas.
+		Hay un certificado por cada contenedor. Se genera un documento de varias páginas.
 
+			
+
+.. figure:: images/certisolidos/1.jpg
+ 				:align: center
 
 
 

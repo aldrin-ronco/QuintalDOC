@@ -27,8 +27,12 @@ Crear una frase de protocolo
 
 	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- En la parte inferior de la ventana haga click en |wznew.bmp| *Nuevo*
+			.. figure:: images/frases/1.jpg
+ 						:align: center
 	- En la ventana emergente elija si es un "Riesgo" o una "Seguridad" y luego digite la descripción.
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/frases/1b.jpg
+ 						:align: center
 
 Modificar una frase de protocolo
 --------------------------------
@@ -36,8 +40,12 @@ Modificar una frase de protocolo
 	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- Haga click en un Frase de la grilla
 	- En la parte inferior de la ventana haga click en |wzedit.bmp| *Modificar*
+			.. figure:: images/frases/2.jpg
+ 						:align: center
 	- Modifique la descripción de la frase
 	- Haga click en |save.bmp| *Guardar*
+			.. figure:: images/frases/2b.jpg
+ 						:align: center
 
 Eliminar una frase de protocolo
 -------------------------------
@@ -45,13 +53,16 @@ Eliminar una frase de protocolo
 	- Ejecute la opción *Admministración de recomendaciones para seguridad*
 	- Haga click en una frase de la grilla
 	- En la parte inferior de la ventana haga click en |delete.bmp| *Eliminar*
+			.. figure:: images/frases/3.jpg
+ 						:align: center
 	- En la ventana de confirmación pulse 'Sí'	
 
 	.. NOTE:
 
 		No podrá eliminar una frase asociada ya a un reactivo
 
-
+			.. figure:: images/frases/3b.jpg
+ 						:align: center
 
 
 

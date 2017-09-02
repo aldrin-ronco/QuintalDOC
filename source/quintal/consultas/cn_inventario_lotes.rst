@@ -47,6 +47,10 @@ Usted podrá dar salida al reporte de *Movimiento General del Inventario* en los
 	- |pdf_logo.gif| PDF
 	- |excel.bmp| Excel
 
+
+      .. figure:: images/4.jpg
+            :align: center
+
 .. |export1.gif| image:: ../../../_images/generales/export1.gif
 .. |pdf_logo.gif| image:: ../../../_images/generales/pdf_logo.gif
 .. |excel.bmp| image:: ../../../_images/generales/excel.bmp
